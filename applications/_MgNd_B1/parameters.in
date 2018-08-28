@@ -85,7 +85,7 @@ set Output condition =  EQUAL_SPACING
 
 # Number of times the program outputs the fields (total number for "EQUAL_SPACING"
 # and "LOG_SPACING", number per decade for "N_PER_DECADE", ignored for "LIST")
-set Number of outputs = 6000
+set Number of outputs = 60
 
 # The number of time steps between updates being printed to the screen
 set Skip print steps = 10000

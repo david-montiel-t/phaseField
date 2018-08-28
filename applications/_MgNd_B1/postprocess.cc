@@ -13,7 +13,7 @@ void variableAttributeLoader::loadPostProcessorVariableAttributes(){
     set_output_integral         	(0,false);
 
 	// Variable 1
-	set_variable_name				(1,"e_11");
+	set_variable_name				(1,"sigma_11");
 	set_variable_type				(1,SCALAR);
 
     set_dependencies_value_term_RHS(1, "c, n1, n2, n3, grad(u)");
@@ -22,7 +22,7 @@ void variableAttributeLoader::loadPostProcessorVariableAttributes(){
 	set_output_integral         	(1,false);
 
     // Variable 2
-	set_variable_name				(2,"e_21");
+	set_variable_name				(2,"sigma_21");
 	set_variable_type				(2,SCALAR);
 
     set_dependencies_value_term_RHS(2, "c, n1, n2, n3, grad(u)");
@@ -31,7 +31,7 @@ void variableAttributeLoader::loadPostProcessorVariableAttributes(){
 	set_output_integral         	(2,false);
 
     // Variable 3
-    set_variable_name				(3,"e_22");
+    set_variable_name				(3,"sigma_22");
     set_variable_type				(3,SCALAR);
 
     set_dependencies_value_term_RHS(3, "c, n1, n2, n3, grad(u)");
@@ -128,9 +128,9 @@ for (unsigned int i=0; i<dim; i++){
 // Residuals for the equation to evolve the order parameter (names here should match those in the macros above)
 
 pp_variable_list.set_scalar_value_term_RHS(0, f_el);
-pp_variable_list.set_scalar_value_term_RHS(1, E2[0][0]);
-pp_variable_list.set_scalar_value_term_RHS(2, E2[1][0]);
-pp_variable_list.set_scalar_value_term_RHS(3, E2[1][1]);
+pp_variable_list.set_scalar_value_term_RHS(1, S[0][0]);
+pp_variable_list.set_scalar_value_term_RHS(2, S[1][0]);
+pp_variable_list.set_scalar_value_term_RHS(3, S[1][1]);
 
 
 }
