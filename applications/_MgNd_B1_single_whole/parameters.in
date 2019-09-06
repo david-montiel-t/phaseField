@@ -20,11 +20,11 @@ set Domain size Z = 1100.0
 # =================================================================================
 # The number of elements in each direction is 2^(refineFactor) * subdivisions
 # For optimal performance, use refineFactor primarily to determine the element size
-set Subdivisions X = 1
-set Subdivisions Y = 1
-set Subdivisions Z = 1
+set Subdivisions X = 3
+set Subdivisions Y = 3
+set Subdivisions Z = 3
 
-set Refine factor = 1
+set Refine factor = 8
 
 # Set the polynomial degree of the element (allowed values: 1, 2, or 3)
 set Element degree = 2
@@ -36,7 +36,7 @@ set Element degree = 2
 set Mesh adaptivity = true
 
 # Set the maximum and minimum level of refinement
-set Max refinement level = 12
+set Max refinement level = 11
 set Min refinement level = 1
 
 # Set the fields used to determine the refinement using their index.
@@ -53,12 +53,18 @@ set Steps between remeshing operations = 5000
 # Set the time step parameters
 # =================================================================================
 # The size of the time step
-set Time step = 0.0025
+#set Time step = 0.00125
+#set Time step = 0.000625
+#set Time step = 0.0003125
+set Time step = 0.00015625
 
 # The simulation ends when either the number of time steps is reached or the
 # simulation time is reached.
 
-set Number of time steps = 136080000 #90720000
+#set Number of time steps = 10000000
+#set Number of time steps = 20000000
+#set Number of time steps = 40000000
+set Number of time steps = 80000000
 
 # =================================================================================
 # Set the linear solver parameters
@@ -85,7 +91,7 @@ set Output condition =  EQUAL_SPACING
 
 # Number of times the program outputs the fields (total number for "EQUAL_SPACING"
 # and "LOG_SPACING", number per decade for "N_PER_DECADE", ignored for "LIST")
-set Number of outputs = 60
+set Number of outputs = 100
 
 # The number of time steps between updates being printed to the screen
 set Skip print steps = 10000
@@ -96,39 +102,12 @@ set Skip print steps = 10000
 
 set Load from a checkpoint = false
 set Checkpoint condition = EQUAL_SPACING
-set Number of checkpoints = 600
+set Number of checkpoints = 100
 
 # =================================================================================
 # Set the nucleation parameters
 # =================================================================================
 
-set Time steps between nucleation attempts = 10000
-set Minimum allowed distance between nuclei = 10.0
-set Order parameter cutoff value = 0.01
-
-subsection Nucleation parameters: n1
-    set Nucleus semiaxes (x, y, z) = 2, 3, 10
-    set Nucleus rotation in degrees (x, y, z) = 0, 0, -5.3
-    set Freeze zone semiaxes (x, y, z) = 6, 6, 20
-    set Freeze time following nucleation = 100.0
-    set Nucleation-free border thickness = 3.0
-end
-
-subsection Nucleation parameters: n2
-    set Nucleus semiaxes (x, y, z) = 2, 3, 10
-    set Nucleus rotation in degrees (x, y, z) = 0, 0, -65.3
-    set Freeze zone semiaxes (x, y, z) = 6, 6, 20
-    set Freeze time following nucleation = 100.0
-    set Nucleation-free border thickness = 3.0
-end
-
-subsection Nucleation parameters: n3
-    set Nucleus semiaxes (x, y, z) = 2, 3, 10
-    set Nucleus rotation in degrees (x, y, z) = 0, 0, 54.7
-    set Freeze zone semiaxes (x, y, z) = 6, 6, 20
-    set Freeze time following nucleation = 100.0
-    set Nucleation-free border thickness = 3.0
-end
 
 # =================================================================================
 # Set the boundary conditions
@@ -151,9 +130,9 @@ set Boundary condition for variable u, z component = PERIODIC
 set Model constant McV = 1.0, double
 
 # Mn1V, Mn2V, and Mn3V, the Allen-Cahn mobilities
-set Model constant Mn1V = 4, double #8.0, double #0.0125, double
-set Model constant Mn2V = 4, double #8.0, double #0.0125, double
-set Model constant Mn3V = 4, double #8.0, double #0.0125, double
+set Model constant Mn1V = 8, double #8.0, double #0.0125, double
+set Model constant Mn2V = 1, double #8.0, double #0.0125, double
+set Model constant Mn3V = 1, double #8.0, double #0.0125, double
 
 # Kn1, Kn2, and Kn3, the gradient energy coefficients
 #set Model constant Kn1 = ((0.003427,0,0),(0,0.003427,0),(0,0,0.003427)), tensor # l* = 1 nm
@@ -168,9 +147,16 @@ set Model constant Kn1 = ((0.0341,0,0),(0,0.0341,0),(0,0,0.0341)), tensor # l* =
 set Model constant Kn2 = ((0.0341,0,0),(0,0.0341,0),(0,0,0.0341)), tensor # l* = 1 nm
 set Model constant Kn3 = ((0.0341,0,0),(0,0.0341,0),(0,0,0.0341)), tensor # l* = 1 nm
 
+#set Model constant Kn1 = ((0.0682,0,0),(0,0.0682,0),(0,0,0.0682)), tensor # l* = 1 nm
+#set Model constant Kn2 = ((0.0682,0,0),(0,0.0682,0),(0,0,0.0682)), tensor # l* = 1 nm
+#set Model constant Kn3 = ((0.0682,0,0),(0,0.0682,0),(0,0,0.0682)), tensor # l* = 1 nm
+
 # W, the energy barrier coefficient
 #set Model constant W = 0.66, double # l* = 1 nm
 set Model constant W = 0.33, double # l* = 1 nm
+#set Model constant W = 0.165, double # l* = 1 nm
+#set Model constant W = 0.0825, double # l* = 1 nm
+#set Model constant W = 0.04125, double # l* = 1 nm
 
 # n_dependent_stiffness
 set Model constant n_dependent_stiffness = false, bool
@@ -192,12 +178,12 @@ set Model constant sfts_const3 = ((0.1111,-0.0962,0),(-0.0962,0,0),(0,0,0)), ten
 
 
 # A2, A1, and A0 Mg-Nd matrix free energy parameters
-set Model constant A_curvature = 139.385274276, double
-set Model constant A_minimum = 0.000267, double #0.00056, double
+set Model constant A_curvature = 255.163, double #160, double
+set Model constant A_minimum = 2.898629505326146e-04, double
 
 # B2, B1, and B0 Mg-Nd B1 precipitate free energy parameters
-set Model constant B_curvature = 4.76530824236, double
-set Model constant B_minimum = 0.23506, double
+set Model constant B_curvature = 255.163, double #160, double
+set Model constant B_minimum = 0.25, double
 
 # Elastic constants
 set Model constant CIJ_Mg = (31.3,31.3,32.45,6.65,6.65,9.15,13.0,10.45,0,0,0,10.45,0,0,0,0,0,0,0,0,0), anisotropic elastic constants
@@ -208,13 +194,6 @@ set Model constant CIJ_Beta3 = (31.3,31.3,32.45,6.65,6.65,9.15,13.0,10.45,0,0,0,
 # Nucleation parameters
 set Model constant interface_coeff = 0.6, double
 set Model constant epsil = 1.0e-7, double
-
-# D = 7e-14 cm^2/s
-#set Model constant k1 = 5.37873169885e-06, double
-#set Model constant k2 = 1.51642119535e-06, double
-#set Model constant tau = 675086.387681, double
-
-# D = 10.5e-14 cm^2/s
-set Model constant k1 = 3.80626095629e-06, double
-set Model constant k2 = 1.51642119535e-06, double
-set Model constant tau = 1012629.58152, double
+set Model constant k1 = 1.33011843727e-09  , double
+set Model constant k2 = 1.03844750934e-06, double
+set Model constant tau = 204374.659431   , double
