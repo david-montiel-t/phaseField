@@ -1,0 +1,22 @@
+Getting following error: 
+-bash-4.2$ ../main 
+Using the input parameter file: parameters.prm
+Number of constants: 17
+Number of post-processing variables: 0
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |    0.0945s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
++---------------------------------+-----------+------------+------------+
+
+
+
+----------------------------------------------------
+PRISMS-PF: Exception on processing: 
+_Map_base::at
+Aborting!
+----------------------------------------------------
+

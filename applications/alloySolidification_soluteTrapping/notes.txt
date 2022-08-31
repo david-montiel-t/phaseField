@@ -1,0 +1,7 @@
+Model is working (at least superficially). Attached .png shows Karma benchmark vs. solute trapping
+It would be good if in the beginning of the run, the program would print out the values of certain derived model parameters (dont know how to do this):
+*Physical interface width parameter: W_physical
+*Solute trapping parameter: A_trapping
+*Kinetic time scale: tau0
+*Dimensionless diffusion coefficient (time step size needs to be adjusted based on this): D
+

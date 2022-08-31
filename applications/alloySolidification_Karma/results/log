@@ -1,0 +1,4473 @@
+Using the input parameter file: parameters.prm
+Number of constants: 8
+Number of post-processing variables: 0
+creating problem mesh...
+periodic facepairs: 0
+problem dimensions: 204.8x204.8
+number of elements: 65536
+
+initializing matrix free object
+initializing finite element space P^2 for EXPLICIT_TIME_DEPENDENT:SCALAR field 'phi'
+field 'phi' DOF : 263169 (Constraint DOF : 0)
+initializing finite element space P^2 for EXPLICIT_TIME_DEPENDENT:SCALAR field 'c'
+field ' c' DOF : 263169 (Constraint DOF : 0)
+initializing finite element space P^2 for AUXILIARY:SCALAR field 'xi'
+field 'xi' DOF : 263169 (Constraint DOF : 0)
+total DOF : 789507
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Applying non-PField initial condition...
+Application of initial conditions for field number 0 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 1 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 2 complete 
+Reinitializing matrix free object
+field 'phi' DOF : 66673 (Constraint DOF : 0)
+field ' c' DOF : 66673 (Constraint DOF : 0)
+field 'xi' DOF : 66673 (Constraint DOF : 0)
+total DOF : 200019
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Applying non-PField initial condition...
+Application of initial conditions for field number 0 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 1 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 2 complete 
+Reinitializing matrix free object
+field 'phi' DOF : 17535 (Constraint DOF : 0)
+field ' c' DOF : 17535 (Constraint DOF : 0)
+field 'xi' DOF : 17535 (Constraint DOF : 0)
+total DOF : 52605
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Applying non-PField initial condition...
+Application of initial conditions for field number 0 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 1 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 2 complete 
+Reinitializing matrix free object
+field 'phi' DOF : 5245 (Constraint DOF : 0)
+field ' c' DOF : 5245 (Constraint DOF : 0)
+field 'xi' DOF : 5245 (Constraint DOF : 0)
+total DOF : 15735
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Applying non-PField initial condition...
+Application of initial conditions for field number 0 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 1 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 2 complete 
+Reinitializing matrix free object
+field 'phi' DOF : 2169 (Constraint DOF : 0)
+field ' c' DOF : 2169 (Constraint DOF : 0)
+field 'xi' DOF : 2169 (Constraint DOF : 0)
+total DOF : 6507
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Applying non-PField initial condition...
+Application of initial conditions for field number 0 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 1 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 2 complete 
+Reinitializing matrix free object
+field 'phi' DOF : 1429 (Constraint DOF : 0)
+field ' c' DOF : 1429 (Constraint DOF : 0)
+field 'xi' DOF : 1429 (Constraint DOF : 0)
+total DOF : 4287
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Applying non-PField initial condition...
+Application of initial conditions for field number 0 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 1 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 2 complete 
+Reinitializing matrix free object
+field 'phi' DOF : 1281 (Constraint DOF : 0)
+field ' c' DOF : 1281 (Constraint DOF : 0)
+field 'xi' DOF : 1281 (Constraint DOF : 0)
+total DOF : 3843
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Applying non-PField initial condition...
+Application of initial conditions for field number 0 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 1 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 2 complete 
+Reinitializing matrix free object
+field 'phi' DOF : 1281 (Constraint DOF : 0)
+field ' c' DOF : 1281 (Constraint DOF : 0)
+field 'xi' DOF : 1281 (Constraint DOF : 0)
+total DOF : 3843
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Applying non-PField initial condition...
+Application of initial conditions for field number 0 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 1 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 2 complete 
+
+solving...
+
+wall time: 5.606e-06s
+field 'xi' [auxiliary solve]: current solution: 1.456007e+01, current residual:2.523539e+00
+wall time: 0.0203392s
+Output written to:solution-000000.vtu
+
+
+Time stepping parameters: timeStep: 0.008  timeFinal: 800  timeIncrements: 100000
+Reinitializing matrix free object
+field 'phi' DOF : 1281 (Constraint DOF : 0)
+field ' c' DOF : 1281 (Constraint DOF : 0)
+field 'xi' DOF : 1281 (Constraint DOF : 0)
+total DOF : 3843
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 1281 (Constraint DOF : 0)
+field ' c' DOF : 1281 (Constraint DOF : 0)
+field 'xi' DOF : 1281 (Constraint DOF : 0)
+total DOF : 3843
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 1281 (Constraint DOF : 0)
+field ' c' DOF : 1281 (Constraint DOF : 0)
+field 'xi' DOF : 1281 (Constraint DOF : 0)
+total DOF : 3843
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 1329 (Constraint DOF : 0)
+field ' c' DOF : 1329 (Constraint DOF : 0)
+field 'xi' DOF : 1329 (Constraint DOF : 0)
+total DOF : 3987
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 1377 (Constraint DOF : 0)
+field ' c' DOF : 1377 (Constraint DOF : 0)
+field 'xi' DOF : 1377 (Constraint DOF : 0)
+total DOF : 4131
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 1377 (Constraint DOF : 0)
+field ' c' DOF : 1377 (Constraint DOF : 0)
+field 'xi' DOF : 1377 (Constraint DOF : 0)
+total DOF : 4131
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 1455 (Constraint DOF : 0)
+field ' c' DOF : 1455 (Constraint DOF : 0)
+field 'xi' DOF : 1455 (Constraint DOF : 0)
+total DOF : 4365
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 1503 (Constraint DOF : 0)
+field ' c' DOF : 1503 (Constraint DOF : 0)
+field 'xi' DOF : 1503 (Constraint DOF : 0)
+total DOF : 4509
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 1493 (Constraint DOF : 0)
+field ' c' DOF : 1493 (Constraint DOF : 0)
+field 'xi' DOF : 1493 (Constraint DOF : 0)
+total DOF : 4479
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 1529 (Constraint DOF : 0)
+field ' c' DOF : 1529 (Constraint DOF : 0)
+field 'xi' DOF : 1529 (Constraint DOF : 0)
+total DOF : 4587
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 1577 (Constraint DOF : 0)
+field ' c' DOF : 1577 (Constraint DOF : 0)
+field 'xi' DOF : 1577 (Constraint DOF : 0)
+total DOF : 4731
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 1697 (Constraint DOF : 0)
+field ' c' DOF : 1697 (Constraint DOF : 0)
+field 'xi' DOF : 1697 (Constraint DOF : 0)
+total DOF : 5091
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 1817 (Constraint DOF : 0)
+field ' c' DOF : 1817 (Constraint DOF : 0)
+field 'xi' DOF : 1817 (Constraint DOF : 0)
+total DOF : 5451
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 1841 (Constraint DOF : 0)
+field ' c' DOF : 1841 (Constraint DOF : 0)
+field 'xi' DOF : 1841 (Constraint DOF : 0)
+total DOF : 5523
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 1843 (Constraint DOF : 0)
+field ' c' DOF : 1843 (Constraint DOF : 0)
+field 'xi' DOF : 1843 (Constraint DOF : 0)
+total DOF : 5529
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 1843 (Constraint DOF : 0)
+field ' c' DOF : 1843 (Constraint DOF : 0)
+field 'xi' DOF : 1843 (Constraint DOF : 0)
+total DOF : 5529
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 1915 (Constraint DOF : 0)
+field ' c' DOF : 1915 (Constraint DOF : 0)
+field 'xi' DOF : 1915 (Constraint DOF : 0)
+total DOF : 5745
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 1915 (Constraint DOF : 0)
+field ' c' DOF : 1915 (Constraint DOF : 0)
+field 'xi' DOF : 1915 (Constraint DOF : 0)
+total DOF : 5745
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 1915 (Constraint DOF : 0)
+field ' c' DOF : 1915 (Constraint DOF : 0)
+field 'xi' DOF : 1915 (Constraint DOF : 0)
+total DOF : 5745
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:1000  time: 8
+Reinitializing matrix free object
+field 'phi' DOF : 1981 (Constraint DOF : 0)
+field ' c' DOF : 1981 (Constraint DOF : 0)
+field 'xi' DOF : 1981 (Constraint DOF : 0)
+total DOF : 5943
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.832058e+01, current residual:5.083427e+03
+field ' c' [explicit solve]: current solution: 2.241176e+01, current residual:2.706926e+03
+field 'xi' [auxiliary solve]: current solution: 3.657321e+00, current residual:6.401696e-01
+wall time: 0.000593968s
+Output written to:solution-001000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 2005 (Constraint DOF : 0)
+field ' c' DOF : 2005 (Constraint DOF : 0)
+field 'xi' DOF : 2005 (Constraint DOF : 0)
+total DOF : 6015
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2053 (Constraint DOF : 0)
+field ' c' DOF : 2053 (Constraint DOF : 0)
+field 'xi' DOF : 2053 (Constraint DOF : 0)
+total DOF : 6159
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2031 (Constraint DOF : 0)
+field ' c' DOF : 2031 (Constraint DOF : 0)
+field 'xi' DOF : 2031 (Constraint DOF : 0)
+total DOF : 6093
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2031 (Constraint DOF : 0)
+field ' c' DOF : 2031 (Constraint DOF : 0)
+field 'xi' DOF : 2031 (Constraint DOF : 0)
+total DOF : 6093
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2127 (Constraint DOF : 0)
+field ' c' DOF : 2127 (Constraint DOF : 0)
+field 'xi' DOF : 2127 (Constraint DOF : 0)
+total DOF : 6381
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2127 (Constraint DOF : 0)
+field ' c' DOF : 2127 (Constraint DOF : 0)
+field 'xi' DOF : 2127 (Constraint DOF : 0)
+total DOF : 6381
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2127 (Constraint DOF : 0)
+field ' c' DOF : 2127 (Constraint DOF : 0)
+field 'xi' DOF : 2127 (Constraint DOF : 0)
+total DOF : 6381
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2103 (Constraint DOF : 0)
+field ' c' DOF : 2103 (Constraint DOF : 0)
+field 'xi' DOF : 2103 (Constraint DOF : 0)
+total DOF : 6309
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2103 (Constraint DOF : 0)
+field ' c' DOF : 2103 (Constraint DOF : 0)
+field 'xi' DOF : 2103 (Constraint DOF : 0)
+total DOF : 6309
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2211 (Constraint DOF : 0)
+field ' c' DOF : 2211 (Constraint DOF : 0)
+field 'xi' DOF : 2211 (Constraint DOF : 0)
+total DOF : 6633
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2259 (Constraint DOF : 0)
+field ' c' DOF : 2259 (Constraint DOF : 0)
+field 'xi' DOF : 2259 (Constraint DOF : 0)
+total DOF : 6777
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2283 (Constraint DOF : 0)
+field ' c' DOF : 2283 (Constraint DOF : 0)
+field 'xi' DOF : 2283 (Constraint DOF : 0)
+total DOF : 6849
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2307 (Constraint DOF : 0)
+field ' c' DOF : 2307 (Constraint DOF : 0)
+field 'xi' DOF : 2307 (Constraint DOF : 0)
+total DOF : 6921
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2285 (Constraint DOF : 0)
+field ' c' DOF : 2285 (Constraint DOF : 0)
+field 'xi' DOF : 2285 (Constraint DOF : 0)
+total DOF : 6855
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2285 (Constraint DOF : 0)
+field ' c' DOF : 2285 (Constraint DOF : 0)
+field 'xi' DOF : 2285 (Constraint DOF : 0)
+total DOF : 6855
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2287 (Constraint DOF : 0)
+field ' c' DOF : 2287 (Constraint DOF : 0)
+field 'xi' DOF : 2287 (Constraint DOF : 0)
+total DOF : 6861
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2335 (Constraint DOF : 0)
+field ' c' DOF : 2335 (Constraint DOF : 0)
+field 'xi' DOF : 2335 (Constraint DOF : 0)
+total DOF : 7005
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2335 (Constraint DOF : 0)
+field ' c' DOF : 2335 (Constraint DOF : 0)
+field 'xi' DOF : 2335 (Constraint DOF : 0)
+total DOF : 7005
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2323 (Constraint DOF : 0)
+field ' c' DOF : 2323 (Constraint DOF : 0)
+field 'xi' DOF : 2323 (Constraint DOF : 0)
+total DOF : 6969
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:2000  time: 16
+Reinitializing matrix free object
+field 'phi' DOF : 2371 (Constraint DOF : 0)
+field ' c' DOF : 2371 (Constraint DOF : 0)
+field 'xi' DOF : 2371 (Constraint DOF : 0)
+total DOF : 7113
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.187588e+01, current residual:5.083323e+03
+field ' c' [explicit solve]: current solution: 2.557004e+01, current residual:2.706872e+03
+field 'xi' [auxiliary solve]: current solution: 2.908406e+00, current residual:5.102646e-01
+wall time: 0.000629342s
+Output written to:solution-002000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 2371 (Constraint DOF : 0)
+field ' c' DOF : 2371 (Constraint DOF : 0)
+field 'xi' DOF : 2371 (Constraint DOF : 0)
+total DOF : 7113
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2395 (Constraint DOF : 0)
+field ' c' DOF : 2395 (Constraint DOF : 0)
+field 'xi' DOF : 2395 (Constraint DOF : 0)
+total DOF : 7185
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2449 (Constraint DOF : 0)
+field ' c' DOF : 2449 (Constraint DOF : 0)
+field 'xi' DOF : 2449 (Constraint DOF : 0)
+total DOF : 7347
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2449 (Constraint DOF : 0)
+field ' c' DOF : 2449 (Constraint DOF : 0)
+field 'xi' DOF : 2449 (Constraint DOF : 0)
+total DOF : 7347
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2473 (Constraint DOF : 0)
+field ' c' DOF : 2473 (Constraint DOF : 0)
+field 'xi' DOF : 2473 (Constraint DOF : 0)
+total DOF : 7419
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2473 (Constraint DOF : 0)
+field ' c' DOF : 2473 (Constraint DOF : 0)
+field 'xi' DOF : 2473 (Constraint DOF : 0)
+total DOF : 7419
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2451 (Constraint DOF : 0)
+field ' c' DOF : 2451 (Constraint DOF : 0)
+field 'xi' DOF : 2451 (Constraint DOF : 0)
+total DOF : 7353
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2451 (Constraint DOF : 0)
+field ' c' DOF : 2451 (Constraint DOF : 0)
+field 'xi' DOF : 2451 (Constraint DOF : 0)
+total DOF : 7353
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2499 (Constraint DOF : 0)
+field ' c' DOF : 2499 (Constraint DOF : 0)
+field 'xi' DOF : 2499 (Constraint DOF : 0)
+total DOF : 7497
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2523 (Constraint DOF : 0)
+field ' c' DOF : 2523 (Constraint DOF : 0)
+field 'xi' DOF : 2523 (Constraint DOF : 0)
+total DOF : 7569
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2547 (Constraint DOF : 0)
+field ' c' DOF : 2547 (Constraint DOF : 0)
+field 'xi' DOF : 2547 (Constraint DOF : 0)
+total DOF : 7641
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2523 (Constraint DOF : 0)
+field ' c' DOF : 2523 (Constraint DOF : 0)
+field 'xi' DOF : 2523 (Constraint DOF : 0)
+total DOF : 7569
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2547 (Constraint DOF : 0)
+field ' c' DOF : 2547 (Constraint DOF : 0)
+field 'xi' DOF : 2547 (Constraint DOF : 0)
+total DOF : 7641
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2547 (Constraint DOF : 0)
+field ' c' DOF : 2547 (Constraint DOF : 0)
+field 'xi' DOF : 2547 (Constraint DOF : 0)
+total DOF : 7641
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2547 (Constraint DOF : 0)
+field ' c' DOF : 2547 (Constraint DOF : 0)
+field 'xi' DOF : 2547 (Constraint DOF : 0)
+total DOF : 7641
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2547 (Constraint DOF : 0)
+field ' c' DOF : 2547 (Constraint DOF : 0)
+field 'xi' DOF : 2547 (Constraint DOF : 0)
+total DOF : 7641
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2583 (Constraint DOF : 0)
+field ' c' DOF : 2583 (Constraint DOF : 0)
+field 'xi' DOF : 2583 (Constraint DOF : 0)
+total DOF : 7749
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2583 (Constraint DOF : 0)
+field ' c' DOF : 2583 (Constraint DOF : 0)
+field 'xi' DOF : 2583 (Constraint DOF : 0)
+total DOF : 7749
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2745 (Constraint DOF : 0)
+field ' c' DOF : 2745 (Constraint DOF : 0)
+field 'xi' DOF : 2745 (Constraint DOF : 0)
+total DOF : 8235
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:3000  time: 24
+Reinitializing matrix free object
+field 'phi' DOF : 2699 (Constraint DOF : 0)
+field ' c' DOF : 2699 (Constraint DOF : 0)
+field 'xi' DOF : 2699 (Constraint DOF : 0)
+total DOF : 8097
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.462392e+01, current residual:5.083163e+03
+field ' c' [explicit solve]: current solution: 2.786483e+01, current residual:2.706789e+03
+field 'xi' [auxiliary solve]: current solution: 2.608379e+00, current residual:4.582154e-01
+wall time: 0.000727787s
+Output written to:solution-003000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 2699 (Constraint DOF : 0)
+field ' c' DOF : 2699 (Constraint DOF : 0)
+field 'xi' DOF : 2699 (Constraint DOF : 0)
+total DOF : 8097
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2677 (Constraint DOF : 0)
+field ' c' DOF : 2677 (Constraint DOF : 0)
+field 'xi' DOF : 2677 (Constraint DOF : 0)
+total DOF : 8031
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2749 (Constraint DOF : 0)
+field ' c' DOF : 2749 (Constraint DOF : 0)
+field 'xi' DOF : 2749 (Constraint DOF : 0)
+total DOF : 8247
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2797 (Constraint DOF : 0)
+field ' c' DOF : 2797 (Constraint DOF : 0)
+field 'xi' DOF : 2797 (Constraint DOF : 0)
+total DOF : 8391
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2797 (Constraint DOF : 0)
+field ' c' DOF : 2797 (Constraint DOF : 0)
+field 'xi' DOF : 2797 (Constraint DOF : 0)
+total DOF : 8391
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2797 (Constraint DOF : 0)
+field ' c' DOF : 2797 (Constraint DOF : 0)
+field 'xi' DOF : 2797 (Constraint DOF : 0)
+total DOF : 8391
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2869 (Constraint DOF : 0)
+field ' c' DOF : 2869 (Constraint DOF : 0)
+field 'xi' DOF : 2869 (Constraint DOF : 0)
+total DOF : 8607
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2869 (Constraint DOF : 0)
+field ' c' DOF : 2869 (Constraint DOF : 0)
+field 'xi' DOF : 2869 (Constraint DOF : 0)
+total DOF : 8607
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2869 (Constraint DOF : 0)
+field ' c' DOF : 2869 (Constraint DOF : 0)
+field 'xi' DOF : 2869 (Constraint DOF : 0)
+total DOF : 8607
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2869 (Constraint DOF : 0)
+field ' c' DOF : 2869 (Constraint DOF : 0)
+field 'xi' DOF : 2869 (Constraint DOF : 0)
+total DOF : 8607
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2845 (Constraint DOF : 0)
+field ' c' DOF : 2845 (Constraint DOF : 0)
+field 'xi' DOF : 2845 (Constraint DOF : 0)
+total DOF : 8535
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2845 (Constraint DOF : 0)
+field ' c' DOF : 2845 (Constraint DOF : 0)
+field 'xi' DOF : 2845 (Constraint DOF : 0)
+total DOF : 8535
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2893 (Constraint DOF : 0)
+field ' c' DOF : 2893 (Constraint DOF : 0)
+field 'xi' DOF : 2893 (Constraint DOF : 0)
+total DOF : 8679
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2893 (Constraint DOF : 0)
+field ' c' DOF : 2893 (Constraint DOF : 0)
+field 'xi' DOF : 2893 (Constraint DOF : 0)
+total DOF : 8679
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2869 (Constraint DOF : 0)
+field ' c' DOF : 2869 (Constraint DOF : 0)
+field 'xi' DOF : 2869 (Constraint DOF : 0)
+total DOF : 8607
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2899 (Constraint DOF : 0)
+field ' c' DOF : 2899 (Constraint DOF : 0)
+field 'xi' DOF : 2899 (Constraint DOF : 0)
+total DOF : 8697
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2947 (Constraint DOF : 0)
+field ' c' DOF : 2947 (Constraint DOF : 0)
+field 'xi' DOF : 2947 (Constraint DOF : 0)
+total DOF : 8841
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2947 (Constraint DOF : 0)
+field ' c' DOF : 2947 (Constraint DOF : 0)
+field 'xi' DOF : 2947 (Constraint DOF : 0)
+total DOF : 8841
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 2949 (Constraint DOF : 0)
+field ' c' DOF : 2949 (Constraint DOF : 0)
+field 'xi' DOF : 2949 (Constraint DOF : 0)
+total DOF : 8847
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:4000  time: 32
+Reinitializing matrix free object
+field 'phi' DOF : 2973 (Constraint DOF : 0)
+field ' c' DOF : 2973 (Constraint DOF : 0)
+field 'xi' DOF : 2973 (Constraint DOF : 0)
+total DOF : 8919
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.691308e+01, current residual:5.082497e+03
+field ' c' [explicit solve]: current solution: 2.965731e+01, current residual:2.706444e+03
+field 'xi' [auxiliary solve]: current solution: 2.426578e+00, current residual:4.266361e-01
+wall time: 0.000695269s
+Output written to:solution-004000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 3045 (Constraint DOF : 0)
+field ' c' DOF : 3045 (Constraint DOF : 0)
+field 'xi' DOF : 3045 (Constraint DOF : 0)
+total DOF : 9135
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3045 (Constraint DOF : 0)
+field ' c' DOF : 3045 (Constraint DOF : 0)
+field 'xi' DOF : 3045 (Constraint DOF : 0)
+total DOF : 9135
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3045 (Constraint DOF : 0)
+field ' c' DOF : 3045 (Constraint DOF : 0)
+field 'xi' DOF : 3045 (Constraint DOF : 0)
+total DOF : 9135
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3021 (Constraint DOF : 0)
+field ' c' DOF : 3021 (Constraint DOF : 0)
+field 'xi' DOF : 3021 (Constraint DOF : 0)
+total DOF : 9063
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3045 (Constraint DOF : 0)
+field ' c' DOF : 3045 (Constraint DOF : 0)
+field 'xi' DOF : 3045 (Constraint DOF : 0)
+total DOF : 9135
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3021 (Constraint DOF : 0)
+field ' c' DOF : 3021 (Constraint DOF : 0)
+field 'xi' DOF : 3021 (Constraint DOF : 0)
+total DOF : 9063
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3021 (Constraint DOF : 0)
+field ' c' DOF : 3021 (Constraint DOF : 0)
+field 'xi' DOF : 3021 (Constraint DOF : 0)
+total DOF : 9063
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3021 (Constraint DOF : 0)
+field ' c' DOF : 3021 (Constraint DOF : 0)
+field 'xi' DOF : 3021 (Constraint DOF : 0)
+total DOF : 9063
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3021 (Constraint DOF : 0)
+field ' c' DOF : 3021 (Constraint DOF : 0)
+field 'xi' DOF : 3021 (Constraint DOF : 0)
+total DOF : 9063
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3021 (Constraint DOF : 0)
+field ' c' DOF : 3021 (Constraint DOF : 0)
+field 'xi' DOF : 3021 (Constraint DOF : 0)
+total DOF : 9063
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3045 (Constraint DOF : 0)
+field ' c' DOF : 3045 (Constraint DOF : 0)
+field 'xi' DOF : 3045 (Constraint DOF : 0)
+total DOF : 9135
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3081 (Constraint DOF : 0)
+field ' c' DOF : 3081 (Constraint DOF : 0)
+field 'xi' DOF : 3081 (Constraint DOF : 0)
+total DOF : 9243
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3083 (Constraint DOF : 0)
+field ' c' DOF : 3083 (Constraint DOF : 0)
+field 'xi' DOF : 3083 (Constraint DOF : 0)
+total DOF : 9249
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3083 (Constraint DOF : 0)
+field ' c' DOF : 3083 (Constraint DOF : 0)
+field 'xi' DOF : 3083 (Constraint DOF : 0)
+total DOF : 9249
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3143 (Constraint DOF : 0)
+field ' c' DOF : 3143 (Constraint DOF : 0)
+field 'xi' DOF : 3143 (Constraint DOF : 0)
+total DOF : 9429
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3215 (Constraint DOF : 0)
+field ' c' DOF : 3215 (Constraint DOF : 0)
+field 'xi' DOF : 3215 (Constraint DOF : 0)
+total DOF : 9645
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3215 (Constraint DOF : 0)
+field ' c' DOF : 3215 (Constraint DOF : 0)
+field 'xi' DOF : 3215 (Constraint DOF : 0)
+total DOF : 9645
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3193 (Constraint DOF : 0)
+field ' c' DOF : 3193 (Constraint DOF : 0)
+field 'xi' DOF : 3193 (Constraint DOF : 0)
+total DOF : 9579
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3217 (Constraint DOF : 0)
+field ' c' DOF : 3217 (Constraint DOF : 0)
+field 'xi' DOF : 3217 (Constraint DOF : 0)
+total DOF : 9651
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:5000  time: 40
+Reinitializing matrix free object
+field 'phi' DOF : 3217 (Constraint DOF : 0)
+field ' c' DOF : 3217 (Constraint DOF : 0)
+field 'xi' DOF : 3217 (Constraint DOF : 0)
+total DOF : 9651
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.877678e+01, current residual:5.082407e+03
+field ' c' [explicit solve]: current solution: 3.134063e+01, current residual:2.706405e+03
+field 'xi' [auxiliary solve]: current solution: 2.297694e+00, current residual:4.042116e-01
+wall time: 0.00085969s
+Output written to:solution-005000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 3217 (Constraint DOF : 0)
+field ' c' DOF : 3217 (Constraint DOF : 0)
+field 'xi' DOF : 3217 (Constraint DOF : 0)
+total DOF : 9651
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3265 (Constraint DOF : 0)
+field ' c' DOF : 3265 (Constraint DOF : 0)
+field 'xi' DOF : 3265 (Constraint DOF : 0)
+total DOF : 9795
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3265 (Constraint DOF : 0)
+field ' c' DOF : 3265 (Constraint DOF : 0)
+field 'xi' DOF : 3265 (Constraint DOF : 0)
+total DOF : 9795
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3241 (Constraint DOF : 0)
+field ' c' DOF : 3241 (Constraint DOF : 0)
+field 'xi' DOF : 3241 (Constraint DOF : 0)
+total DOF : 9723
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3265 (Constraint DOF : 0)
+field ' c' DOF : 3265 (Constraint DOF : 0)
+field 'xi' DOF : 3265 (Constraint DOF : 0)
+total DOF : 9795
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3265 (Constraint DOF : 0)
+field ' c' DOF : 3265 (Constraint DOF : 0)
+field 'xi' DOF : 3265 (Constraint DOF : 0)
+total DOF : 9795
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3265 (Constraint DOF : 0)
+field ' c' DOF : 3265 (Constraint DOF : 0)
+field 'xi' DOF : 3265 (Constraint DOF : 0)
+total DOF : 9795
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3265 (Constraint DOF : 0)
+field ' c' DOF : 3265 (Constraint DOF : 0)
+field 'xi' DOF : 3265 (Constraint DOF : 0)
+total DOF : 9795
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3289 (Constraint DOF : 0)
+field ' c' DOF : 3289 (Constraint DOF : 0)
+field 'xi' DOF : 3289 (Constraint DOF : 0)
+total DOF : 9867
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3289 (Constraint DOF : 0)
+field ' c' DOF : 3289 (Constraint DOF : 0)
+field 'xi' DOF : 3289 (Constraint DOF : 0)
+total DOF : 9867
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3337 (Constraint DOF : 0)
+field ' c' DOF : 3337 (Constraint DOF : 0)
+field 'xi' DOF : 3337 (Constraint DOF : 0)
+total DOF : 10011
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3361 (Constraint DOF : 0)
+field ' c' DOF : 3361 (Constraint DOF : 0)
+field 'xi' DOF : 3361 (Constraint DOF : 0)
+total DOF : 10083
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3337 (Constraint DOF : 0)
+field ' c' DOF : 3337 (Constraint DOF : 0)
+field 'xi' DOF : 3337 (Constraint DOF : 0)
+total DOF : 10011
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3337 (Constraint DOF : 0)
+field ' c' DOF : 3337 (Constraint DOF : 0)
+field 'xi' DOF : 3337 (Constraint DOF : 0)
+total DOF : 10011
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3367 (Constraint DOF : 0)
+field ' c' DOF : 3367 (Constraint DOF : 0)
+field 'xi' DOF : 3367 (Constraint DOF : 0)
+total DOF : 10101
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3391 (Constraint DOF : 0)
+field ' c' DOF : 3391 (Constraint DOF : 0)
+field 'xi' DOF : 3391 (Constraint DOF : 0)
+total DOF : 10173
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3403 (Constraint DOF : 0)
+field ' c' DOF : 3403 (Constraint DOF : 0)
+field 'xi' DOF : 3403 (Constraint DOF : 0)
+total DOF : 10209
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3381 (Constraint DOF : 0)
+field ' c' DOF : 3381 (Constraint DOF : 0)
+field 'xi' DOF : 3381 (Constraint DOF : 0)
+total DOF : 10143
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3333 (Constraint DOF : 0)
+field ' c' DOF : 3333 (Constraint DOF : 0)
+field 'xi' DOF : 3333 (Constraint DOF : 0)
+total DOF : 9999
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:6000  time: 48
+Reinitializing matrix free object
+field 'phi' DOF : 3357 (Constraint DOF : 0)
+field ' c' DOF : 3357 (Constraint DOF : 0)
+field 'xi' DOF : 3357 (Constraint DOF : 0)
+total DOF : 10071
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.968848e+01, current residual:5.082400e+03
+field ' c' [explicit solve]: current solution: 3.223584e+01, current residual:2.706426e+03
+field 'xi' [auxiliary solve]: current solution: 2.199221e+00, current residual:3.870536e-01
+wall time: 0.000854248s
+Output written to:solution-006000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 3405 (Constraint DOF : 0)
+field ' c' DOF : 3405 (Constraint DOF : 0)
+field 'xi' DOF : 3405 (Constraint DOF : 0)
+total DOF : 10215
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3405 (Constraint DOF : 0)
+field ' c' DOF : 3405 (Constraint DOF : 0)
+field 'xi' DOF : 3405 (Constraint DOF : 0)
+total DOF : 10215
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3429 (Constraint DOF : 0)
+field ' c' DOF : 3429 (Constraint DOF : 0)
+field 'xi' DOF : 3429 (Constraint DOF : 0)
+total DOF : 10287
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3429 (Constraint DOF : 0)
+field ' c' DOF : 3429 (Constraint DOF : 0)
+field 'xi' DOF : 3429 (Constraint DOF : 0)
+total DOF : 10287
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3381 (Constraint DOF : 0)
+field ' c' DOF : 3381 (Constraint DOF : 0)
+field 'xi' DOF : 3381 (Constraint DOF : 0)
+total DOF : 10143
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3429 (Constraint DOF : 0)
+field ' c' DOF : 3429 (Constraint DOF : 0)
+field 'xi' DOF : 3429 (Constraint DOF : 0)
+total DOF : 10287
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3453 (Constraint DOF : 0)
+field ' c' DOF : 3453 (Constraint DOF : 0)
+field 'xi' DOF : 3453 (Constraint DOF : 0)
+total DOF : 10359
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3453 (Constraint DOF : 0)
+field ' c' DOF : 3453 (Constraint DOF : 0)
+field 'xi' DOF : 3453 (Constraint DOF : 0)
+total DOF : 10359
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3453 (Constraint DOF : 0)
+field ' c' DOF : 3453 (Constraint DOF : 0)
+field 'xi' DOF : 3453 (Constraint DOF : 0)
+total DOF : 10359
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3453 (Constraint DOF : 0)
+field ' c' DOF : 3453 (Constraint DOF : 0)
+field 'xi' DOF : 3453 (Constraint DOF : 0)
+total DOF : 10359
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3525 (Constraint DOF : 0)
+field ' c' DOF : 3525 (Constraint DOF : 0)
+field 'xi' DOF : 3525 (Constraint DOF : 0)
+total DOF : 10575
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3549 (Constraint DOF : 0)
+field ' c' DOF : 3549 (Constraint DOF : 0)
+field 'xi' DOF : 3549 (Constraint DOF : 0)
+total DOF : 10647
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3549 (Constraint DOF : 0)
+field ' c' DOF : 3549 (Constraint DOF : 0)
+field 'xi' DOF : 3549 (Constraint DOF : 0)
+total DOF : 10647
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3527 (Constraint DOF : 0)
+field ' c' DOF : 3527 (Constraint DOF : 0)
+field 'xi' DOF : 3527 (Constraint DOF : 0)
+total DOF : 10581
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3503 (Constraint DOF : 0)
+field ' c' DOF : 3503 (Constraint DOF : 0)
+field 'xi' DOF : 3503 (Constraint DOF : 0)
+total DOF : 10509
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3503 (Constraint DOF : 0)
+field ' c' DOF : 3503 (Constraint DOF : 0)
+field 'xi' DOF : 3503 (Constraint DOF : 0)
+total DOF : 10509
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3677 (Constraint DOF : 0)
+field ' c' DOF : 3677 (Constraint DOF : 0)
+field 'xi' DOF : 3677 (Constraint DOF : 0)
+total DOF : 11031
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3677 (Constraint DOF : 0)
+field ' c' DOF : 3677 (Constraint DOF : 0)
+field 'xi' DOF : 3677 (Constraint DOF : 0)
+total DOF : 11031
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3773 (Constraint DOF : 0)
+field ' c' DOF : 3773 (Constraint DOF : 0)
+field 'xi' DOF : 3773 (Constraint DOF : 0)
+total DOF : 11319
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:7000  time: 56
+Reinitializing matrix free object
+field 'phi' DOF : 3751 (Constraint DOF : 0)
+field ' c' DOF : 3751 (Constraint DOF : 0)
+field 'xi' DOF : 3751 (Constraint DOF : 0)
+total DOF : 11253
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.277593e+01, current residual:5.041680e+03
+field ' c' [explicit solve]: current solution: 3.429201e+01, current residual:2.684726e+03
+field 'xi' [auxiliary solve]: current solution: 2.120616e+00, current residual:3.733368e-01
+wall time: 0.000753164s
+Output written to:solution-007000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 3751 (Constraint DOF : 0)
+field ' c' DOF : 3751 (Constraint DOF : 0)
+field 'xi' DOF : 3751 (Constraint DOF : 0)
+total DOF : 11253
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3751 (Constraint DOF : 0)
+field ' c' DOF : 3751 (Constraint DOF : 0)
+field 'xi' DOF : 3751 (Constraint DOF : 0)
+total DOF : 11253
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3775 (Constraint DOF : 0)
+field ' c' DOF : 3775 (Constraint DOF : 0)
+field 'xi' DOF : 3775 (Constraint DOF : 0)
+total DOF : 11325
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3799 (Constraint DOF : 0)
+field ' c' DOF : 3799 (Constraint DOF : 0)
+field 'xi' DOF : 3799 (Constraint DOF : 0)
+total DOF : 11397
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3847 (Constraint DOF : 0)
+field ' c' DOF : 3847 (Constraint DOF : 0)
+field 'xi' DOF : 3847 (Constraint DOF : 0)
+total DOF : 11541
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3871 (Constraint DOF : 0)
+field ' c' DOF : 3871 (Constraint DOF : 0)
+field 'xi' DOF : 3871 (Constraint DOF : 0)
+total DOF : 11613
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3823 (Constraint DOF : 0)
+field ' c' DOF : 3823 (Constraint DOF : 0)
+field 'xi' DOF : 3823 (Constraint DOF : 0)
+total DOF : 11469
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3847 (Constraint DOF : 0)
+field ' c' DOF : 3847 (Constraint DOF : 0)
+field 'xi' DOF : 3847 (Constraint DOF : 0)
+total DOF : 11541
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3895 (Constraint DOF : 0)
+field ' c' DOF : 3895 (Constraint DOF : 0)
+field 'xi' DOF : 3895 (Constraint DOF : 0)
+total DOF : 11685
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3895 (Constraint DOF : 0)
+field ' c' DOF : 3895 (Constraint DOF : 0)
+field 'xi' DOF : 3895 (Constraint DOF : 0)
+total DOF : 11685
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3895 (Constraint DOF : 0)
+field ' c' DOF : 3895 (Constraint DOF : 0)
+field 'xi' DOF : 3895 (Constraint DOF : 0)
+total DOF : 11685
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3895 (Constraint DOF : 0)
+field ' c' DOF : 3895 (Constraint DOF : 0)
+field 'xi' DOF : 3895 (Constraint DOF : 0)
+total DOF : 11685
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3919 (Constraint DOF : 0)
+field ' c' DOF : 3919 (Constraint DOF : 0)
+field 'xi' DOF : 3919 (Constraint DOF : 0)
+total DOF : 11757
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3885 (Constraint DOF : 0)
+field ' c' DOF : 3885 (Constraint DOF : 0)
+field 'xi' DOF : 3885 (Constraint DOF : 0)
+total DOF : 11655
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3885 (Constraint DOF : 0)
+field ' c' DOF : 3885 (Constraint DOF : 0)
+field 'xi' DOF : 3885 (Constraint DOF : 0)
+total DOF : 11655
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3885 (Constraint DOF : 0)
+field ' c' DOF : 3885 (Constraint DOF : 0)
+field 'xi' DOF : 3885 (Constraint DOF : 0)
+total DOF : 11655
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3909 (Constraint DOF : 0)
+field ' c' DOF : 3909 (Constraint DOF : 0)
+field 'xi' DOF : 3909 (Constraint DOF : 0)
+total DOF : 11727
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3885 (Constraint DOF : 0)
+field ' c' DOF : 3885 (Constraint DOF : 0)
+field 'xi' DOF : 3885 (Constraint DOF : 0)
+total DOF : 11655
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3885 (Constraint DOF : 0)
+field ' c' DOF : 3885 (Constraint DOF : 0)
+field 'xi' DOF : 3885 (Constraint DOF : 0)
+total DOF : 11655
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:8000  time: 64
+Reinitializing matrix free object
+field 'phi' DOF : 3939 (Constraint DOF : 0)
+field ' c' DOF : 3939 (Constraint DOF : 0)
+field 'xi' DOF : 3939 (Constraint DOF : 0)
+total DOF : 11817
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.410776e+01, current residual:5.041704e+03
+field ' c' [explicit solve]: current solution: 3.526462e+01, current residual:2.684743e+03
+field 'xi' [auxiliary solve]: current solution: 2.055589e+00, current residual:3.619723e-01
+wall time: 0.000994295s
+Output written to:solution-008000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 3939 (Constraint DOF : 0)
+field ' c' DOF : 3939 (Constraint DOF : 0)
+field 'xi' DOF : 3939 (Constraint DOF : 0)
+total DOF : 11817
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3915 (Constraint DOF : 0)
+field ' c' DOF : 3915 (Constraint DOF : 0)
+field 'xi' DOF : 3915 (Constraint DOF : 0)
+total DOF : 11745
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3915 (Constraint DOF : 0)
+field ' c' DOF : 3915 (Constraint DOF : 0)
+field 'xi' DOF : 3915 (Constraint DOF : 0)
+total DOF : 11745
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3893 (Constraint DOF : 0)
+field ' c' DOF : 3893 (Constraint DOF : 0)
+field 'xi' DOF : 3893 (Constraint DOF : 0)
+total DOF : 11679
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3893 (Constraint DOF : 0)
+field ' c' DOF : 3893 (Constraint DOF : 0)
+field 'xi' DOF : 3893 (Constraint DOF : 0)
+total DOF : 11679
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3905 (Constraint DOF : 0)
+field ' c' DOF : 3905 (Constraint DOF : 0)
+field 'xi' DOF : 3905 (Constraint DOF : 0)
+total DOF : 11715
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 3977 (Constraint DOF : 0)
+field ' c' DOF : 3977 (Constraint DOF : 0)
+field 'xi' DOF : 3977 (Constraint DOF : 0)
+total DOF : 11931
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4049 (Constraint DOF : 0)
+field ' c' DOF : 4049 (Constraint DOF : 0)
+field 'xi' DOF : 4049 (Constraint DOF : 0)
+total DOF : 12147
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4049 (Constraint DOF : 0)
+field ' c' DOF : 4049 (Constraint DOF : 0)
+field 'xi' DOF : 4049 (Constraint DOF : 0)
+total DOF : 12147
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4073 (Constraint DOF : 0)
+field ' c' DOF : 4073 (Constraint DOF : 0)
+field 'xi' DOF : 4073 (Constraint DOF : 0)
+total DOF : 12219
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4049 (Constraint DOF : 0)
+field ' c' DOF : 4049 (Constraint DOF : 0)
+field 'xi' DOF : 4049 (Constraint DOF : 0)
+total DOF : 12147
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4049 (Constraint DOF : 0)
+field ' c' DOF : 4049 (Constraint DOF : 0)
+field 'xi' DOF : 4049 (Constraint DOF : 0)
+total DOF : 12147
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4073 (Constraint DOF : 0)
+field ' c' DOF : 4073 (Constraint DOF : 0)
+field 'xi' DOF : 4073 (Constraint DOF : 0)
+total DOF : 12219
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4073 (Constraint DOF : 0)
+field ' c' DOF : 4073 (Constraint DOF : 0)
+field 'xi' DOF : 4073 (Constraint DOF : 0)
+total DOF : 12219
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4073 (Constraint DOF : 0)
+field ' c' DOF : 4073 (Constraint DOF : 0)
+field 'xi' DOF : 4073 (Constraint DOF : 0)
+total DOF : 12219
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4049 (Constraint DOF : 0)
+field ' c' DOF : 4049 (Constraint DOF : 0)
+field 'xi' DOF : 4049 (Constraint DOF : 0)
+total DOF : 12147
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4097 (Constraint DOF : 0)
+field ' c' DOF : 4097 (Constraint DOF : 0)
+field 'xi' DOF : 4097 (Constraint DOF : 0)
+total DOF : 12291
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4097 (Constraint DOF : 0)
+field ' c' DOF : 4097 (Constraint DOF : 0)
+field 'xi' DOF : 4097 (Constraint DOF : 0)
+total DOF : 12291
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4097 (Constraint DOF : 0)
+field ' c' DOF : 4097 (Constraint DOF : 0)
+field 'xi' DOF : 4097 (Constraint DOF : 0)
+total DOF : 12291
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:9000  time: 72
+Reinitializing matrix free object
+field 'phi' DOF : 4073 (Constraint DOF : 0)
+field ' c' DOF : 4073 (Constraint DOF : 0)
+field 'xi' DOF : 4073 (Constraint DOF : 0)
+total DOF : 12219
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.498843e+01, current residual:5.041617e+03
+field ' c' [explicit solve]: current solution: 3.598709e+01, current residual:2.684714e+03
+field 'xi' [auxiliary solve]: current solution: 2.000238e+00, current residual:3.522910e-01
+wall time: 0.000923631s
+Output written to:solution-009000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 4097 (Constraint DOF : 0)
+field ' c' DOF : 4097 (Constraint DOF : 0)
+field 'xi' DOF : 4097 (Constraint DOF : 0)
+total DOF : 12291
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4075 (Constraint DOF : 0)
+field ' c' DOF : 4075 (Constraint DOF : 0)
+field 'xi' DOF : 4075 (Constraint DOF : 0)
+total DOF : 12225
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4075 (Constraint DOF : 0)
+field ' c' DOF : 4075 (Constraint DOF : 0)
+field 'xi' DOF : 4075 (Constraint DOF : 0)
+total DOF : 12225
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4075 (Constraint DOF : 0)
+field ' c' DOF : 4075 (Constraint DOF : 0)
+field 'xi' DOF : 4075 (Constraint DOF : 0)
+total DOF : 12225
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4159 (Constraint DOF : 0)
+field ' c' DOF : 4159 (Constraint DOF : 0)
+field 'xi' DOF : 4159 (Constraint DOF : 0)
+total DOF : 12477
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4159 (Constraint DOF : 0)
+field ' c' DOF : 4159 (Constraint DOF : 0)
+field 'xi' DOF : 4159 (Constraint DOF : 0)
+total DOF : 12477
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4183 (Constraint DOF : 0)
+field ' c' DOF : 4183 (Constraint DOF : 0)
+field 'xi' DOF : 4183 (Constraint DOF : 0)
+total DOF : 12549
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4183 (Constraint DOF : 0)
+field ' c' DOF : 4183 (Constraint DOF : 0)
+field 'xi' DOF : 4183 (Constraint DOF : 0)
+total DOF : 12549
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4185 (Constraint DOF : 0)
+field ' c' DOF : 4185 (Constraint DOF : 0)
+field 'xi' DOF : 4185 (Constraint DOF : 0)
+total DOF : 12555
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4185 (Constraint DOF : 0)
+field ' c' DOF : 4185 (Constraint DOF : 0)
+field 'xi' DOF : 4185 (Constraint DOF : 0)
+total DOF : 12555
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4209 (Constraint DOF : 0)
+field ' c' DOF : 4209 (Constraint DOF : 0)
+field 'xi' DOF : 4209 (Constraint DOF : 0)
+total DOF : 12627
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4233 (Constraint DOF : 0)
+field ' c' DOF : 4233 (Constraint DOF : 0)
+field 'xi' DOF : 4233 (Constraint DOF : 0)
+total DOF : 12699
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4233 (Constraint DOF : 0)
+field ' c' DOF : 4233 (Constraint DOF : 0)
+field 'xi' DOF : 4233 (Constraint DOF : 0)
+total DOF : 12699
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4257 (Constraint DOF : 0)
+field ' c' DOF : 4257 (Constraint DOF : 0)
+field 'xi' DOF : 4257 (Constraint DOF : 0)
+total DOF : 12771
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4305 (Constraint DOF : 0)
+field ' c' DOF : 4305 (Constraint DOF : 0)
+field 'xi' DOF : 4305 (Constraint DOF : 0)
+total DOF : 12915
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4329 (Constraint DOF : 0)
+field ' c' DOF : 4329 (Constraint DOF : 0)
+field 'xi' DOF : 4329 (Constraint DOF : 0)
+total DOF : 12987
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4281 (Constraint DOF : 0)
+field ' c' DOF : 4281 (Constraint DOF : 0)
+field 'xi' DOF : 4281 (Constraint DOF : 0)
+total DOF : 12843
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4269 (Constraint DOF : 0)
+field ' c' DOF : 4269 (Constraint DOF : 0)
+field 'xi' DOF : 4269 (Constraint DOF : 0)
+total DOF : 12807
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4317 (Constraint DOF : 0)
+field ' c' DOF : 4317 (Constraint DOF : 0)
+field 'xi' DOF : 4317 (Constraint DOF : 0)
+total DOF : 12951
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:10000  time: 80
+Reinitializing matrix free object
+field 'phi' DOF : 4269 (Constraint DOF : 0)
+field ' c' DOF : 4269 (Constraint DOF : 0)
+field 'xi' DOF : 4269 (Constraint DOF : 0)
+total DOF : 12807
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.625944e+01, current residual:5.041606e+03
+field ' c' [explicit solve]: current solution: 3.731945e+01, current residual:2.684736e+03
+field 'xi' [auxiliary solve]: current solution: 1.952367e+00, current residual:3.439036e-01
+wall time: 0.000877438s
+Output written to:solution-010000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 4269 (Constraint DOF : 0)
+field ' c' DOF : 4269 (Constraint DOF : 0)
+field 'xi' DOF : 4269 (Constraint DOF : 0)
+total DOF : 12807
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4269 (Constraint DOF : 0)
+field ' c' DOF : 4269 (Constraint DOF : 0)
+field 'xi' DOF : 4269 (Constraint DOF : 0)
+total DOF : 12807
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4293 (Constraint DOF : 0)
+field ' c' DOF : 4293 (Constraint DOF : 0)
+field 'xi' DOF : 4293 (Constraint DOF : 0)
+total DOF : 12879
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4293 (Constraint DOF : 0)
+field ' c' DOF : 4293 (Constraint DOF : 0)
+field 'xi' DOF : 4293 (Constraint DOF : 0)
+total DOF : 12879
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4269 (Constraint DOF : 0)
+field ' c' DOF : 4269 (Constraint DOF : 0)
+field 'xi' DOF : 4269 (Constraint DOF : 0)
+total DOF : 12807
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4269 (Constraint DOF : 0)
+field ' c' DOF : 4269 (Constraint DOF : 0)
+field 'xi' DOF : 4269 (Constraint DOF : 0)
+total DOF : 12807
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4293 (Constraint DOF : 0)
+field ' c' DOF : 4293 (Constraint DOF : 0)
+field 'xi' DOF : 4293 (Constraint DOF : 0)
+total DOF : 12879
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4317 (Constraint DOF : 0)
+field ' c' DOF : 4317 (Constraint DOF : 0)
+field 'xi' DOF : 4317 (Constraint DOF : 0)
+total DOF : 12951
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4293 (Constraint DOF : 0)
+field ' c' DOF : 4293 (Constraint DOF : 0)
+field 'xi' DOF : 4293 (Constraint DOF : 0)
+total DOF : 12879
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4323 (Constraint DOF : 0)
+field ' c' DOF : 4323 (Constraint DOF : 0)
+field 'xi' DOF : 4323 (Constraint DOF : 0)
+total DOF : 12969
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4323 (Constraint DOF : 0)
+field ' c' DOF : 4323 (Constraint DOF : 0)
+field 'xi' DOF : 4323 (Constraint DOF : 0)
+total DOF : 12969
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4383 (Constraint DOF : 0)
+field ' c' DOF : 4383 (Constraint DOF : 0)
+field 'xi' DOF : 4383 (Constraint DOF : 0)
+total DOF : 13149
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4383 (Constraint DOF : 0)
+field ' c' DOF : 4383 (Constraint DOF : 0)
+field 'xi' DOF : 4383 (Constraint DOF : 0)
+total DOF : 13149
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4361 (Constraint DOF : 0)
+field ' c' DOF : 4361 (Constraint DOF : 0)
+field 'xi' DOF : 4361 (Constraint DOF : 0)
+total DOF : 13083
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4361 (Constraint DOF : 0)
+field ' c' DOF : 4361 (Constraint DOF : 0)
+field 'xi' DOF : 4361 (Constraint DOF : 0)
+total DOF : 13083
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4361 (Constraint DOF : 0)
+field ' c' DOF : 4361 (Constraint DOF : 0)
+field 'xi' DOF : 4361 (Constraint DOF : 0)
+total DOF : 13083
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4409 (Constraint DOF : 0)
+field ' c' DOF : 4409 (Constraint DOF : 0)
+field 'xi' DOF : 4409 (Constraint DOF : 0)
+total DOF : 13227
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4433 (Constraint DOF : 0)
+field ' c' DOF : 4433 (Constraint DOF : 0)
+field 'xi' DOF : 4433 (Constraint DOF : 0)
+total DOF : 13299
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4433 (Constraint DOF : 0)
+field ' c' DOF : 4433 (Constraint DOF : 0)
+field 'xi' DOF : 4433 (Constraint DOF : 0)
+total DOF : 13299
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:11000  time: 88
+Reinitializing matrix free object
+field 'phi' DOF : 4433 (Constraint DOF : 0)
+field ' c' DOF : 4433 (Constraint DOF : 0)
+field 'xi' DOF : 4433 (Constraint DOF : 0)
+total DOF : 13299
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.733815e+01, current residual:5.041563e+03
+field ' c' [explicit solve]: current solution: 3.787963e+01, current residual:2.684750e+03
+field 'xi' [auxiliary solve]: current solution: 1.910823e+00, current residual:3.366163e-01
+wall time: 0.00105052s
+Output written to:solution-011000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 4481 (Constraint DOF : 0)
+field ' c' DOF : 4481 (Constraint DOF : 0)
+field 'xi' DOF : 4481 (Constraint DOF : 0)
+total DOF : 13443
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4457 (Constraint DOF : 0)
+field ' c' DOF : 4457 (Constraint DOF : 0)
+field 'xi' DOF : 4457 (Constraint DOF : 0)
+total DOF : 13371
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4481 (Constraint DOF : 0)
+field ' c' DOF : 4481 (Constraint DOF : 0)
+field 'xi' DOF : 4481 (Constraint DOF : 0)
+total DOF : 13443
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4457 (Constraint DOF : 0)
+field ' c' DOF : 4457 (Constraint DOF : 0)
+field 'xi' DOF : 4457 (Constraint DOF : 0)
+total DOF : 13371
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4481 (Constraint DOF : 0)
+field ' c' DOF : 4481 (Constraint DOF : 0)
+field 'xi' DOF : 4481 (Constraint DOF : 0)
+total DOF : 13443
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4457 (Constraint DOF : 0)
+field ' c' DOF : 4457 (Constraint DOF : 0)
+field 'xi' DOF : 4457 (Constraint DOF : 0)
+total DOF : 13371
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4457 (Constraint DOF : 0)
+field ' c' DOF : 4457 (Constraint DOF : 0)
+field 'xi' DOF : 4457 (Constraint DOF : 0)
+total DOF : 13371
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4457 (Constraint DOF : 0)
+field ' c' DOF : 4457 (Constraint DOF : 0)
+field 'xi' DOF : 4457 (Constraint DOF : 0)
+total DOF : 13371
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4457 (Constraint DOF : 0)
+field ' c' DOF : 4457 (Constraint DOF : 0)
+field 'xi' DOF : 4457 (Constraint DOF : 0)
+total DOF : 13371
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4457 (Constraint DOF : 0)
+field ' c' DOF : 4457 (Constraint DOF : 0)
+field 'xi' DOF : 4457 (Constraint DOF : 0)
+total DOF : 13371
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4553 (Constraint DOF : 0)
+field ' c' DOF : 4553 (Constraint DOF : 0)
+field 'xi' DOF : 4553 (Constraint DOF : 0)
+total DOF : 13659
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4553 (Constraint DOF : 0)
+field ' c' DOF : 4553 (Constraint DOF : 0)
+field 'xi' DOF : 4553 (Constraint DOF : 0)
+total DOF : 13659
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4529 (Constraint DOF : 0)
+field ' c' DOF : 4529 (Constraint DOF : 0)
+field 'xi' DOF : 4529 (Constraint DOF : 0)
+total DOF : 13587
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4529 (Constraint DOF : 0)
+field ' c' DOF : 4529 (Constraint DOF : 0)
+field 'xi' DOF : 4529 (Constraint DOF : 0)
+total DOF : 13587
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4553 (Constraint DOF : 0)
+field ' c' DOF : 4553 (Constraint DOF : 0)
+field 'xi' DOF : 4553 (Constraint DOF : 0)
+total DOF : 13659
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4531 (Constraint DOF : 0)
+field ' c' DOF : 4531 (Constraint DOF : 0)
+field 'xi' DOF : 4531 (Constraint DOF : 0)
+total DOF : 13593
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4645 (Constraint DOF : 0)
+field ' c' DOF : 4645 (Constraint DOF : 0)
+field 'xi' DOF : 4645 (Constraint DOF : 0)
+total DOF : 13935
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4645 (Constraint DOF : 0)
+field ' c' DOF : 4645 (Constraint DOF : 0)
+field 'xi' DOF : 4645 (Constraint DOF : 0)
+total DOF : 13935
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4645 (Constraint DOF : 0)
+field ' c' DOF : 4645 (Constraint DOF : 0)
+field 'xi' DOF : 4645 (Constraint DOF : 0)
+total DOF : 13935
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:12000  time: 96
+Reinitializing matrix free object
+field 'phi' DOF : 4741 (Constraint DOF : 0)
+field ' c' DOF : 4741 (Constraint DOF : 0)
+field 'xi' DOF : 4741 (Constraint DOF : 0)
+total DOF : 14223
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.952432e+01, current residual:5.040085e+03
+field ' c' [explicit solve]: current solution: 3.940865e+01, current residual:2.683947e+03
+field 'xi' [auxiliary solve]: current solution: 1.874224e+00, current residual:3.301833e-01
+wall time: 0.000889735s
+Output written to:solution-012000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 4743 (Constraint DOF : 0)
+field ' c' DOF : 4743 (Constraint DOF : 0)
+field 'xi' DOF : 4743 (Constraint DOF : 0)
+total DOF : 14229
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4719 (Constraint DOF : 0)
+field ' c' DOF : 4719 (Constraint DOF : 0)
+field 'xi' DOF : 4719 (Constraint DOF : 0)
+total DOF : 14157
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4719 (Constraint DOF : 0)
+field ' c' DOF : 4719 (Constraint DOF : 0)
+field 'xi' DOF : 4719 (Constraint DOF : 0)
+total DOF : 14157
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4719 (Constraint DOF : 0)
+field ' c' DOF : 4719 (Constraint DOF : 0)
+field 'xi' DOF : 4719 (Constraint DOF : 0)
+total DOF : 14157
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4767 (Constraint DOF : 0)
+field ' c' DOF : 4767 (Constraint DOF : 0)
+field 'xi' DOF : 4767 (Constraint DOF : 0)
+total DOF : 14301
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4767 (Constraint DOF : 0)
+field ' c' DOF : 4767 (Constraint DOF : 0)
+field 'xi' DOF : 4767 (Constraint DOF : 0)
+total DOF : 14301
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4743 (Constraint DOF : 0)
+field ' c' DOF : 4743 (Constraint DOF : 0)
+field 'xi' DOF : 4743 (Constraint DOF : 0)
+total DOF : 14229
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4743 (Constraint DOF : 0)
+field ' c' DOF : 4743 (Constraint DOF : 0)
+field 'xi' DOF : 4743 (Constraint DOF : 0)
+total DOF : 14229
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4743 (Constraint DOF : 0)
+field ' c' DOF : 4743 (Constraint DOF : 0)
+field 'xi' DOF : 4743 (Constraint DOF : 0)
+total DOF : 14229
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4743 (Constraint DOF : 0)
+field ' c' DOF : 4743 (Constraint DOF : 0)
+field 'xi' DOF : 4743 (Constraint DOF : 0)
+total DOF : 14229
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4719 (Constraint DOF : 0)
+field ' c' DOF : 4719 (Constraint DOF : 0)
+field 'xi' DOF : 4719 (Constraint DOF : 0)
+total DOF : 14157
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4791 (Constraint DOF : 0)
+field ' c' DOF : 4791 (Constraint DOF : 0)
+field 'xi' DOF : 4791 (Constraint DOF : 0)
+total DOF : 14373
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4815 (Constraint DOF : 0)
+field ' c' DOF : 4815 (Constraint DOF : 0)
+field 'xi' DOF : 4815 (Constraint DOF : 0)
+total DOF : 14445
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4745 (Constraint DOF : 0)
+field ' c' DOF : 4745 (Constraint DOF : 0)
+field 'xi' DOF : 4745 (Constraint DOF : 0)
+total DOF : 14235
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4745 (Constraint DOF : 0)
+field ' c' DOF : 4745 (Constraint DOF : 0)
+field 'xi' DOF : 4745 (Constraint DOF : 0)
+total DOF : 14235
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4745 (Constraint DOF : 0)
+field ' c' DOF : 4745 (Constraint DOF : 0)
+field 'xi' DOF : 4745 (Constraint DOF : 0)
+total DOF : 14235
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4745 (Constraint DOF : 0)
+field ' c' DOF : 4745 (Constraint DOF : 0)
+field 'xi' DOF : 4745 (Constraint DOF : 0)
+total DOF : 14235
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4745 (Constraint DOF : 0)
+field ' c' DOF : 4745 (Constraint DOF : 0)
+field 'xi' DOF : 4745 (Constraint DOF : 0)
+total DOF : 14235
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4745 (Constraint DOF : 0)
+field ' c' DOF : 4745 (Constraint DOF : 0)
+field 'xi' DOF : 4745 (Constraint DOF : 0)
+total DOF : 14235
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:13000  time: 104
+Reinitializing matrix free object
+field 'phi' DOF : 4745 (Constraint DOF : 0)
+field ' c' DOF : 4745 (Constraint DOF : 0)
+field 'xi' DOF : 4745 (Constraint DOF : 0)
+total DOF : 14235
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.922396e+01, current residual:5.040155e+03
+field ' c' [explicit solve]: current solution: 3.947540e+01, current residual:2.683990e+03
+field 'xi' [auxiliary solve]: current solution: 1.841881e+00, current residual:3.244990e-01
+wall time: 0.00096521s
+Output written to:solution-013000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 4769 (Constraint DOF : 0)
+field ' c' DOF : 4769 (Constraint DOF : 0)
+field 'xi' DOF : 4769 (Constraint DOF : 0)
+total DOF : 14307
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4745 (Constraint DOF : 0)
+field ' c' DOF : 4745 (Constraint DOF : 0)
+field 'xi' DOF : 4745 (Constraint DOF : 0)
+total DOF : 14235
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4757 (Constraint DOF : 0)
+field ' c' DOF : 4757 (Constraint DOF : 0)
+field 'xi' DOF : 4757 (Constraint DOF : 0)
+total DOF : 14271
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4835 (Constraint DOF : 0)
+field ' c' DOF : 4835 (Constraint DOF : 0)
+field 'xi' DOF : 4835 (Constraint DOF : 0)
+total DOF : 14505
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4859 (Constraint DOF : 0)
+field ' c' DOF : 4859 (Constraint DOF : 0)
+field 'xi' DOF : 4859 (Constraint DOF : 0)
+total DOF : 14577
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4859 (Constraint DOF : 0)
+field ' c' DOF : 4859 (Constraint DOF : 0)
+field 'xi' DOF : 4859 (Constraint DOF : 0)
+total DOF : 14577
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4883 (Constraint DOF : 0)
+field ' c' DOF : 4883 (Constraint DOF : 0)
+field 'xi' DOF : 4883 (Constraint DOF : 0)
+total DOF : 14649
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4883 (Constraint DOF : 0)
+field ' c' DOF : 4883 (Constraint DOF : 0)
+field 'xi' DOF : 4883 (Constraint DOF : 0)
+total DOF : 14649
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4885 (Constraint DOF : 0)
+field ' c' DOF : 4885 (Constraint DOF : 0)
+field 'xi' DOF : 4885 (Constraint DOF : 0)
+total DOF : 14655
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4885 (Constraint DOF : 0)
+field ' c' DOF : 4885 (Constraint DOF : 0)
+field 'xi' DOF : 4885 (Constraint DOF : 0)
+total DOF : 14655
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4909 (Constraint DOF : 0)
+field ' c' DOF : 4909 (Constraint DOF : 0)
+field 'xi' DOF : 4909 (Constraint DOF : 0)
+total DOF : 14727
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4885 (Constraint DOF : 0)
+field ' c' DOF : 4885 (Constraint DOF : 0)
+field 'xi' DOF : 4885 (Constraint DOF : 0)
+total DOF : 14655
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4885 (Constraint DOF : 0)
+field ' c' DOF : 4885 (Constraint DOF : 0)
+field 'xi' DOF : 4885 (Constraint DOF : 0)
+total DOF : 14655
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4885 (Constraint DOF : 0)
+field ' c' DOF : 4885 (Constraint DOF : 0)
+field 'xi' DOF : 4885 (Constraint DOF : 0)
+total DOF : 14655
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4909 (Constraint DOF : 0)
+field ' c' DOF : 4909 (Constraint DOF : 0)
+field 'xi' DOF : 4909 (Constraint DOF : 0)
+total DOF : 14727
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4909 (Constraint DOF : 0)
+field ' c' DOF : 4909 (Constraint DOF : 0)
+field 'xi' DOF : 4909 (Constraint DOF : 0)
+total DOF : 14727
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4909 (Constraint DOF : 0)
+field ' c' DOF : 4909 (Constraint DOF : 0)
+field 'xi' DOF : 4909 (Constraint DOF : 0)
+total DOF : 14727
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4957 (Constraint DOF : 0)
+field ' c' DOF : 4957 (Constraint DOF : 0)
+field 'xi' DOF : 4957 (Constraint DOF : 0)
+total DOF : 14871
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4957 (Constraint DOF : 0)
+field ' c' DOF : 4957 (Constraint DOF : 0)
+field 'xi' DOF : 4957 (Constraint DOF : 0)
+total DOF : 14871
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:14000  time: 112
+Reinitializing matrix free object
+field 'phi' DOF : 4933 (Constraint DOF : 0)
+field ' c' DOF : 4933 (Constraint DOF : 0)
+field 'xi' DOF : 4933 (Constraint DOF : 0)
+total DOF : 14799
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.046829e+01, current residual:5.040067e+03
+field ' c' [explicit solve]: current solution: 4.058821e+01, current residual:2.683980e+03
+field 'xi' [auxiliary solve]: current solution: 1.812919e+00, current residual:3.193999e-01
+wall time: 0.000974673s
+Output written to:solution-014000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 4957 (Constraint DOF : 0)
+field ' c' DOF : 4957 (Constraint DOF : 0)
+field 'xi' DOF : 4957 (Constraint DOF : 0)
+total DOF : 14871
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4981 (Constraint DOF : 0)
+field ' c' DOF : 4981 (Constraint DOF : 0)
+field 'xi' DOF : 4981 (Constraint DOF : 0)
+total DOF : 14943
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4981 (Constraint DOF : 0)
+field ' c' DOF : 4981 (Constraint DOF : 0)
+field 'xi' DOF : 4981 (Constraint DOF : 0)
+total DOF : 14943
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4981 (Constraint DOF : 0)
+field ' c' DOF : 4981 (Constraint DOF : 0)
+field 'xi' DOF : 4981 (Constraint DOF : 0)
+total DOF : 14943
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4957 (Constraint DOF : 0)
+field ' c' DOF : 4957 (Constraint DOF : 0)
+field 'xi' DOF : 4957 (Constraint DOF : 0)
+total DOF : 14871
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4957 (Constraint DOF : 0)
+field ' c' DOF : 4957 (Constraint DOF : 0)
+field 'xi' DOF : 4957 (Constraint DOF : 0)
+total DOF : 14871
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4957 (Constraint DOF : 0)
+field ' c' DOF : 4957 (Constraint DOF : 0)
+field 'xi' DOF : 4957 (Constraint DOF : 0)
+total DOF : 14871
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4957 (Constraint DOF : 0)
+field ' c' DOF : 4957 (Constraint DOF : 0)
+field 'xi' DOF : 4957 (Constraint DOF : 0)
+total DOF : 14871
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4957 (Constraint DOF : 0)
+field ' c' DOF : 4957 (Constraint DOF : 0)
+field 'xi' DOF : 4957 (Constraint DOF : 0)
+total DOF : 14871
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4957 (Constraint DOF : 0)
+field ' c' DOF : 4957 (Constraint DOF : 0)
+field 'xi' DOF : 4957 (Constraint DOF : 0)
+total DOF : 14871
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 4957 (Constraint DOF : 0)
+field ' c' DOF : 4957 (Constraint DOF : 0)
+field 'xi' DOF : 4957 (Constraint DOF : 0)
+total DOF : 14871
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5089 (Constraint DOF : 0)
+field ' c' DOF : 5089 (Constraint DOF : 0)
+field 'xi' DOF : 5089 (Constraint DOF : 0)
+total DOF : 15267
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5113 (Constraint DOF : 0)
+field ' c' DOF : 5113 (Constraint DOF : 0)
+field 'xi' DOF : 5113 (Constraint DOF : 0)
+total DOF : 15339
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5137 (Constraint DOF : 0)
+field ' c' DOF : 5137 (Constraint DOF : 0)
+field 'xi' DOF : 5137 (Constraint DOF : 0)
+total DOF : 15411
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5139 (Constraint DOF : 0)
+field ' c' DOF : 5139 (Constraint DOF : 0)
+field 'xi' DOF : 5139 (Constraint DOF : 0)
+total DOF : 15417
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5139 (Constraint DOF : 0)
+field ' c' DOF : 5139 (Constraint DOF : 0)
+field 'xi' DOF : 5139 (Constraint DOF : 0)
+total DOF : 15417
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5139 (Constraint DOF : 0)
+field ' c' DOF : 5139 (Constraint DOF : 0)
+field 'xi' DOF : 5139 (Constraint DOF : 0)
+total DOF : 15417
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5117 (Constraint DOF : 0)
+field ' c' DOF : 5117 (Constraint DOF : 0)
+field 'xi' DOF : 5117 (Constraint DOF : 0)
+total DOF : 15351
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5117 (Constraint DOF : 0)
+field ' c' DOF : 5117 (Constraint DOF : 0)
+field 'xi' DOF : 5117 (Constraint DOF : 0)
+total DOF : 15351
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:15000  time: 120
+Reinitializing matrix free object
+field 'phi' DOF : 5141 (Constraint DOF : 0)
+field ' c' DOF : 5141 (Constraint DOF : 0)
+field 'xi' DOF : 5141 (Constraint DOF : 0)
+total DOF : 15423
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.175662e+01, current residual:5.040056e+03
+field ' c' [explicit solve]: current solution: 4.147557e+01, current residual:2.684032e+03
+field 'xi' [auxiliary solve]: current solution: 1.786686e+00, current residual:3.147709e-01
+wall time: 0.00102156s
+Output written to:solution-015000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 5165 (Constraint DOF : 0)
+field ' c' DOF : 5165 (Constraint DOF : 0)
+field 'xi' DOF : 5165 (Constraint DOF : 0)
+total DOF : 15495
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5165 (Constraint DOF : 0)
+field ' c' DOF : 5165 (Constraint DOF : 0)
+field 'xi' DOF : 5165 (Constraint DOF : 0)
+total DOF : 15495
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5177 (Constraint DOF : 0)
+field ' c' DOF : 5177 (Constraint DOF : 0)
+field 'xi' DOF : 5177 (Constraint DOF : 0)
+total DOF : 15531
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5105 (Constraint DOF : 0)
+field ' c' DOF : 5105 (Constraint DOF : 0)
+field 'xi' DOF : 5105 (Constraint DOF : 0)
+total DOF : 15315
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5105 (Constraint DOF : 0)
+field ' c' DOF : 5105 (Constraint DOF : 0)
+field 'xi' DOF : 5105 (Constraint DOF : 0)
+total DOF : 15315
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5105 (Constraint DOF : 0)
+field ' c' DOF : 5105 (Constraint DOF : 0)
+field 'xi' DOF : 5105 (Constraint DOF : 0)
+total DOF : 15315
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5153 (Constraint DOF : 0)
+field ' c' DOF : 5153 (Constraint DOF : 0)
+field 'xi' DOF : 5153 (Constraint DOF : 0)
+total DOF : 15459
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5153 (Constraint DOF : 0)
+field ' c' DOF : 5153 (Constraint DOF : 0)
+field 'xi' DOF : 5153 (Constraint DOF : 0)
+total DOF : 15459
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5129 (Constraint DOF : 0)
+field ' c' DOF : 5129 (Constraint DOF : 0)
+field 'xi' DOF : 5129 (Constraint DOF : 0)
+total DOF : 15387
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5153 (Constraint DOF : 0)
+field ' c' DOF : 5153 (Constraint DOF : 0)
+field 'xi' DOF : 5153 (Constraint DOF : 0)
+total DOF : 15459
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5153 (Constraint DOF : 0)
+field ' c' DOF : 5153 (Constraint DOF : 0)
+field 'xi' DOF : 5153 (Constraint DOF : 0)
+total DOF : 15459
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5153 (Constraint DOF : 0)
+field ' c' DOF : 5153 (Constraint DOF : 0)
+field 'xi' DOF : 5153 (Constraint DOF : 0)
+total DOF : 15459
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5153 (Constraint DOF : 0)
+field ' c' DOF : 5153 (Constraint DOF : 0)
+field 'xi' DOF : 5153 (Constraint DOF : 0)
+total DOF : 15459
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5177 (Constraint DOF : 0)
+field ' c' DOF : 5177 (Constraint DOF : 0)
+field 'xi' DOF : 5177 (Constraint DOF : 0)
+total DOF : 15531
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5177 (Constraint DOF : 0)
+field ' c' DOF : 5177 (Constraint DOF : 0)
+field 'xi' DOF : 5177 (Constraint DOF : 0)
+total DOF : 15531
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5201 (Constraint DOF : 0)
+field ' c' DOF : 5201 (Constraint DOF : 0)
+field 'xi' DOF : 5201 (Constraint DOF : 0)
+total DOF : 15603
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5153 (Constraint DOF : 0)
+field ' c' DOF : 5153 (Constraint DOF : 0)
+field 'xi' DOF : 5153 (Constraint DOF : 0)
+total DOF : 15459
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5153 (Constraint DOF : 0)
+field ' c' DOF : 5153 (Constraint DOF : 0)
+field 'xi' DOF : 5153 (Constraint DOF : 0)
+total DOF : 15459
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5153 (Constraint DOF : 0)
+field ' c' DOF : 5153 (Constraint DOF : 0)
+field 'xi' DOF : 5153 (Constraint DOF : 0)
+total DOF : 15459
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:16000  time: 128
+Reinitializing matrix free object
+field 'phi' DOF : 5153 (Constraint DOF : 0)
+field ' c' DOF : 5153 (Constraint DOF : 0)
+field 'xi' DOF : 5153 (Constraint DOF : 0)
+total DOF : 15459
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.164307e+01, current residual:5.040056e+03
+field ' c' [explicit solve]: current solution: 4.147758e+01, current residual:2.684100e+03
+field 'xi' [auxiliary solve]: current solution: 1.763210e+00, current residual:3.106276e-01
+wall time: 0.00122262s
+Output written to:solution-016000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 5207 (Constraint DOF : 0)
+field ' c' DOF : 5207 (Constraint DOF : 0)
+field 'xi' DOF : 5207 (Constraint DOF : 0)
+total DOF : 15621
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5255 (Constraint DOF : 0)
+field ' c' DOF : 5255 (Constraint DOF : 0)
+field 'xi' DOF : 5255 (Constraint DOF : 0)
+total DOF : 15765
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5255 (Constraint DOF : 0)
+field ' c' DOF : 5255 (Constraint DOF : 0)
+field 'xi' DOF : 5255 (Constraint DOF : 0)
+total DOF : 15765
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5279 (Constraint DOF : 0)
+field ' c' DOF : 5279 (Constraint DOF : 0)
+field 'xi' DOF : 5279 (Constraint DOF : 0)
+total DOF : 15837
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5327 (Constraint DOF : 0)
+field ' c' DOF : 5327 (Constraint DOF : 0)
+field 'xi' DOF : 5327 (Constraint DOF : 0)
+total DOF : 15981
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5375 (Constraint DOF : 0)
+field ' c' DOF : 5375 (Constraint DOF : 0)
+field 'xi' DOF : 5375 (Constraint DOF : 0)
+total DOF : 16125
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5329 (Constraint DOF : 0)
+field ' c' DOF : 5329 (Constraint DOF : 0)
+field 'xi' DOF : 5329 (Constraint DOF : 0)
+total DOF : 15987
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5329 (Constraint DOF : 0)
+field ' c' DOF : 5329 (Constraint DOF : 0)
+field 'xi' DOF : 5329 (Constraint DOF : 0)
+total DOF : 15987
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5329 (Constraint DOF : 0)
+field ' c' DOF : 5329 (Constraint DOF : 0)
+field 'xi' DOF : 5329 (Constraint DOF : 0)
+total DOF : 15987
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5353 (Constraint DOF : 0)
+field ' c' DOF : 5353 (Constraint DOF : 0)
+field 'xi' DOF : 5353 (Constraint DOF : 0)
+total DOF : 16059
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5353 (Constraint DOF : 0)
+field ' c' DOF : 5353 (Constraint DOF : 0)
+field 'xi' DOF : 5353 (Constraint DOF : 0)
+total DOF : 16059
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5353 (Constraint DOF : 0)
+field ' c' DOF : 5353 (Constraint DOF : 0)
+field 'xi' DOF : 5353 (Constraint DOF : 0)
+total DOF : 16059
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5353 (Constraint DOF : 0)
+field ' c' DOF : 5353 (Constraint DOF : 0)
+field 'xi' DOF : 5353 (Constraint DOF : 0)
+total DOF : 16059
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5353 (Constraint DOF : 0)
+field ' c' DOF : 5353 (Constraint DOF : 0)
+field 'xi' DOF : 5353 (Constraint DOF : 0)
+total DOF : 16059
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5353 (Constraint DOF : 0)
+field ' c' DOF : 5353 (Constraint DOF : 0)
+field 'xi' DOF : 5353 (Constraint DOF : 0)
+total DOF : 16059
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5377 (Constraint DOF : 0)
+field ' c' DOF : 5377 (Constraint DOF : 0)
+field 'xi' DOF : 5377 (Constraint DOF : 0)
+total DOF : 16131
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5305 (Constraint DOF : 0)
+field ' c' DOF : 5305 (Constraint DOF : 0)
+field 'xi' DOF : 5305 (Constraint DOF : 0)
+total DOF : 15915
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5353 (Constraint DOF : 0)
+field ' c' DOF : 5353 (Constraint DOF : 0)
+field 'xi' DOF : 5353 (Constraint DOF : 0)
+total DOF : 16059
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5353 (Constraint DOF : 0)
+field ' c' DOF : 5353 (Constraint DOF : 0)
+field 'xi' DOF : 5353 (Constraint DOF : 0)
+total DOF : 16059
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:17000  time: 136
+Reinitializing matrix free object
+field 'phi' DOF : 5353 (Constraint DOF : 0)
+field ' c' DOF : 5353 (Constraint DOF : 0)
+field 'xi' DOF : 5353 (Constraint DOF : 0)
+total DOF : 16059
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.294536e+01, current residual:5.039969e+03
+field ' c' [explicit solve]: current solution: 4.261596e+01, current residual:2.684117e+03
+field 'xi' [auxiliary solve]: current solution: 1.742261e+00, current residual:3.069222e-01
+wall time: 0.00105271s
+Output written to:solution-017000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 5401 (Constraint DOF : 0)
+field ' c' DOF : 5401 (Constraint DOF : 0)
+field 'xi' DOF : 5401 (Constraint DOF : 0)
+total DOF : 16203
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5401 (Constraint DOF : 0)
+field ' c' DOF : 5401 (Constraint DOF : 0)
+field 'xi' DOF : 5401 (Constraint DOF : 0)
+total DOF : 16203
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5377 (Constraint DOF : 0)
+field ' c' DOF : 5377 (Constraint DOF : 0)
+field 'xi' DOF : 5377 (Constraint DOF : 0)
+total DOF : 16131
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5377 (Constraint DOF : 0)
+field ' c' DOF : 5377 (Constraint DOF : 0)
+field 'xi' DOF : 5377 (Constraint DOF : 0)
+total DOF : 16131
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5377 (Constraint DOF : 0)
+field ' c' DOF : 5377 (Constraint DOF : 0)
+field 'xi' DOF : 5377 (Constraint DOF : 0)
+total DOF : 16131
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5401 (Constraint DOF : 0)
+field ' c' DOF : 5401 (Constraint DOF : 0)
+field 'xi' DOF : 5401 (Constraint DOF : 0)
+total DOF : 16203
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5377 (Constraint DOF : 0)
+field ' c' DOF : 5377 (Constraint DOF : 0)
+field 'xi' DOF : 5377 (Constraint DOF : 0)
+total DOF : 16131
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5377 (Constraint DOF : 0)
+field ' c' DOF : 5377 (Constraint DOF : 0)
+field 'xi' DOF : 5377 (Constraint DOF : 0)
+total DOF : 16131
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5377 (Constraint DOF : 0)
+field ' c' DOF : 5377 (Constraint DOF : 0)
+field 'xi' DOF : 5377 (Constraint DOF : 0)
+total DOF : 16131
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5521 (Constraint DOF : 0)
+field ' c' DOF : 5521 (Constraint DOF : 0)
+field 'xi' DOF : 5521 (Constraint DOF : 0)
+total DOF : 16563
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5521 (Constraint DOF : 0)
+field ' c' DOF : 5521 (Constraint DOF : 0)
+field 'xi' DOF : 5521 (Constraint DOF : 0)
+total DOF : 16563
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5545 (Constraint DOF : 0)
+field ' c' DOF : 5545 (Constraint DOF : 0)
+field 'xi' DOF : 5545 (Constraint DOF : 0)
+total DOF : 16635
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5641 (Constraint DOF : 0)
+field ' c' DOF : 5641 (Constraint DOF : 0)
+field 'xi' DOF : 5641 (Constraint DOF : 0)
+total DOF : 16923
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5641 (Constraint DOF : 0)
+field ' c' DOF : 5641 (Constraint DOF : 0)
+field 'xi' DOF : 5641 (Constraint DOF : 0)
+total DOF : 16923
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5665 (Constraint DOF : 0)
+field ' c' DOF : 5665 (Constraint DOF : 0)
+field 'xi' DOF : 5665 (Constraint DOF : 0)
+total DOF : 16995
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5643 (Constraint DOF : 0)
+field ' c' DOF : 5643 (Constraint DOF : 0)
+field 'xi' DOF : 5643 (Constraint DOF : 0)
+total DOF : 16929
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5667 (Constraint DOF : 0)
+field ' c' DOF : 5667 (Constraint DOF : 0)
+field 'xi' DOF : 5667 (Constraint DOF : 0)
+total DOF : 17001
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5621 (Constraint DOF : 0)
+field ' c' DOF : 5621 (Constraint DOF : 0)
+field 'xi' DOF : 5621 (Constraint DOF : 0)
+total DOF : 16863
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5645 (Constraint DOF : 0)
+field ' c' DOF : 5645 (Constraint DOF : 0)
+field 'xi' DOF : 5645 (Constraint DOF : 0)
+total DOF : 16935
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:18000  time: 144
+Reinitializing matrix free object
+field 'phi' DOF : 5717 (Constraint DOF : 0)
+field ' c' DOF : 5717 (Constraint DOF : 0)
+field 'xi' DOF : 5717 (Constraint DOF : 0)
+total DOF : 17151
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.530420e+01, current residual:5.037337e+03
+field ' c' [explicit solve]: current solution: 4.408983e+01, current residual:2.682617e+03
+field 'xi' [auxiliary solve]: current solution: 1.723627e+00, current residual:3.036179e-01
+wall time: 0.00108231s
+Output written to:solution-018000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 5741 (Constraint DOF : 0)
+field ' c' DOF : 5741 (Constraint DOF : 0)
+field 'xi' DOF : 5741 (Constraint DOF : 0)
+total DOF : 17223
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5717 (Constraint DOF : 0)
+field ' c' DOF : 5717 (Constraint DOF : 0)
+field 'xi' DOF : 5717 (Constraint DOF : 0)
+total DOF : 17151
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5717 (Constraint DOF : 0)
+field ' c' DOF : 5717 (Constraint DOF : 0)
+field 'xi' DOF : 5717 (Constraint DOF : 0)
+total DOF : 17151
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5681 (Constraint DOF : 0)
+field ' c' DOF : 5681 (Constraint DOF : 0)
+field 'xi' DOF : 5681 (Constraint DOF : 0)
+total DOF : 17043
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5681 (Constraint DOF : 0)
+field ' c' DOF : 5681 (Constraint DOF : 0)
+field 'xi' DOF : 5681 (Constraint DOF : 0)
+total DOF : 17043
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5657 (Constraint DOF : 0)
+field ' c' DOF : 5657 (Constraint DOF : 0)
+field 'xi' DOF : 5657 (Constraint DOF : 0)
+total DOF : 16971
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5657 (Constraint DOF : 0)
+field ' c' DOF : 5657 (Constraint DOF : 0)
+field 'xi' DOF : 5657 (Constraint DOF : 0)
+total DOF : 16971
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5681 (Constraint DOF : 0)
+field ' c' DOF : 5681 (Constraint DOF : 0)
+field 'xi' DOF : 5681 (Constraint DOF : 0)
+total DOF : 17043
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5777 (Constraint DOF : 0)
+field ' c' DOF : 5777 (Constraint DOF : 0)
+field 'xi' DOF : 5777 (Constraint DOF : 0)
+total DOF : 17331
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5753 (Constraint DOF : 0)
+field ' c' DOF : 5753 (Constraint DOF : 0)
+field 'xi' DOF : 5753 (Constraint DOF : 0)
+total DOF : 17259
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5729 (Constraint DOF : 0)
+field ' c' DOF : 5729 (Constraint DOF : 0)
+field 'xi' DOF : 5729 (Constraint DOF : 0)
+total DOF : 17187
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5681 (Constraint DOF : 0)
+field ' c' DOF : 5681 (Constraint DOF : 0)
+field 'xi' DOF : 5681 (Constraint DOF : 0)
+total DOF : 17043
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5681 (Constraint DOF : 0)
+field ' c' DOF : 5681 (Constraint DOF : 0)
+field 'xi' DOF : 5681 (Constraint DOF : 0)
+total DOF : 17043
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5681 (Constraint DOF : 0)
+field ' c' DOF : 5681 (Constraint DOF : 0)
+field 'xi' DOF : 5681 (Constraint DOF : 0)
+total DOF : 17043
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5681 (Constraint DOF : 0)
+field ' c' DOF : 5681 (Constraint DOF : 0)
+field 'xi' DOF : 5681 (Constraint DOF : 0)
+total DOF : 17043
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5681 (Constraint DOF : 0)
+field ' c' DOF : 5681 (Constraint DOF : 0)
+field 'xi' DOF : 5681 (Constraint DOF : 0)
+total DOF : 17043
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5681 (Constraint DOF : 0)
+field ' c' DOF : 5681 (Constraint DOF : 0)
+field 'xi' DOF : 5681 (Constraint DOF : 0)
+total DOF : 17043
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5705 (Constraint DOF : 0)
+field ' c' DOF : 5705 (Constraint DOF : 0)
+field 'xi' DOF : 5705 (Constraint DOF : 0)
+total DOF : 17115
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5783 (Constraint DOF : 0)
+field ' c' DOF : 5783 (Constraint DOF : 0)
+field 'xi' DOF : 5783 (Constraint DOF : 0)
+total DOF : 17349
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:19000  time: 152
+Reinitializing matrix free object
+field 'phi' DOF : 5735 (Constraint DOF : 0)
+field ' c' DOF : 5735 (Constraint DOF : 0)
+field 'xi' DOF : 5735 (Constraint DOF : 0)
+total DOF : 17205
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.520289e+01, current residual:5.037372e+03
+field ' c' [explicit solve]: current solution: 4.423221e+01, current residual:2.682686e+03
+field 'xi' [auxiliary solve]: current solution: 1.706744e+00, current residual:3.006270e-01
+wall time: 0.00107745s
+Output written to:solution-019000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 5735 (Constraint DOF : 0)
+field ' c' DOF : 5735 (Constraint DOF : 0)
+field 'xi' DOF : 5735 (Constraint DOF : 0)
+total DOF : 17205
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5759 (Constraint DOF : 0)
+field ' c' DOF : 5759 (Constraint DOF : 0)
+field 'xi' DOF : 5759 (Constraint DOF : 0)
+total DOF : 17277
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5783 (Constraint DOF : 0)
+field ' c' DOF : 5783 (Constraint DOF : 0)
+field 'xi' DOF : 5783 (Constraint DOF : 0)
+total DOF : 17349
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5783 (Constraint DOF : 0)
+field ' c' DOF : 5783 (Constraint DOF : 0)
+field 'xi' DOF : 5783 (Constraint DOF : 0)
+total DOF : 17349
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5795 (Constraint DOF : 0)
+field ' c' DOF : 5795 (Constraint DOF : 0)
+field 'xi' DOF : 5795 (Constraint DOF : 0)
+total DOF : 17385
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5821 (Constraint DOF : 0)
+field ' c' DOF : 5821 (Constraint DOF : 0)
+field 'xi' DOF : 5821 (Constraint DOF : 0)
+total DOF : 17463
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5845 (Constraint DOF : 0)
+field ' c' DOF : 5845 (Constraint DOF : 0)
+field 'xi' DOF : 5845 (Constraint DOF : 0)
+total DOF : 17535
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5845 (Constraint DOF : 0)
+field ' c' DOF : 5845 (Constraint DOF : 0)
+field 'xi' DOF : 5845 (Constraint DOF : 0)
+total DOF : 17535
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5823 (Constraint DOF : 0)
+field ' c' DOF : 5823 (Constraint DOF : 0)
+field 'xi' DOF : 5823 (Constraint DOF : 0)
+total DOF : 17469
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5799 (Constraint DOF : 0)
+field ' c' DOF : 5799 (Constraint DOF : 0)
+field 'xi' DOF : 5799 (Constraint DOF : 0)
+total DOF : 17397
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5823 (Constraint DOF : 0)
+field ' c' DOF : 5823 (Constraint DOF : 0)
+field 'xi' DOF : 5823 (Constraint DOF : 0)
+total DOF : 17469
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5823 (Constraint DOF : 0)
+field ' c' DOF : 5823 (Constraint DOF : 0)
+field 'xi' DOF : 5823 (Constraint DOF : 0)
+total DOF : 17469
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5823 (Constraint DOF : 0)
+field ' c' DOF : 5823 (Constraint DOF : 0)
+field 'xi' DOF : 5823 (Constraint DOF : 0)
+total DOF : 17469
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5823 (Constraint DOF : 0)
+field ' c' DOF : 5823 (Constraint DOF : 0)
+field 'xi' DOF : 5823 (Constraint DOF : 0)
+total DOF : 17469
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5823 (Constraint DOF : 0)
+field ' c' DOF : 5823 (Constraint DOF : 0)
+field 'xi' DOF : 5823 (Constraint DOF : 0)
+total DOF : 17469
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5847 (Constraint DOF : 0)
+field ' c' DOF : 5847 (Constraint DOF : 0)
+field 'xi' DOF : 5847 (Constraint DOF : 0)
+total DOF : 17541
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5847 (Constraint DOF : 0)
+field ' c' DOF : 5847 (Constraint DOF : 0)
+field 'xi' DOF : 5847 (Constraint DOF : 0)
+total DOF : 17541
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5847 (Constraint DOF : 0)
+field ' c' DOF : 5847 (Constraint DOF : 0)
+field 'xi' DOF : 5847 (Constraint DOF : 0)
+total DOF : 17541
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5871 (Constraint DOF : 0)
+field ' c' DOF : 5871 (Constraint DOF : 0)
+field 'xi' DOF : 5871 (Constraint DOF : 0)
+total DOF : 17613
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:20000  time: 160
+Reinitializing matrix free object
+field 'phi' DOF : 5943 (Constraint DOF : 0)
+field ' c' DOF : 5943 (Constraint DOF : 0)
+field 'xi' DOF : 5943 (Constraint DOF : 0)
+total DOF : 17829
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.649984e+01, current residual:5.037357e+03
+field ' c' [explicit solve]: current solution: 4.522247e+01, current residual:2.682704e+03
+field 'xi' [auxiliary solve]: current solution: 1.691598e+00, current residual:2.979357e-01
+wall time: 0.00109016s
+Output written to:solution-020000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 5919 (Constraint DOF : 0)
+field ' c' DOF : 5919 (Constraint DOF : 0)
+field 'xi' DOF : 5919 (Constraint DOF : 0)
+total DOF : 17757
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5895 (Constraint DOF : 0)
+field ' c' DOF : 5895 (Constraint DOF : 0)
+field 'xi' DOF : 5895 (Constraint DOF : 0)
+total DOF : 17685
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5895 (Constraint DOF : 0)
+field ' c' DOF : 5895 (Constraint DOF : 0)
+field 'xi' DOF : 5895 (Constraint DOF : 0)
+total DOF : 17685
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5919 (Constraint DOF : 0)
+field ' c' DOF : 5919 (Constraint DOF : 0)
+field 'xi' DOF : 5919 (Constraint DOF : 0)
+total DOF : 17757
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5919 (Constraint DOF : 0)
+field ' c' DOF : 5919 (Constraint DOF : 0)
+field 'xi' DOF : 5919 (Constraint DOF : 0)
+total DOF : 17757
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5943 (Constraint DOF : 0)
+field ' c' DOF : 5943 (Constraint DOF : 0)
+field 'xi' DOF : 5943 (Constraint DOF : 0)
+total DOF : 17829
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5895 (Constraint DOF : 0)
+field ' c' DOF : 5895 (Constraint DOF : 0)
+field 'xi' DOF : 5895 (Constraint DOF : 0)
+total DOF : 17685
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5895 (Constraint DOF : 0)
+field ' c' DOF : 5895 (Constraint DOF : 0)
+field 'xi' DOF : 5895 (Constraint DOF : 0)
+total DOF : 17685
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5931 (Constraint DOF : 0)
+field ' c' DOF : 5931 (Constraint DOF : 0)
+field 'xi' DOF : 5931 (Constraint DOF : 0)
+total DOF : 17793
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5931 (Constraint DOF : 0)
+field ' c' DOF : 5931 (Constraint DOF : 0)
+field 'xi' DOF : 5931 (Constraint DOF : 0)
+total DOF : 17793
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 5931 (Constraint DOF : 0)
+field ' c' DOF : 5931 (Constraint DOF : 0)
+field 'xi' DOF : 5931 (Constraint DOF : 0)
+total DOF : 17793
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6003 (Constraint DOF : 0)
+field ' c' DOF : 6003 (Constraint DOF : 0)
+field 'xi' DOF : 6003 (Constraint DOF : 0)
+total DOF : 18009
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6027 (Constraint DOF : 0)
+field ' c' DOF : 6027 (Constraint DOF : 0)
+field 'xi' DOF : 6027 (Constraint DOF : 0)
+total DOF : 18081
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6027 (Constraint DOF : 0)
+field ' c' DOF : 6027 (Constraint DOF : 0)
+field 'xi' DOF : 6027 (Constraint DOF : 0)
+total DOF : 18081
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6003 (Constraint DOF : 0)
+field ' c' DOF : 6003 (Constraint DOF : 0)
+field 'xi' DOF : 6003 (Constraint DOF : 0)
+total DOF : 18009
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6051 (Constraint DOF : 0)
+field ' c' DOF : 6051 (Constraint DOF : 0)
+field 'xi' DOF : 6051 (Constraint DOF : 0)
+total DOF : 18153
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6029 (Constraint DOF : 0)
+field ' c' DOF : 6029 (Constraint DOF : 0)
+field 'xi' DOF : 6029 (Constraint DOF : 0)
+total DOF : 18087
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6005 (Constraint DOF : 0)
+field ' c' DOF : 6005 (Constraint DOF : 0)
+field 'xi' DOF : 6005 (Constraint DOF : 0)
+total DOF : 18015
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6029 (Constraint DOF : 0)
+field ' c' DOF : 6029 (Constraint DOF : 0)
+field 'xi' DOF : 6029 (Constraint DOF : 0)
+total DOF : 18087
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:21000  time: 168
+Reinitializing matrix free object
+field 'phi' DOF : 6053 (Constraint DOF : 0)
+field ' c' DOF : 6053 (Constraint DOF : 0)
+field 'xi' DOF : 6053 (Constraint DOF : 0)
+total DOF : 18159
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.700126e+01, current residual:5.037347e+03
+field ' c' [explicit solve]: current solution: 4.562657e+01, current residual:2.682787e+03
+field 'xi' [auxiliary solve]: current solution: 1.678091e+00, current residual:2.955325e-01
+wall time: 0.00119002s
+Output written to:solution-021000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 6077 (Constraint DOF : 0)
+field ' c' DOF : 6077 (Constraint DOF : 0)
+field 'xi' DOF : 6077 (Constraint DOF : 0)
+total DOF : 18231
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6077 (Constraint DOF : 0)
+field ' c' DOF : 6077 (Constraint DOF : 0)
+field 'xi' DOF : 6077 (Constraint DOF : 0)
+total DOF : 18231
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6055 (Constraint DOF : 0)
+field ' c' DOF : 6055 (Constraint DOF : 0)
+field 'xi' DOF : 6055 (Constraint DOF : 0)
+total DOF : 18165
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6055 (Constraint DOF : 0)
+field ' c' DOF : 6055 (Constraint DOF : 0)
+field 'xi' DOF : 6055 (Constraint DOF : 0)
+total DOF : 18165
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6079 (Constraint DOF : 0)
+field ' c' DOF : 6079 (Constraint DOF : 0)
+field 'xi' DOF : 6079 (Constraint DOF : 0)
+total DOF : 18237
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6079 (Constraint DOF : 0)
+field ' c' DOF : 6079 (Constraint DOF : 0)
+field 'xi' DOF : 6079 (Constraint DOF : 0)
+total DOF : 18237
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6055 (Constraint DOF : 0)
+field ' c' DOF : 6055 (Constraint DOF : 0)
+field 'xi' DOF : 6055 (Constraint DOF : 0)
+total DOF : 18165
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6055 (Constraint DOF : 0)
+field ' c' DOF : 6055 (Constraint DOF : 0)
+field 'xi' DOF : 6055 (Constraint DOF : 0)
+total DOF : 18165
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6079 (Constraint DOF : 0)
+field ' c' DOF : 6079 (Constraint DOF : 0)
+field 'xi' DOF : 6079 (Constraint DOF : 0)
+total DOF : 18237
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6127 (Constraint DOF : 0)
+field ' c' DOF : 6127 (Constraint DOF : 0)
+field 'xi' DOF : 6127 (Constraint DOF : 0)
+total DOF : 18381
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6151 (Constraint DOF : 0)
+field ' c' DOF : 6151 (Constraint DOF : 0)
+field 'xi' DOF : 6151 (Constraint DOF : 0)
+total DOF : 18453
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6187 (Constraint DOF : 0)
+field ' c' DOF : 6187 (Constraint DOF : 0)
+field 'xi' DOF : 6187 (Constraint DOF : 0)
+total DOF : 18561
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6163 (Constraint DOF : 0)
+field ' c' DOF : 6163 (Constraint DOF : 0)
+field 'xi' DOF : 6163 (Constraint DOF : 0)
+total DOF : 18489
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6115 (Constraint DOF : 0)
+field ' c' DOF : 6115 (Constraint DOF : 0)
+field 'xi' DOF : 6115 (Constraint DOF : 0)
+total DOF : 18345
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6115 (Constraint DOF : 0)
+field ' c' DOF : 6115 (Constraint DOF : 0)
+field 'xi' DOF : 6115 (Constraint DOF : 0)
+total DOF : 18345
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6091 (Constraint DOF : 0)
+field ' c' DOF : 6091 (Constraint DOF : 0)
+field 'xi' DOF : 6091 (Constraint DOF : 0)
+total DOF : 18273
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6115 (Constraint DOF : 0)
+field ' c' DOF : 6115 (Constraint DOF : 0)
+field 'xi' DOF : 6115 (Constraint DOF : 0)
+total DOF : 18345
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6115 (Constraint DOF : 0)
+field ' c' DOF : 6115 (Constraint DOF : 0)
+field 'xi' DOF : 6115 (Constraint DOF : 0)
+total DOF : 18345
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6169 (Constraint DOF : 0)
+field ' c' DOF : 6169 (Constraint DOF : 0)
+field 'xi' DOF : 6169 (Constraint DOF : 0)
+total DOF : 18507
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:22000  time: 176
+Reinitializing matrix free object
+field 'phi' DOF : 6145 (Constraint DOF : 0)
+field ' c' DOF : 6145 (Constraint DOF : 0)
+field 'xi' DOF : 6145 (Constraint DOF : 0)
+total DOF : 18435
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.740977e+01, current residual:5.037345e+03
+field ' c' [explicit solve]: current solution: 4.607921e+01, current residual:2.682887e+03
+field 'xi' [auxiliary solve]: current solution: 1.666127e+00, current residual:2.934014e-01
+wall time: 0.00109035s
+Output written to:solution-022000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 6145 (Constraint DOF : 0)
+field ' c' DOF : 6145 (Constraint DOF : 0)
+field 'xi' DOF : 6145 (Constraint DOF : 0)
+total DOF : 18435
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6169 (Constraint DOF : 0)
+field ' c' DOF : 6169 (Constraint DOF : 0)
+field 'xi' DOF : 6169 (Constraint DOF : 0)
+total DOF : 18507
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6145 (Constraint DOF : 0)
+field ' c' DOF : 6145 (Constraint DOF : 0)
+field 'xi' DOF : 6145 (Constraint DOF : 0)
+total DOF : 18435
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6169 (Constraint DOF : 0)
+field ' c' DOF : 6169 (Constraint DOF : 0)
+field 'xi' DOF : 6169 (Constraint DOF : 0)
+total DOF : 18507
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6169 (Constraint DOF : 0)
+field ' c' DOF : 6169 (Constraint DOF : 0)
+field 'xi' DOF : 6169 (Constraint DOF : 0)
+total DOF : 18507
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6217 (Constraint DOF : 0)
+field ' c' DOF : 6217 (Constraint DOF : 0)
+field 'xi' DOF : 6217 (Constraint DOF : 0)
+total DOF : 18651
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6219 (Constraint DOF : 0)
+field ' c' DOF : 6219 (Constraint DOF : 0)
+field 'xi' DOF : 6219 (Constraint DOF : 0)
+total DOF : 18657
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6219 (Constraint DOF : 0)
+field ' c' DOF : 6219 (Constraint DOF : 0)
+field 'xi' DOF : 6219 (Constraint DOF : 0)
+total DOF : 18657
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6195 (Constraint DOF : 0)
+field ' c' DOF : 6195 (Constraint DOF : 0)
+field 'xi' DOF : 6195 (Constraint DOF : 0)
+total DOF : 18585
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6171 (Constraint DOF : 0)
+field ' c' DOF : 6171 (Constraint DOF : 0)
+field 'xi' DOF : 6171 (Constraint DOF : 0)
+total DOF : 18513
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6171 (Constraint DOF : 0)
+field ' c' DOF : 6171 (Constraint DOF : 0)
+field 'xi' DOF : 6171 (Constraint DOF : 0)
+total DOF : 18513
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6171 (Constraint DOF : 0)
+field ' c' DOF : 6171 (Constraint DOF : 0)
+field 'xi' DOF : 6171 (Constraint DOF : 0)
+total DOF : 18513
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6195 (Constraint DOF : 0)
+field ' c' DOF : 6195 (Constraint DOF : 0)
+field 'xi' DOF : 6195 (Constraint DOF : 0)
+total DOF : 18585
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6195 (Constraint DOF : 0)
+field ' c' DOF : 6195 (Constraint DOF : 0)
+field 'xi' DOF : 6195 (Constraint DOF : 0)
+total DOF : 18585
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6255 (Constraint DOF : 0)
+field ' c' DOF : 6255 (Constraint DOF : 0)
+field 'xi' DOF : 6255 (Constraint DOF : 0)
+total DOF : 18765
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6255 (Constraint DOF : 0)
+field ' c' DOF : 6255 (Constraint DOF : 0)
+field 'xi' DOF : 6255 (Constraint DOF : 0)
+total DOF : 18765
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6279 (Constraint DOF : 0)
+field ' c' DOF : 6279 (Constraint DOF : 0)
+field 'xi' DOF : 6279 (Constraint DOF : 0)
+total DOF : 18837
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6279 (Constraint DOF : 0)
+field ' c' DOF : 6279 (Constraint DOF : 0)
+field 'xi' DOF : 6279 (Constraint DOF : 0)
+total DOF : 18837
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6255 (Constraint DOF : 0)
+field ' c' DOF : 6255 (Constraint DOF : 0)
+field 'xi' DOF : 6255 (Constraint DOF : 0)
+total DOF : 18765
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:23000  time: 184
+Reinitializing matrix free object
+field 'phi' DOF : 6279 (Constraint DOF : 0)
+field ' c' DOF : 6279 (Constraint DOF : 0)
+field 'xi' DOF : 6279 (Constraint DOF : 0)
+total DOF : 18837
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.816828e+01, current residual:5.026767e+03
+field ' c' [explicit solve]: current solution: 4.647400e+01, current residual:2.677276e+03
+field 'xi' [auxiliary solve]: current solution: 1.655914e+00, current residual:2.915742e-01
+wall time: 0.00123041s
+Output written to:solution-023000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 6279 (Constraint DOF : 0)
+field ' c' DOF : 6279 (Constraint DOF : 0)
+field 'xi' DOF : 6279 (Constraint DOF : 0)
+total DOF : 18837
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6327 (Constraint DOF : 0)
+field ' c' DOF : 6327 (Constraint DOF : 0)
+field 'xi' DOF : 6327 (Constraint DOF : 0)
+total DOF : 18981
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6375 (Constraint DOF : 0)
+field ' c' DOF : 6375 (Constraint DOF : 0)
+field 'xi' DOF : 6375 (Constraint DOF : 0)
+total DOF : 19125
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6375 (Constraint DOF : 0)
+field ' c' DOF : 6375 (Constraint DOF : 0)
+field 'xi' DOF : 6375 (Constraint DOF : 0)
+total DOF : 19125
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6375 (Constraint DOF : 0)
+field ' c' DOF : 6375 (Constraint DOF : 0)
+field 'xi' DOF : 6375 (Constraint DOF : 0)
+total DOF : 19125
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6375 (Constraint DOF : 0)
+field ' c' DOF : 6375 (Constraint DOF : 0)
+field 'xi' DOF : 6375 (Constraint DOF : 0)
+total DOF : 19125
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6375 (Constraint DOF : 0)
+field ' c' DOF : 6375 (Constraint DOF : 0)
+field 'xi' DOF : 6375 (Constraint DOF : 0)
+total DOF : 19125
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6327 (Constraint DOF : 0)
+field ' c' DOF : 6327 (Constraint DOF : 0)
+field 'xi' DOF : 6327 (Constraint DOF : 0)
+total DOF : 18981
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6393 (Constraint DOF : 0)
+field ' c' DOF : 6393 (Constraint DOF : 0)
+field 'xi' DOF : 6393 (Constraint DOF : 0)
+total DOF : 19179
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6441 (Constraint DOF : 0)
+field ' c' DOF : 6441 (Constraint DOF : 0)
+field 'xi' DOF : 6441 (Constraint DOF : 0)
+total DOF : 19323
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6441 (Constraint DOF : 0)
+field ' c' DOF : 6441 (Constraint DOF : 0)
+field 'xi' DOF : 6441 (Constraint DOF : 0)
+total DOF : 19323
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6513 (Constraint DOF : 0)
+field ' c' DOF : 6513 (Constraint DOF : 0)
+field 'xi' DOF : 6513 (Constraint DOF : 0)
+total DOF : 19539
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6513 (Constraint DOF : 0)
+field ' c' DOF : 6513 (Constraint DOF : 0)
+field 'xi' DOF : 6513 (Constraint DOF : 0)
+total DOF : 19539
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6513 (Constraint DOF : 0)
+field ' c' DOF : 6513 (Constraint DOF : 0)
+field 'xi' DOF : 6513 (Constraint DOF : 0)
+total DOF : 19539
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6513 (Constraint DOF : 0)
+field ' c' DOF : 6513 (Constraint DOF : 0)
+field 'xi' DOF : 6513 (Constraint DOF : 0)
+total DOF : 19539
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6513 (Constraint DOF : 0)
+field ' c' DOF : 6513 (Constraint DOF : 0)
+field 'xi' DOF : 6513 (Constraint DOF : 0)
+total DOF : 19539
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6513 (Constraint DOF : 0)
+field ' c' DOF : 6513 (Constraint DOF : 0)
+field 'xi' DOF : 6513 (Constraint DOF : 0)
+total DOF : 19539
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6491 (Constraint DOF : 0)
+field ' c' DOF : 6491 (Constraint DOF : 0)
+field 'xi' DOF : 6491 (Constraint DOF : 0)
+total DOF : 19473
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6611 (Constraint DOF : 0)
+field ' c' DOF : 6611 (Constraint DOF : 0)
+field 'xi' DOF : 6611 (Constraint DOF : 0)
+total DOF : 19833
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:24000  time: 192
+Reinitializing matrix free object
+field 'phi' DOF : 6611 (Constraint DOF : 0)
+field ' c' DOF : 6611 (Constraint DOF : 0)
+field 'xi' DOF : 6611 (Constraint DOF : 0)
+total DOF : 19833
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.021104e+01, current residual:5.026519e+03
+field ' c' [explicit solve]: current solution: 4.794872e+01, current residual:2.677195e+03
+field 'xi' [auxiliary solve]: current solution: 1.647238e+00, current residual:2.900188e-01
+wall time: 0.00121907s
+Output written to:solution-024000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 6563 (Constraint DOF : 0)
+field ' c' DOF : 6563 (Constraint DOF : 0)
+field 'xi' DOF : 6563 (Constraint DOF : 0)
+total DOF : 19689
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6539 (Constraint DOF : 0)
+field ' c' DOF : 6539 (Constraint DOF : 0)
+field 'xi' DOF : 6539 (Constraint DOF : 0)
+total DOF : 19617
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6539 (Constraint DOF : 0)
+field ' c' DOF : 6539 (Constraint DOF : 0)
+field 'xi' DOF : 6539 (Constraint DOF : 0)
+total DOF : 19617
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6539 (Constraint DOF : 0)
+field ' c' DOF : 6539 (Constraint DOF : 0)
+field 'xi' DOF : 6539 (Constraint DOF : 0)
+total DOF : 19617
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6539 (Constraint DOF : 0)
+field ' c' DOF : 6539 (Constraint DOF : 0)
+field 'xi' DOF : 6539 (Constraint DOF : 0)
+total DOF : 19617
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6539 (Constraint DOF : 0)
+field ' c' DOF : 6539 (Constraint DOF : 0)
+field 'xi' DOF : 6539 (Constraint DOF : 0)
+total DOF : 19617
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6539 (Constraint DOF : 0)
+field ' c' DOF : 6539 (Constraint DOF : 0)
+field 'xi' DOF : 6539 (Constraint DOF : 0)
+total DOF : 19617
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6539 (Constraint DOF : 0)
+field ' c' DOF : 6539 (Constraint DOF : 0)
+field 'xi' DOF : 6539 (Constraint DOF : 0)
+total DOF : 19617
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6517 (Constraint DOF : 0)
+field ' c' DOF : 6517 (Constraint DOF : 0)
+field 'xi' DOF : 6517 (Constraint DOF : 0)
+total DOF : 19551
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6565 (Constraint DOF : 0)
+field ' c' DOF : 6565 (Constraint DOF : 0)
+field 'xi' DOF : 6565 (Constraint DOF : 0)
+total DOF : 19695
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6565 (Constraint DOF : 0)
+field ' c' DOF : 6565 (Constraint DOF : 0)
+field 'xi' DOF : 6565 (Constraint DOF : 0)
+total DOF : 19695
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6541 (Constraint DOF : 0)
+field ' c' DOF : 6541 (Constraint DOF : 0)
+field 'xi' DOF : 6541 (Constraint DOF : 0)
+total DOF : 19623
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6541 (Constraint DOF : 0)
+field ' c' DOF : 6541 (Constraint DOF : 0)
+field 'xi' DOF : 6541 (Constraint DOF : 0)
+total DOF : 19623
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6589 (Constraint DOF : 0)
+field ' c' DOF : 6589 (Constraint DOF : 0)
+field 'xi' DOF : 6589 (Constraint DOF : 0)
+total DOF : 19767
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6589 (Constraint DOF : 0)
+field ' c' DOF : 6589 (Constraint DOF : 0)
+field 'xi' DOF : 6589 (Constraint DOF : 0)
+total DOF : 19767
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6565 (Constraint DOF : 0)
+field ' c' DOF : 6565 (Constraint DOF : 0)
+field 'xi' DOF : 6565 (Constraint DOF : 0)
+total DOF : 19695
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6589 (Constraint DOF : 0)
+field ' c' DOF : 6589 (Constraint DOF : 0)
+field 'xi' DOF : 6589 (Constraint DOF : 0)
+total DOF : 19767
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6667 (Constraint DOF : 0)
+field ' c' DOF : 6667 (Constraint DOF : 0)
+field 'xi' DOF : 6667 (Constraint DOF : 0)
+total DOF : 20001
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6667 (Constraint DOF : 0)
+field ' c' DOF : 6667 (Constraint DOF : 0)
+field 'xi' DOF : 6667 (Constraint DOF : 0)
+total DOF : 20001
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:25000  time: 200
+Reinitializing matrix free object
+field 'phi' DOF : 6667 (Constraint DOF : 0)
+field ' c' DOF : 6667 (Constraint DOF : 0)
+field 'xi' DOF : 6667 (Constraint DOF : 0)
+total DOF : 20001
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.034311e+01, current residual:5.026519e+03
+field ' c' [explicit solve]: current solution: 4.802024e+01, current residual:2.677316e+03
+field 'xi' [auxiliary solve]: current solution: 1.639601e+00, current residual:2.886487e-01
+wall time: 0.00117738s
+Output written to:solution-025000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 6667 (Constraint DOF : 0)
+field ' c' DOF : 6667 (Constraint DOF : 0)
+field 'xi' DOF : 6667 (Constraint DOF : 0)
+total DOF : 20001
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6667 (Constraint DOF : 0)
+field ' c' DOF : 6667 (Constraint DOF : 0)
+field 'xi' DOF : 6667 (Constraint DOF : 0)
+total DOF : 20001
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6667 (Constraint DOF : 0)
+field ' c' DOF : 6667 (Constraint DOF : 0)
+field 'xi' DOF : 6667 (Constraint DOF : 0)
+total DOF : 20001
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6715 (Constraint DOF : 0)
+field ' c' DOF : 6715 (Constraint DOF : 0)
+field 'xi' DOF : 6715 (Constraint DOF : 0)
+total DOF : 20145
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6739 (Constraint DOF : 0)
+field ' c' DOF : 6739 (Constraint DOF : 0)
+field 'xi' DOF : 6739 (Constraint DOF : 0)
+total DOF : 20217
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6739 (Constraint DOF : 0)
+field ' c' DOF : 6739 (Constraint DOF : 0)
+field 'xi' DOF : 6739 (Constraint DOF : 0)
+total DOF : 20217
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6811 (Constraint DOF : 0)
+field ' c' DOF : 6811 (Constraint DOF : 0)
+field 'xi' DOF : 6811 (Constraint DOF : 0)
+total DOF : 20433
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6789 (Constraint DOF : 0)
+field ' c' DOF : 6789 (Constraint DOF : 0)
+field 'xi' DOF : 6789 (Constraint DOF : 0)
+total DOF : 20367
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6813 (Constraint DOF : 0)
+field ' c' DOF : 6813 (Constraint DOF : 0)
+field 'xi' DOF : 6813 (Constraint DOF : 0)
+total DOF : 20439
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6789 (Constraint DOF : 0)
+field ' c' DOF : 6789 (Constraint DOF : 0)
+field 'xi' DOF : 6789 (Constraint DOF : 0)
+total DOF : 20367
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6789 (Constraint DOF : 0)
+field ' c' DOF : 6789 (Constraint DOF : 0)
+field 'xi' DOF : 6789 (Constraint DOF : 0)
+total DOF : 20367
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6837 (Constraint DOF : 0)
+field ' c' DOF : 6837 (Constraint DOF : 0)
+field 'xi' DOF : 6837 (Constraint DOF : 0)
+total DOF : 20511
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6837 (Constraint DOF : 0)
+field ' c' DOF : 6837 (Constraint DOF : 0)
+field 'xi' DOF : 6837 (Constraint DOF : 0)
+total DOF : 20511
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6861 (Constraint DOF : 0)
+field ' c' DOF : 6861 (Constraint DOF : 0)
+field 'xi' DOF : 6861 (Constraint DOF : 0)
+total DOF : 20583
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6861 (Constraint DOF : 0)
+field ' c' DOF : 6861 (Constraint DOF : 0)
+field 'xi' DOF : 6861 (Constraint DOF : 0)
+total DOF : 20583
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6765 (Constraint DOF : 0)
+field ' c' DOF : 6765 (Constraint DOF : 0)
+field 'xi' DOF : 6765 (Constraint DOF : 0)
+total DOF : 20295
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6789 (Constraint DOF : 0)
+field ' c' DOF : 6789 (Constraint DOF : 0)
+field 'xi' DOF : 6789 (Constraint DOF : 0)
+total DOF : 20367
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6789 (Constraint DOF : 0)
+field ' c' DOF : 6789 (Constraint DOF : 0)
+field 'xi' DOF : 6789 (Constraint DOF : 0)
+total DOF : 20367
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6765 (Constraint DOF : 0)
+field ' c' DOF : 6765 (Constraint DOF : 0)
+field 'xi' DOF : 6765 (Constraint DOF : 0)
+total DOF : 20295
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:26000  time: 208
+Reinitializing matrix free object
+field 'phi' DOF : 6789 (Constraint DOF : 0)
+field ' c' DOF : 6789 (Constraint DOF : 0)
+field 'xi' DOF : 6789 (Constraint DOF : 0)
+total DOF : 20367
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.098221e+01, current residual:5.025278e+03
+field ' c' [explicit solve]: current solution: 4.874269e+01, current residual:2.676624e+03
+field 'xi' [auxiliary solve]: current solution: 1.633281e+00, current residual:2.875078e-01
+wall time: 0.00116405s
+Output written to:solution-026000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 6765 (Constraint DOF : 0)
+field ' c' DOF : 6765 (Constraint DOF : 0)
+field 'xi' DOF : 6765 (Constraint DOF : 0)
+total DOF : 20295
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6765 (Constraint DOF : 0)
+field ' c' DOF : 6765 (Constraint DOF : 0)
+field 'xi' DOF : 6765 (Constraint DOF : 0)
+total DOF : 20295
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6741 (Constraint DOF : 0)
+field ' c' DOF : 6741 (Constraint DOF : 0)
+field 'xi' DOF : 6741 (Constraint DOF : 0)
+total DOF : 20223
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6765 (Constraint DOF : 0)
+field ' c' DOF : 6765 (Constraint DOF : 0)
+field 'xi' DOF : 6765 (Constraint DOF : 0)
+total DOF : 20295
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6837 (Constraint DOF : 0)
+field ' c' DOF : 6837 (Constraint DOF : 0)
+field 'xi' DOF : 6837 (Constraint DOF : 0)
+total DOF : 20511
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6813 (Constraint DOF : 0)
+field ' c' DOF : 6813 (Constraint DOF : 0)
+field 'xi' DOF : 6813 (Constraint DOF : 0)
+total DOF : 20439
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6813 (Constraint DOF : 0)
+field ' c' DOF : 6813 (Constraint DOF : 0)
+field 'xi' DOF : 6813 (Constraint DOF : 0)
+total DOF : 20439
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6849 (Constraint DOF : 0)
+field ' c' DOF : 6849 (Constraint DOF : 0)
+field 'xi' DOF : 6849 (Constraint DOF : 0)
+total DOF : 20547
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6849 (Constraint DOF : 0)
+field ' c' DOF : 6849 (Constraint DOF : 0)
+field 'xi' DOF : 6849 (Constraint DOF : 0)
+total DOF : 20547
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6849 (Constraint DOF : 0)
+field ' c' DOF : 6849 (Constraint DOF : 0)
+field 'xi' DOF : 6849 (Constraint DOF : 0)
+total DOF : 20547
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6849 (Constraint DOF : 0)
+field ' c' DOF : 6849 (Constraint DOF : 0)
+field 'xi' DOF : 6849 (Constraint DOF : 0)
+total DOF : 20547
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6897 (Constraint DOF : 0)
+field ' c' DOF : 6897 (Constraint DOF : 0)
+field 'xi' DOF : 6897 (Constraint DOF : 0)
+total DOF : 20691
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6909 (Constraint DOF : 0)
+field ' c' DOF : 6909 (Constraint DOF : 0)
+field 'xi' DOF : 6909 (Constraint DOF : 0)
+total DOF : 20727
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6933 (Constraint DOF : 0)
+field ' c' DOF : 6933 (Constraint DOF : 0)
+field 'xi' DOF : 6933 (Constraint DOF : 0)
+total DOF : 20799
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6981 (Constraint DOF : 0)
+field ' c' DOF : 6981 (Constraint DOF : 0)
+field 'xi' DOF : 6981 (Constraint DOF : 0)
+total DOF : 20943
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7005 (Constraint DOF : 0)
+field ' c' DOF : 7005 (Constraint DOF : 0)
+field 'xi' DOF : 7005 (Constraint DOF : 0)
+total DOF : 21015
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6957 (Constraint DOF : 0)
+field ' c' DOF : 6957 (Constraint DOF : 0)
+field 'xi' DOF : 6957 (Constraint DOF : 0)
+total DOF : 20871
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6957 (Constraint DOF : 0)
+field ' c' DOF : 6957 (Constraint DOF : 0)
+field 'xi' DOF : 6957 (Constraint DOF : 0)
+total DOF : 20871
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6959 (Constraint DOF : 0)
+field ' c' DOF : 6959 (Constraint DOF : 0)
+field 'xi' DOF : 6959 (Constraint DOF : 0)
+total DOF : 20877
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:27000  time: 216
+Reinitializing matrix free object
+field 'phi' DOF : 6983 (Constraint DOF : 0)
+field ' c' DOF : 6983 (Constraint DOF : 0)
+field 'xi' DOF : 6983 (Constraint DOF : 0)
+total DOF : 20949
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.203154e+01, current residual:5.025186e+03
+field ' c' [explicit solve]: current solution: 4.936975e+01, current residual:2.676690e+03
+field 'xi' [auxiliary solve]: current solution: 1.628169e+00, current residual:2.865808e-01
+wall time: 0.00130577s
+Output written to:solution-027000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 7007 (Constraint DOF : 0)
+field ' c' DOF : 7007 (Constraint DOF : 0)
+field 'xi' DOF : 7007 (Constraint DOF : 0)
+total DOF : 21021
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7007 (Constraint DOF : 0)
+field ' c' DOF : 7007 (Constraint DOF : 0)
+field 'xi' DOF : 7007 (Constraint DOF : 0)
+total DOF : 21021
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7007 (Constraint DOF : 0)
+field ' c' DOF : 7007 (Constraint DOF : 0)
+field 'xi' DOF : 7007 (Constraint DOF : 0)
+total DOF : 21021
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7079 (Constraint DOF : 0)
+field ' c' DOF : 7079 (Constraint DOF : 0)
+field 'xi' DOF : 7079 (Constraint DOF : 0)
+total DOF : 21237
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7103 (Constraint DOF : 0)
+field ' c' DOF : 7103 (Constraint DOF : 0)
+field 'xi' DOF : 7103 (Constraint DOF : 0)
+total DOF : 21309
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7103 (Constraint DOF : 0)
+field ' c' DOF : 7103 (Constraint DOF : 0)
+field 'xi' DOF : 7103 (Constraint DOF : 0)
+total DOF : 21309
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7079 (Constraint DOF : 0)
+field ' c' DOF : 7079 (Constraint DOF : 0)
+field 'xi' DOF : 7079 (Constraint DOF : 0)
+total DOF : 21237
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7055 (Constraint DOF : 0)
+field ' c' DOF : 7055 (Constraint DOF : 0)
+field 'xi' DOF : 7055 (Constraint DOF : 0)
+total DOF : 21165
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7079 (Constraint DOF : 0)
+field ' c' DOF : 7079 (Constraint DOF : 0)
+field 'xi' DOF : 7079 (Constraint DOF : 0)
+total DOF : 21237
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7175 (Constraint DOF : 0)
+field ' c' DOF : 7175 (Constraint DOF : 0)
+field 'xi' DOF : 7175 (Constraint DOF : 0)
+total DOF : 21525
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7175 (Constraint DOF : 0)
+field ' c' DOF : 7175 (Constraint DOF : 0)
+field 'xi' DOF : 7175 (Constraint DOF : 0)
+total DOF : 21525
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7175 (Constraint DOF : 0)
+field ' c' DOF : 7175 (Constraint DOF : 0)
+field 'xi' DOF : 7175 (Constraint DOF : 0)
+total DOF : 21525
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7151 (Constraint DOF : 0)
+field ' c' DOF : 7151 (Constraint DOF : 0)
+field 'xi' DOF : 7151 (Constraint DOF : 0)
+total DOF : 21453
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7081 (Constraint DOF : 0)
+field ' c' DOF : 7081 (Constraint DOF : 0)
+field 'xi' DOF : 7081 (Constraint DOF : 0)
+total DOF : 21243
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7081 (Constraint DOF : 0)
+field ' c' DOF : 7081 (Constraint DOF : 0)
+field 'xi' DOF : 7081 (Constraint DOF : 0)
+total DOF : 21243
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7059 (Constraint DOF : 0)
+field ' c' DOF : 7059 (Constraint DOF : 0)
+field 'xi' DOF : 7059 (Constraint DOF : 0)
+total DOF : 21177
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7011 (Constraint DOF : 0)
+field ' c' DOF : 7011 (Constraint DOF : 0)
+field 'xi' DOF : 7011 (Constraint DOF : 0)
+total DOF : 21033
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6993 (Constraint DOF : 0)
+field ' c' DOF : 6993 (Constraint DOF : 0)
+field 'xi' DOF : 6993 (Constraint DOF : 0)
+total DOF : 20979
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6969 (Constraint DOF : 0)
+field ' c' DOF : 6969 (Constraint DOF : 0)
+field 'xi' DOF : 6969 (Constraint DOF : 0)
+total DOF : 20907
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:28000  time: 224
+Reinitializing matrix free object
+field 'phi' DOF : 6969 (Constraint DOF : 0)
+field ' c' DOF : 6969 (Constraint DOF : 0)
+field 'xi' DOF : 6969 (Constraint DOF : 0)
+total DOF : 20907
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.162641e+01, current residual:5.025263e+03
+field ' c' [explicit solve]: current solution: 4.970174e+01, current residual:2.676844e+03
+field 'xi' [auxiliary solve]: current solution: 1.623966e+00, current residual:2.858175e-01
+wall time: 0.00119371s
+Output written to:solution-028000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 7017 (Constraint DOF : 0)
+field ' c' DOF : 7017 (Constraint DOF : 0)
+field 'xi' DOF : 7017 (Constraint DOF : 0)
+total DOF : 21051
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7017 (Constraint DOF : 0)
+field ' c' DOF : 7017 (Constraint DOF : 0)
+field 'xi' DOF : 7017 (Constraint DOF : 0)
+total DOF : 21051
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6993 (Constraint DOF : 0)
+field ' c' DOF : 6993 (Constraint DOF : 0)
+field 'xi' DOF : 6993 (Constraint DOF : 0)
+total DOF : 20979
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6993 (Constraint DOF : 0)
+field ' c' DOF : 6993 (Constraint DOF : 0)
+field 'xi' DOF : 6993 (Constraint DOF : 0)
+total DOF : 20979
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 6993 (Constraint DOF : 0)
+field ' c' DOF : 6993 (Constraint DOF : 0)
+field 'xi' DOF : 6993 (Constraint DOF : 0)
+total DOF : 20979
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7017 (Constraint DOF : 0)
+field ' c' DOF : 7017 (Constraint DOF : 0)
+field 'xi' DOF : 7017 (Constraint DOF : 0)
+total DOF : 21051
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7017 (Constraint DOF : 0)
+field ' c' DOF : 7017 (Constraint DOF : 0)
+field 'xi' DOF : 7017 (Constraint DOF : 0)
+total DOF : 21051
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7017 (Constraint DOF : 0)
+field ' c' DOF : 7017 (Constraint DOF : 0)
+field 'xi' DOF : 7017 (Constraint DOF : 0)
+total DOF : 21051
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7019 (Constraint DOF : 0)
+field ' c' DOF : 7019 (Constraint DOF : 0)
+field 'xi' DOF : 7019 (Constraint DOF : 0)
+total DOF : 21057
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7019 (Constraint DOF : 0)
+field ' c' DOF : 7019 (Constraint DOF : 0)
+field 'xi' DOF : 7019 (Constraint DOF : 0)
+total DOF : 21057
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7019 (Constraint DOF : 0)
+field ' c' DOF : 7019 (Constraint DOF : 0)
+field 'xi' DOF : 7019 (Constraint DOF : 0)
+total DOF : 21057
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7067 (Constraint DOF : 0)
+field ' c' DOF : 7067 (Constraint DOF : 0)
+field 'xi' DOF : 7067 (Constraint DOF : 0)
+total DOF : 21201
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7067 (Constraint DOF : 0)
+field ' c' DOF : 7067 (Constraint DOF : 0)
+field 'xi' DOF : 7067 (Constraint DOF : 0)
+total DOF : 21201
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7043 (Constraint DOF : 0)
+field ' c' DOF : 7043 (Constraint DOF : 0)
+field 'xi' DOF : 7043 (Constraint DOF : 0)
+total DOF : 21129
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7067 (Constraint DOF : 0)
+field ' c' DOF : 7067 (Constraint DOF : 0)
+field 'xi' DOF : 7067 (Constraint DOF : 0)
+total DOF : 21201
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7067 (Constraint DOF : 0)
+field ' c' DOF : 7067 (Constraint DOF : 0)
+field 'xi' DOF : 7067 (Constraint DOF : 0)
+total DOF : 21201
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7115 (Constraint DOF : 0)
+field ' c' DOF : 7115 (Constraint DOF : 0)
+field 'xi' DOF : 7115 (Constraint DOF : 0)
+total DOF : 21345
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7139 (Constraint DOF : 0)
+field ' c' DOF : 7139 (Constraint DOF : 0)
+field 'xi' DOF : 7139 (Constraint DOF : 0)
+total DOF : 21417
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7163 (Constraint DOF : 0)
+field ' c' DOF : 7163 (Constraint DOF : 0)
+field 'xi' DOF : 7163 (Constraint DOF : 0)
+total DOF : 21489
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+
+time increment:29000  time: 232
+Reinitializing matrix free object
+field 'phi' DOF : 7235 (Constraint DOF : 0)
+field ' c' DOF : 7235 (Constraint DOF : 0)
+field 'xi' DOF : 7235 (Constraint DOF : 0)
+total DOF : 21705
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.323720e+01, current residual:5.025251e+03
+field ' c' [explicit solve]: current solution: 5.038081e+01, current residual:2.677011e+03
+field 'xi' [auxiliary solve]: current solution: 1.621233e+00, current residual:2.853052e-01
+wall time: 0.001089s
+Output written to:solution-029000.vtu
+
+Reinitializing matrix free object
+field 'phi' DOF : 7283 (Constraint DOF : 0)
+field ' c' DOF : 7283 (Constraint DOF : 0)
+field 'xi' DOF : 7283 (Constraint DOF : 0)
+total DOF : 21849
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7283 (Constraint DOF : 0)
+field ' c' DOF : 7283 (Constraint DOF : 0)
+field 'xi' DOF : 7283 (Constraint DOF : 0)
+total DOF : 21849
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7283 (Constraint DOF : 0)
+field ' c' DOF : 7283 (Constraint DOF : 0)
+field 'xi' DOF : 7283 (Constraint DOF : 0)
+total DOF : 21849
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7355 (Constraint DOF : 0)
+field ' c' DOF : 7355 (Constraint DOF : 0)
+field 'xi' DOF : 7355 (Constraint DOF : 0)
+total DOF : 22065
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7331 (Constraint DOF : 0)
+field ' c' DOF : 7331 (Constraint DOF : 0)
+field 'xi' DOF : 7331 (Constraint DOF : 0)
+total DOF : 21993
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7379 (Constraint DOF : 0)
+field ' c' DOF : 7379 (Constraint DOF : 0)
+field 'xi' DOF : 7379 (Constraint DOF : 0)
+total DOF : 22137
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7403 (Constraint DOF : 0)
+field ' c' DOF : 7403 (Constraint DOF : 0)
+field 'xi' DOF : 7403 (Constraint DOF : 0)
+total DOF : 22209
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Reinitializing matrix free object
+field 'phi' DOF : 7583 (Constraint DOF : 0)
+field ' c' DOF : 7583 (Constraint DOF : 0)
+field 'xi' DOF : 7583 (Constraint DOF : 0)
+total DOF : 22749
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)

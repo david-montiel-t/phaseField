@@ -1,0 +1,419 @@
+nohup: ignoring input
+Scanning dependencies of target prisms_pf_debug
+Scanning dependencies of target prisms_pf
+[  1%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/boundaryConditions.cc.o
+[  2%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/buildFields.cc.o
+[  5%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/checkpoint.cc.o
+[  5%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/boundaryConditions.cc.o
+[  6%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/computeIntegral.cc.o
+[  8%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/buildFields.cc.o
+[  8%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/computeLHS.cc.o
+[ 10%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/checkpoint.cc.o
+[ 11%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/computeIntegral.cc.o
+[ 12%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/computeRHS.cc.o
+[ 14%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/computeLHS.cc.o
+[ 15%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/computeRHS.cc.o
+[ 16%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/init.cc.o
+[ 17%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/init.cc.o
+[ 19%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/initForTests.cc.o
+[ 20%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/initForTests.cc.o
+[ 21%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/initialConditions.cc.o
+[ 23%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/initialConditions.cc.o
+[ 24%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/invM.cc.o
+[ 25%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/invM.cc.o
+[ 26%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/markBoundaries.cc.o
+[ 28%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/markBoundaries.cc.o
+[ 29%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/matrixFreePDE.cc.o
+In file included from /scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/pfield/./Mesh.hh:13,
+                 from /scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/pfield/Body.hh:5,
+                 from /scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/PField.hh:1,
+                 from /scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/initialConditions.cc:5:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/pfield/././interpolation/Quad.hh: In copy constructor ‘PRISMS::Quad::Quad(const PRISMS::Quad&)’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/pfield/././interpolation/Quad.hh:178:9: warning: base class ‘class PRISMS::PFuncBase<std::vector<PRISMS::Coordinate<2> >, double>’ should be explicitly initialized in the copy constructor [-Wextra]
+  178 |         Quad( const Quad &RHS)
+      |         ^~~~
+In file included from /scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/pfield/./Mesh.hh:14,
+                 from /scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/pfield/Body.hh:5,
+                 from /scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/PField.hh:1,
+                 from /scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/initialConditions.cc:5:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/pfield/././interpolation/Hexahedron.hh: In copy constructor ‘PRISMS::Hexahedron::Hexahedron(const PRISMS::Hexahedron&)’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/pfield/././interpolation/Hexahedron.hh:301:9: warning: base class ‘class PRISMS::PFuncBase<std::vector<PRISMS::Coordinate<3> >, double>’ should be explicitly initialized in the copy constructor [-Wextra]
+  301 |         Hexahedron( const Hexahedron &RHS)
+      |         ^~~~~~~~~~
+In file included from /scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/pfield/./Mesh.hh:13,
+                 from /scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/pfield/Body.hh:5,
+                 from /scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/PField.hh:1,
+                 from /scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/initialConditions.cc:5:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/pfield/././interpolation/Quad.hh: In copy constructor ‘PRISMS::Quad::Quad(const PRISMS::Quad&)’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/pfield/././interpolation/Quad.hh:178:9: warning: base class ‘class PRISMS::PFuncBase<std::vector<PRISMS::Coordinate<2> >, double>’ should be explicitly initialized in the copy constructor [-Wextra]
+  178 |         Quad( const Quad &RHS)
+      |         ^~~~
+In file included from /scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/pfield/./Mesh.hh:14,
+                 from /scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/pfield/Body.hh:5,
+                 from /scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/PField.hh:1,
+                 from /scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/initialConditions.cc:5:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/pfield/././interpolation/Hexahedron.hh: In copy constructor ‘PRISMS::Hexahedron::Hexahedron(const PRISMS::Hexahedron&)’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/../../include/IntegrationTools/pfield/././interpolation/Hexahedron.hh:301:9: warning: base class ‘class PRISMS::PFuncBase<std::vector<PRISMS::Coordinate<3> >, double>’ should be explicitly initialized in the copy constructor [-Wextra]
+  301 |         Hexahedron( const Hexahedron &RHS)
+      |         ^~~~~~~~~~
+[ 30%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/nucleation.cc.o
+[ 32%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/matrixFreePDE.cc.o
+[ 33%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/outputResults.cc.o
+[ 34%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/nucleation.cc.o
+[ 35%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/postprocessor.cc.o
+[ 37%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/outputResults.cc.o
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc: In member function ‘void MatrixFreePDE<dim, degree>::outputResults() [with int dim = 2; int degree = 1]’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:28: warning: ‘%u’ directive writing between 1 and 10 bytes into a region of size between 0 and 99 [-Wformat-overflow=]
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |                            ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:10: note: ‘sprintf’ output 4 or more bytes (assuming 103) into a destination of size 100
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |   ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:39: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |                                       ^
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:18: note: ‘sprintf’ output 2 or more bytes (assuming 101) into a destination of size 100
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:38: warning: ‘.p’ directive writing 2 bytes into a region of size between 1 and 100 [-Wformat-overflow=]
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |                                      ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:20: note: ‘sprintf’ output 3 or more bytes (assuming 102) into a destination of size 100
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc: In member function ‘void MatrixFreePDE<dim, degree>::outputResults() [with int dim = 3; int degree = 1]’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:28: warning: ‘%u’ directive writing between 1 and 10 bytes into a region of size between 0 and 99 [-Wformat-overflow=]
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |                            ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:10: note: ‘sprintf’ output 4 or more bytes (assuming 103) into a destination of size 100
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |   ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:39: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |                                       ^
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:18: note: ‘sprintf’ output 2 or more bytes (assuming 101) into a destination of size 100
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:38: warning: ‘.p’ directive writing 2 bytes into a region of size between 1 and 100 [-Wformat-overflow=]
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |                                      ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:20: note: ‘sprintf’ output 3 or more bytes (assuming 102) into a destination of size 100
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc: In member function ‘void MatrixFreePDE<dim, degree>::outputResults() [with int dim = 2; int degree = 2]’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:28: warning: ‘%u’ directive writing between 1 and 10 bytes into a region of size between 0 and 99 [-Wformat-overflow=]
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |                            ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:10: note: ‘sprintf’ output 4 or more bytes (assuming 103) into a destination of size 100
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |   ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:39: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |                                       ^
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:18: note: ‘sprintf’ output 2 or more bytes (assuming 101) into a destination of size 100
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:38: warning: ‘.p’ directive writing 2 bytes into a region of size between 1 and 100 [-Wformat-overflow=]
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |                                      ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:20: note: ‘sprintf’ output 3 or more bytes (assuming 102) into a destination of size 100
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc: In member function ‘void MatrixFreePDE<dim, degree>::outputResults() [with int dim = 3; int degree = 2]’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:28: warning: ‘%u’ directive writing between 1 and 10 bytes into a region of size between 0 and 99 [-Wformat-overflow=]
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |                            ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:10: note: ‘sprintf’ output 4 or more bytes (assuming 103) into a destination of size 100
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |   ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:39: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |                                       ^
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:18: note: ‘sprintf’ output 2 or more bytes (assuming 101) into a destination of size 100
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:38: warning: ‘.p’ directive writing 2 bytes into a region of size between 1 and 100 [-Wformat-overflow=]
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |                                      ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:20: note: ‘sprintf’ output 3 or more bytes (assuming 102) into a destination of size 100
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc: In member function ‘void MatrixFreePDE<dim, degree>::outputResults() [with int dim = 3; int degree = 3]’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:28: warning: ‘%u’ directive writing between 1 and 10 bytes into a region of size between 0 and 99 [-Wformat-overflow=]
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |                            ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:10: note: ‘sprintf’ output 4 or more bytes (assuming 103) into a destination of size 100
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |   ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:39: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |                                       ^
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:18: note: ‘sprintf’ output 2 or more bytes (assuming 101) into a destination of size 100
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:38: warning: ‘.p’ directive writing 2 bytes into a region of size between 1 and 100 [-Wformat-overflow=]
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |                                      ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:20: note: ‘sprintf’ output 3 or more bytes (assuming 102) into a destination of size 100
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 38%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/postprocessor.cc.o
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc: In member function ‘void MatrixFreePDE<dim, degree>::outputResults() [with int dim = 2; int degree = 3]’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:28: warning: ‘%u’ directive writing between 1 and 10 bytes into a region of size between 0 and 99 [-Wformat-overflow=]
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |                            ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:10: note: ‘sprintf’ output 4 or more bytes (assuming 103) into a destination of size 100
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |   ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:39: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |                                       ^
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:18: note: ‘sprintf’ output 2 or more bytes (assuming 101) into a destination of size 100
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:38: warning: ‘.p’ directive writing 2 bytes into a region of size between 1 and 100 [-Wformat-overflow=]
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |                                      ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:20: note: ‘sprintf’ output 3 or more bytes (assuming 102) into a destination of size 100
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc: In member function ‘void MatrixFreePDE<dim, degree>::outputResults() [with int dim = 3; int degree = 4]’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:28: warning: ‘%u’ directive writing between 1 and 10 bytes into a region of size between 0 and 99 [-Wformat-overflow=]
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |                            ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:10: note: ‘sprintf’ output 4 or more bytes (assuming 103) into a destination of size 100
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |   ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:39: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |                                       ^
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:18: note: ‘sprintf’ output 2 or more bytes (assuming 101) into a destination of size 100
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:38: warning: ‘.p’ directive writing 2 bytes into a region of size between 1 and 100 [-Wformat-overflow=]
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |                                      ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:20: note: ‘sprintf’ output 3 or more bytes (assuming 102) into a destination of size 100
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc: In member function ‘void MatrixFreePDE<dim, degree>::outputResults() [with int dim = 2; int degree = 4]’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:28: warning: ‘%u’ directive writing between 1 and 10 bytes into a region of size between 0 and 99 [-Wformat-overflow=]
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |                            ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:10: note: ‘sprintf’ output 4 or more bytes (assuming 103) into a destination of size 100
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |   ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:39: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |                                       ^
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:18: note: ‘sprintf’ output 2 or more bytes (assuming 101) into a destination of size 100
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:38: warning: ‘.p’ directive writing 2 bytes into a region of size between 1 and 100 [-Wformat-overflow=]
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |                                      ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:20: note: ‘sprintf’ output 3 or more bytes (assuming 102) into a destination of size 100
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 39%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/reassignGrains.cc.o
+[ 41%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/refine.cc.o
+[ 42%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/reassignGrains.cc.o
+[ 43%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/reinit.cc.o
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc: In member function ‘void MatrixFreePDE<dim, degree>::outputResults() [with int dim = 2; int degree = 4]’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:28: warning: ‘%u’ directive writing between 1 and 10 bytes into a region of size between 0 and 99 [-Wformat-overflow=]
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |                            ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:10: note: ‘sprintf’ output 4 or more bytes (assuming 103) into a destination of size 100
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |   ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:39: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |                                       ^
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:18: note: ‘sprintf’ output 2 or more bytes (assuming 101) into a destination of size 100
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:38: warning: ‘.p’ directive writing 2 bytes into a region of size between 1 and 100 [-Wformat-overflow=]
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |                                      ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:20: note: ‘sprintf’ output 3 or more bytes (assuming 102) into a destination of size 100
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 44%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/refine.cc.o
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc: In member function ‘void MatrixFreePDE<dim, degree>::outputResults() [with int dim = 2; int degree = 3]’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:28: warning: ‘%u’ directive writing between 1 and 10 bytes into a region of size between 0 and 99 [-Wformat-overflow=]
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |                            ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:10: note: ‘sprintf’ output 4 or more bytes (assuming 103) into a destination of size 100
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |   ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:39: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |                                       ^
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:18: note: ‘sprintf’ output 2 or more bytes (assuming 101) into a destination of size 100
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:38: warning: ‘.p’ directive writing 2 bytes into a region of size between 1 and 100 [-Wformat-overflow=]
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |                                      ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:20: note: ‘sprintf’ output 3 or more bytes (assuming 102) into a destination of size 100
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc: In member function ‘void MatrixFreePDE<dim, degree>::outputResults() [with int dim = 3; int degree = 4]’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:28: warning: ‘%u’ directive writing between 1 and 10 bytes into a region of size between 0 and 99 [-Wformat-overflow=]
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |                            ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:10: note: ‘sprintf’ output 4 or more bytes (assuming 103) into a destination of size 100
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |   ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:39: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |                                       ^
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:18: note: ‘sprintf’ output 2 or more bytes (assuming 101) into a destination of size 100
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:38: warning: ‘.p’ directive writing 2 bytes into a region of size between 1 and 100 [-Wformat-overflow=]
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |                                      ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:20: note: ‘sprintf’ output 3 or more bytes (assuming 102) into a destination of size 100
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc: In member function ‘void MatrixFreePDE<dim, degree>::outputResults() [with int dim = 3; int degree = 2]’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:28: warning: ‘%u’ directive writing between 1 and 10 bytes into a region of size between 0 and 99 [-Wformat-overflow=]
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |                            ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:10: note: ‘sprintf’ output 4 or more bytes (assuming 103) into a destination of size 100
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |   ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:39: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |                                       ^
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:18: note: ‘sprintf’ output 2 or more bytes (assuming 101) into a destination of size 100
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:38: warning: ‘.p’ directive writing 2 bytes into a region of size between 1 and 100 [-Wformat-overflow=]
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |                                      ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:20: note: ‘sprintf’ output 3 or more bytes (assuming 102) into a destination of size 100
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc: In member function ‘void MatrixFreePDE<dim, degree>::outputResults() [with int dim = 3; int degree = 1]’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:28: warning: ‘%u’ directive writing between 1 and 10 bytes into a region of size between 0 and 99 [-Wformat-overflow=]
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |                            ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:10: note: ‘sprintf’ output 4 or more bytes (assuming 103) into a destination of size 100
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |   ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:39: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |                                       ^
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:18: note: ‘sprintf’ output 2 or more bytes (assuming 101) into a destination of size 100
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:38: warning: ‘.p’ directive writing 2 bytes into a region of size between 1 and 100 [-Wformat-overflow=]
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |                                      ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:20: note: ‘sprintf’ output 3 or more bytes (assuming 102) into a destination of size 100
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc: In member function ‘void MatrixFreePDE<dim, degree>::outputResults() [with int dim = 2; int degree = 1]’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:28: warning: ‘%u’ directive writing between 1 and 10 bytes into a region of size between 0 and 99 [-Wformat-overflow=]
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |                            ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:10: note: ‘sprintf’ output 4 or more bytes (assuming 103) into a destination of size 100
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |   ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:39: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |                                       ^
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:18: note: ‘sprintf’ output 2 or more bytes (assuming 101) into a destination of size 100
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:38: warning: ‘.p’ directive writing 2 bytes into a region of size between 1 and 100 [-Wformat-overflow=]
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |                                      ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:20: note: ‘sprintf’ output 3 or more bytes (assuming 102) into a destination of size 100
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc: In member function ‘void MatrixFreePDE<dim, degree>::outputResults() [with int dim = 2; int degree = 2]’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:28: warning: ‘%u’ directive writing between 1 and 10 bytes into a region of size between 0 and 99 [-Wformat-overflow=]
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |                            ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:10: note: ‘sprintf’ output 4 or more bytes (assuming 103) into a destination of size 100
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |   ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:39: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |                                       ^
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:18: note: ‘sprintf’ output 2 or more bytes (assuming 101) into a destination of size 100
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:38: warning: ‘.p’ directive writing 2 bytes into a region of size between 1 and 100 [-Wformat-overflow=]
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |                                      ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:20: note: ‘sprintf’ output 3 or more bytes (assuming 102) into a destination of size 100
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc: In member function ‘void MatrixFreePDE<dim, degree>::outputResults() [with int dim = 3; int degree = 3]’:
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:28: warning: ‘%u’ directive writing between 1 and 10 bytes into a region of size between 0 and 99 [-Wformat-overflow=]
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |                            ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:109:10: note: ‘sprintf’ output 4 or more bytes (assuming 103) into a destination of size 100
+  109 |   sprintf(vtuFileName, "%s.%u.%s", baseFileName,Utilities::MPI::this_mpi_process(MPI_COMM_WORLD),userInputs.output_file_type.c_str());
+      |   ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:39: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |                                       ^
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:146:18: note: ‘sprintf’ output 2 or more bytes (assuming 101) into a destination of size 100
+  146 |           sprintf(svtuFileName, "%s.%s", baseFileName ,userInputs.output_file_type.c_str());
+      |           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:38: warning: ‘.p’ directive writing 2 bytes into a region of size between 1 and 100 [-Wformat-overflow=]
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |                                      ^~
+/scratch/project_2001169/tpinomaa/phaseField_dev/src/matrixfree/outputResults.cc:135:20: note: ‘sprintf’ output 3 or more bytes (assuming 102) into a destination of size 100
+  135 |             sprintf(pvtuFileName, "%s.p%s", baseFileName, userInputs.output_file_type.c_str());
+      |             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 46%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/setNonlinearEqInitialGuess.cc.o
+[ 47%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/solve.cc.o
+[ 48%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/solveIncrement.cc.o
+[ 50%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/reinit.cc.o
+[ 51%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/setNonlinearEqInitialGuess.cc.o
+[ 52%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/solve.cc.o
+[ 53%] Building CXX object CMakeFiles/prisms_pf.dir/src/matrixfree/utilities.cc.o
+[ 55%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/solveIncrement.cc.o
+[ 56%] Building CXX object CMakeFiles/prisms_pf.dir/src/userInputParameters/loadVariableAttributes.cc.o
+[ 57%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/matrixfree/utilities.cc.o
+[ 58%] Building CXX object CMakeFiles/prisms_pf.dir/src/userInputParameters/load_BC_list.cc.o
+[ 60%] Building CXX object CMakeFiles/prisms_pf.dir/src/userInputParameters/load_user_constants.cc.o
+[ 61%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/userInputParameters/loadVariableAttributes.cc.o
+[ 62%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/userInputParameters/load_BC_list.cc.o
+[ 64%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/userInputParameters/load_user_constants.cc.o
+[ 65%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/userInputParameters/setTimeStepList.cc.o
+[ 66%] Building CXX object CMakeFiles/prisms_pf.dir/src/userInputParameters/setTimeStepList.cc.o
+[ 67%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/userInputParameters/userInputParameters.cc.o
+[ 69%] Building CXX object CMakeFiles/prisms_pf.dir/src/userInputParameters/userInputParameters.cc.o
+[ 70%] Building CXX object CMakeFiles/prisms_pf.dir/src/SolverParameters/SolverParameters.cc.o
+[ 71%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/SolverParameters/SolverParameters.cc.o
+[ 73%] Building CXX object CMakeFiles/prisms_pf.dir/src/EquationDependencyParser/EquationDependencyParser.cc.o
+[ 74%] Building CXX object CMakeFiles/prisms_pf.dir/src/FloodFiller/FloodFiller.cc.o
+[ 75%] Building CXX object CMakeFiles/prisms_pf.dir/src/OrderParameterRemapper/OrderParameterRemapper.cc.o
+[ 76%] Building CXX object CMakeFiles/prisms_pf.dir/src/SimplifiedGrainRepresentation/SimplifiedGrainRepresentation.cc.o
+[ 78%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/EquationDependencyParser/EquationDependencyParser.cc.o
+[ 79%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/FloodFiller/FloodFiller.cc.o
+[ 80%] Building CXX object CMakeFiles/prisms_pf.dir/src/utilities/sortIndexEntryPairList.cc.o
+[ 82%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/OrderParameterRemapper/OrderParameterRemapper.cc.o
+[ 83%] Building CXX object CMakeFiles/prisms_pf.dir/src/variableAttributeLoader/variableAttributeLoader.cc.o
+[ 84%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/SimplifiedGrainRepresentation/SimplifiedGrainRepresentation.cc.o
+[ 85%] Building CXX object CMakeFiles/prisms_pf.dir/src/utilities/vectorBCFunction.cc.o
+[ 87%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/utilities/sortIndexEntryPairList.cc.o
+[ 88%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/variableAttributeLoader/variableAttributeLoader.cc.o
+[ 89%] Building CXX object CMakeFiles/prisms_pf.dir/src/inputFileReader/inputFileReader.cc.o
+[ 91%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/utilities/vectorBCFunction.cc.o
+[ 92%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/inputFileReader/inputFileReader.cc.o
+[ 93%] Building CXX object CMakeFiles/prisms_pf.dir/src/parallelNucleationList/parallelNucleationList.cc.o
+[ 94%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/parallelNucleationList/parallelNucleationList.cc.o
+[ 96%] Building CXX object CMakeFiles/prisms_pf.dir/src/variableContainer/variableContainer.cc.o
+[ 97%] Building CXX object CMakeFiles/prisms_pf_debug.dir/src/variableContainer/variableContainer.cc.o
+[ 98%] Linking CXX static library libprisms_pf.a
+[ 98%] Built target prisms_pf
+[100%] Linking CXX static library libprisms_pf_debug.a
+[100%] Built target prisms_pf_debug
