@@ -151,17 +151,19 @@ void MatrixFreePDE<dim,degree>::applyInitialConditions(){
         }
       
         // NEW (Automate later)
-      //Distribute grain ids 1 to 1 to order parameter IDs: grain 1 -> order par. 1, grain 2 -> order par. 2,etc.
+      //Distribute grain ids 1 to 1 to order parameter IDs: grain 1 -> first on list for op remapping, grain 2 -> second on list, etc.
         for (unsigned int g=0; g<simplified_grain_representations.size(); g++){
           //simplified_grain_representations.at(g).setOrderParameterId(simplified_grain_representations.at(g).getGrainId()-1);
-          simplified_grain_representations.at(g).setOrderParameterId(simplified_grain_representations.at(g).getGrainId());
+          //simplified_grain_representations.at(g).setOrderParameterId(simplified_grain_representations.at(g).getGrainId());
+          simplified_grain_representations.at(g).setOrderParameterId(userInputs.variables_for_remapping.at(g));
         }
       
         pcout << "Placing the grains in their new order parameters...\n";
         OrderParameterRemapper<dim> order_parameter_remapper;
         order_parameter_remapper.remap_from_index_field(simplified_grain_representations, &grain_index_field, solutionSet, *dofHandlersSet_nonconst.at(scalar_field_index), FESet.at(scalar_field_index)->dofs_per_cell, userInputs.buffer_between_grains);
         //
-      
+        //Delete later
+        pcout << " Grain placing: OK \n";
         // Smooth the order parameters
         double dt_for_smoothing = dealii::GridTools::minimal_cell_diameter(triangulation)/1000.0;
       
@@ -191,7 +193,8 @@ void MatrixFreePDE<dim,degree>::applyInitialConditions(){
                 }
             }
         }
-        //exit(0);
+        //Delete later
+        pcout << " Grain smoothing: OK \n";
     }
 
     unsigned int op_list_index = 0;
@@ -250,8 +253,6 @@ void MatrixFreePDE<dim,degree>::applyInitialConditions(){
                 }
 
             }
-
-            pcout << "Application of initial conditions for field number " << var_index << " complete \n";
         }
     }
 }
