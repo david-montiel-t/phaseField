@@ -110,6 +110,7 @@ void MatrixFreePDE<dim,degree>::applyInitialConditions(){
         }
 
         pcout << "Generating simplified representations of the grains...\n";
+        pcout << "Total number of grains: " << grain_sets.size() << std::endl;
         for (unsigned int g=0; g<grain_sets.size(); g++){
             SimplifiedGrainRepresentation<dim> simplified_grain_representation(grain_sets.at(g));
 
@@ -122,7 +123,7 @@ void MatrixFreePDE<dim,degree>::applyInitialConditions(){
 
             simplified_grain_representations.push_back(simplified_grain_representation);
         }
-
+        pcout << "Total number of simplified grain representations (before):" << simplified_grain_representations.size() << std::endl;
         // Delete grains with very small radii that correspond to a single interfacial element
         for (unsigned int g=0; g<simplified_grain_representations.size(); g++){
             if (simplified_grain_representations.at(g).getRadius() < userInputs.min_radius_for_loading_grains){
@@ -130,11 +131,14 @@ void MatrixFreePDE<dim,degree>::applyInitialConditions(){
                 g--;
             }
         }
+        pcout << "Total number of simplified grain representations (after):" << simplified_grain_representations.size() << std::endl;
 
-        pcout << "Reassigning the grains to new order parameters...\n";
-        SimplifiedGrainManipulator<dim> simplified_grain_manipulator;
-        simplified_grain_manipulator.reassignGrains(simplified_grain_representations, userInputs.buffer_between_grains, userInputs.variables_for_remapping);
-
+        //Temporarily blocking this section
+        //pcout << "Reassigning the grains to new order parameters...\n";
+        //SimplifiedGrainManipulator<dim> simplified_grain_manipulator;
+        //simplified_grain_manipulator.reassignGrains(simplified_grain_representations, userInputs.buffer_between_grains, userInputs.variables_for_remapping);
+        //Unblock section later
+      
         pcout << "After reassignment: " << std::endl;
         for (unsigned int g=0; g<simplified_grain_representations.size(); g++){
             if (dim == 2){
@@ -145,14 +149,27 @@ void MatrixFreePDE<dim,degree>::applyInitialConditions(){
             }
 
         }
-
+      
+        // NEW (Automate later)
+      //Distribute grain ids 1 to 1 to order parameter IDs: grain 1 -> order par. 1, grain 2 -> order par. 2,etc.
+        for (unsigned int g=0; g<simplified_grain_representations.size(); g++){
+          //simplified_grain_representations.at(g).setOrderParameterId(simplified_grain_representations.at(g).getGrainId()-1);
+          simplified_grain_representations.at(g).setOrderParameterId(simplified_grain_representations.at(g).getGrainId());
+        }
+      
         pcout << "Placing the grains in their new order parameters...\n";
         OrderParameterRemapper<dim> order_parameter_remapper;
         order_parameter_remapper.remap_from_index_field(simplified_grain_representations, &grain_index_field, solutionSet, *dofHandlersSet_nonconst.at(scalar_field_index), FESet.at(scalar_field_index)->dofs_per_cell, userInputs.buffer_between_grains);
-
+        //
+      
         // Smooth the order parameters
         double dt_for_smoothing = dealii::GridTools::minimal_cell_diameter(triangulation)/1000.0;
-
+      
+        //Printing indices of variables marked for remapping
+        //for(unsigned int opIndex=0; opIndex<userInputs.variables_for_remapping.size(); opIndex++){
+          //pcout << "Order parameter with index " << userInputs.variables_for_remapping.at(opIndex) << " is marked for remapping" << std::endl;
+        //}
+      
         op_list_index = 0;
         for(unsigned int fieldIndex=0; fieldIndex<fields.size(); fieldIndex++){
             if (op_list_index < userInputs.variables_for_remapping.size()){
@@ -174,7 +191,7 @@ void MatrixFreePDE<dim,degree>::applyInitialConditions(){
                 }
             }
         }
-
+        //exit(0);
     }
 
     unsigned int op_list_index = 0;
