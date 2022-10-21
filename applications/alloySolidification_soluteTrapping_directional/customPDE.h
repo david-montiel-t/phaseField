@@ -5,7 +5,19 @@ class customPDE: public MatrixFreePDE<dim,degree>
 {
 public:
     // Constructor
-    customPDE(userInputParameters<dim> _userInputs): MatrixFreePDE<dim,degree>(_userInputs) , userInputs(_userInputs) {};
+    customPDE(userInputParameters<dim> _userInputs): MatrixFreePDE<dim,degree>(_userInputs) , userInputs(_userInputs) {
+	 
+  		 std::cout << "time scale tau0 = " << tau0 << " s";
+  		 std::cout << ", Dimensionless solute diffusion coefficient: D = " << D << " W0^2/tau0" << std::endl;
+//		 std::cout << "dt should be less than dx^2/(4*D) = " << 
+  		 std::cout << ", cos_theta0 = " << cos_theta0;
+		 std::cout << ", sin_theta0 = " << sin_theta0;
+		 std::cout << ", a2_minus = "   << a2_minus;
+		 std::cout << ", thermal_gradient_dimless = "   << thermal_gradient_dimless;
+		 std::cout << ", Vtilde = "   << Vtilde;
+		 std::cout << ", ltilde = "   << ltilde;
+		 std::cout << std::endl; 
+	 };
 
     // Function to set the initial conditions (in ICs_and_BCs.h)
     void setInitialCondition(const dealii::Point<dim> &p, const unsigned int index, double & scalar_IC, dealii::Vector<double> & vector_IC);
@@ -72,6 +84,13 @@ private:
   double pulling_speed             = userInputs.get_model_constant_double("pulling_speed");
   double x0                        = userInputs.get_model_constant_double("x0");
 
+  double theta0                    = userInputs.get_model_constant_double("theta0"); // crystal frame orientation. Parallel to coordinates if set to zero
+
+  double sine_amplitude            = userInputs.get_model_constant_double("sine_amplitude"); // amplitude of the initial planar perturbation 
+  double sine_wavelength           = userInputs.get_model_constant_double("sine_wavelength"); // wavelength of the initial planar perturbation 
+//  double sine_wave_length = 20.0; // wave length of the initial perturbation
+//  double sine_amplitude = 2.0; // amplitude of the initial sinusoidal perturbation 
+
 // Fixed and derived constants
   double a1 = 0.8839;
 //  double a2 = 0.6267;
@@ -95,12 +114,19 @@ private:
   double tau0 = W_physical*lambda/a1 * (beta0 + a1*a2_minus*W_physical/D_liquid);// time scale magnitude tau0, used to compute the dimensionless diffusion coefficient D
 
   double D = D_liquid*tau0/(W_physical*W_physical); // Dimensionless diffusion coefficient 
+  // std::cout << "Dimensionless solute diffusion coefficient: D = " << D << " W0^2/tau0" << std::endl;
 
 
   double thermal_gradient_dimless = thermal_gradient*W_physical; // conversion from K/m to K/W0
   double Vtilde = pulling_speed * tau0/W_physical; // conversion m/s to W0/tau0
   double ltilde = m_liquidus*(1-k)*alloy_nominal_composition/thermal_gradient_dimless; // dimensionless thermal length
   //double D = 2.0;
+  //
+  // let's pre-calculate these trigonometric values, used to rotate the normal to crystal frame
+  double pi =3.14159265;  
+  // double theta0 = pi/4.0; 
+  double cos_theta0 = std::cos(theta0*pi/180.0); 
+  double sin_theta0 = std::sin(theta0*pi/180.0); 
 
 	// ================================================================
 // python script to check the values 

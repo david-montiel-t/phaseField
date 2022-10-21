@@ -37,6 +37,8 @@ void variableAttributeLoader::loadVariableAttributes(){
 
     set_dependencies_value_term_RHS(2, "phi,c,grad(phi)");
     set_dependencies_gradient_term_RHS(2, "grad(phi)");
+
+	 // std::cout << "D = " << D << std::endl; 
 }
 
 // =============================================================================================
@@ -78,11 +80,19 @@ scalarvalueType xi = variable_list.get_scalar_value(2);
 // Calculation of (outward) interface normal vector
 scalarvalueType normgradn = std::sqrt(phix.norm_square());
 scalargradType normal = phix/(normgradn+constV(regval));
+
+// let's rotate the interface normal to crystal frame
+// 2D rotation matrix https://en.wikipedia.org/wiki/Rotation_matrix
+scalarvalueType normal_crystal_x = normal[0]*cos_theta0 - normal[1]*sin_theta0;
+scalarvalueType normal_crystal_y = normal[0]*sin_theta0 + normal[1]*cos_theta0;
   
 //The cosine of theta
-scalarvalueType cth = normal[0];
+scalarvalueType cth = normal_crystal_x; // [0];
 //The sine of theta
-scalarvalueType sth = normal[1];
+scalarvalueType sth = normal_crystal_y; // [1];
+
+// cth = normal[0];
+// sth = normal[1];
 //The cosine of 4 theta
 scalarvalueType c4th =sth*sth*sth*sth + cth*cth*cth*cth - constV(6.0)*sth*sth*cth*cth;
 
@@ -90,9 +100,12 @@ scalarvalueType c4th =sth*sth*sth*sth + cth*cth*cth*cth - constV(6.0)*sth*sth*ct
 scalarvalueType a_n;
 a_n = (constV(1.0)+constV(eps4)*c4th);
   
+scalarvalueType c_eq = 0.5*( constV(1.0+k) - constV(1.0-k)*phi );
+scalarvalueType inv_c_eq = 1./c_eq; // calculate inverse only once, divison is costly
   
 //e^u
-scalarvalueType eu = constV(2.0/cl0)*c/(constV(1.0+k)-constV(1.0-k)*phi);
+//scalarvalueType eu = constV(2.0/cl0)*c/(constV(1.0+k)-constV(1.0-k)*phi);
+scalarvalueType eu = constV(1.0/cl0)*c*inv_c_eq;
   
 //tau(theta)
 //scalarvalueType tau_th=tau*a_n*a_n;
@@ -104,7 +117,8 @@ scalarvalueType tau_th=tau*a_n*a_n*eu;
 scalarvalueType dphidt=xi/tau_th;
 
 // q(phi) term
-scalarvalueType q_phi = (constV(1.0)-phi)/(constV(1.0+k)-constV(1.0-k)*phi);
+//scalarvalueType q_phi = (constV(1.0)-phi)/(constV(1.0+k)-constV(1.0-k)*phi);
+scalarvalueType q_phi = (constV(1.0)-phi)*constV(0.5)*inv_c_eq; // /(constV(1.0+k)-constV(1.0-k)*phi);
 
 // Antitrapping term
 //scalargradType j_at = -constV(at*W*cl0*(1.0-k))*eu*dphidt*normal;
@@ -117,7 +131,8 @@ scalargradType j_at   = -constV(at*W*cl0*(1.0-k))*(constV(1.0)-constV(A_trapping
 scalargradType diff_term_1 = constV(D)*q_phi*cx;
  
 // Diffusion term 2
-scalargradType diff_term_2 = constV(D)*q_phi*c*constV(1.0-k)*phix/(constV(1.0+k)-constV(1.0-k)*phi);
+//scalargradType diff_term_2 = constV(D)*q_phi*c*constV(1.0-k)*phix/(constV(1.0+k)-constV(1.0-k)*phi);
+scalargradType diff_term_2 = constV(D)*q_phi*c*constV(1.0-k)*phix*0.5*inv_c_eq; // /(constV(1.0+k)-constV(1.0-k)*phi);
 
 //Diffusion term
 scalargradType diff_term = diff_term_1 + diff_term_2;
@@ -170,16 +185,25 @@ scalarvalueType c = variable_list.get_scalar_value(1);
   // Calculation of interface normal vector
   scalarvalueType normgradn = std::sqrt(phix.norm_square());
   scalargradType normal = phix/(normgradn+constV(regval));
+
+  // 2D rotation matrix https://en.wikipedia.org/wiki/Rotation_matrix
+  scalarvalueType normal_crystal_x = normal[0]*cos_theta0 - normal[1]*sin_theta0;
+  scalarvalueType normal_crystal_y = normal[0]*sin_theta0 + normal[1]*cos_theta0;
   
   //The cosine of theta
-  scalarvalueType cth = normal[0];
+  scalarvalueType cth = normal_crystal_x; //[0];
   //The sine of theta
-  scalarvalueType sth = normal[1];
+  scalarvalueType sth = normal_crystal_y; // [1];
+
+  // cth = normal[0];
+  // sth = normal[1];
+  // jotain menee pieleen tässä, tulee erroria. Debggaus ...
 
   //The cosine of 4 theta
   scalarvalueType c4th = sth*sth*sth*sth + cth*cth*cth*cth - constV(6.0)*sth*sth*cth*cth;
   //The sine of 4 theta
   scalarvalueType s4th = constV(4.0)*sth*cth*cth*cth - constV(4.0)*sth*sth*sth*cth;
+
 
   // Anisotropic term
  scalarvalueType a_n;
@@ -197,9 +221,13 @@ scalarvalueType a_d;
 
 //Calculation of value term
   scalarvalueType fprime = -phi + phi*phi*phi;
+
+  scalarvalueType c_eq = 0.5*( constV(1.0+k) - constV(1.0-k)*phi );
+  scalarvalueType inv_c_eq = 1./c_eq; // calculate inverse only once, divison is costly
   
   //e^u
-  scalarvalueType eu = constV(2.0/cl0)*c/(constV(1.0+k)-constV(1.0-k)*phi);
+  // scalarvalueType eu = constV(2.0/cl0)*c/(constV(1.0+k)-constV(1.0-k)*phi);
+  scalarvalueType eu = constV(1.0/cl0)*c*inv_c_eq; // /(constV(1.0+k)-constV(1.0-k)*phi);
 
  // dimensionless temperature changes
   scalarvalueType x =q_point_loc[0]; // The x-component

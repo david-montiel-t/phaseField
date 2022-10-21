@@ -26,11 +26,11 @@ void customPDE<dim,degree>::setInitialCondition(const dealii::Point<dim> &p, con
     //dist += (p[dir]-center[dir])*(p[dir]-center[dir]);
   unsigned int dir = 0; // front is in x direction
   double x0 = 10.0; // initial solid liquid interface location
-  double sine_wave_length = 20.0; // wave length of the initial perturbation
-  double sine_amplitude = 2.0; // amplitude of the initial sinusoidal perturbation 
+//  double sine_wave_length = 20.0; // wave length of the initial perturbation
+//  double sine_amplitude = 2.0; // amplitude of the initial sinusoidal perturbation 
   double pi = 3.141597; 
-  double sine_perturbation = sine_amplitude*std::sin(p[1]*2*pi/sine_wave_length); 
-  double dist = p[dir]-x0-sine_perturbation;
+  double x_sine_perturbation = sine_amplitude*std::sin(p[1]*2*pi/sine_wavelength); 
+  double dist = p[dir]-x0-x_sine_perturbation;
   //double dist = (p[dir]-x0-sine_perturbation)*(p[dir]-x0-sine_perturbation);
   //dist = std::sqrt(dist);
   double phi0 = -std::tanh((dist-rad)/(std::sqrt(2)));
