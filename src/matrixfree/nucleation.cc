@@ -25,7 +25,9 @@ void MatrixFreePDE<dim,degree>::updateNucleiList() {
             }
 
             std::vector<nucleus<dim> > new_nuclei;
-
+          
+            // Disabling skipping steps
+            /*
             if (currentIncrement == 1){
                 while (new_nuclei.size() == 0){
                     currentTime+=userInputs.dtValue*(double)userInputs.steps_between_nucleation_attempts;
@@ -45,7 +47,9 @@ void MatrixFreePDE<dim,degree>::updateNucleiList() {
             else {
                 new_nuclei = getNewNuclei();
             }
-
+            */
+            //NEW line below instead of if statement (uncomment later)
+            new_nuclei = getNewNuclei();
             nuclei.insert(nuclei.end(),new_nuclei.begin(),new_nuclei.end());
 
             if (new_nuclei.size() > 0 && userInputs.h_adaptivity == true){
