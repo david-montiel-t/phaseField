@@ -362,6 +362,7 @@ userInputParameters<dim>::userInputParameters(inputFileReader & input_file_reade
     }
     nucleation_order_parameter_cutoff = parameter_handler.get_double("Order parameter cutoff value");
     steps_between_nucleation_attempts = parameter_handler.get_integer("Time steps between nucleation attempts");
+    nucleation_end_time = parameter_handler.get_double("Nucleation end time");
 
     // Load the grain remapping parameters
     grain_remapping_activated = parameter_handler.get_bool("Activate grain reassignment");

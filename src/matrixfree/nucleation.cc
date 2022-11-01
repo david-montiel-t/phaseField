@@ -14,7 +14,7 @@ void MatrixFreePDE<dim,degree>::updateNucleiList() {
     if (userInputs.nucleation_occurs){
 
 
-        if (currentIncrement % userInputs.steps_between_nucleation_attempts == 0 || currentIncrement == 1){
+        if ((currentIncrement % userInputs.steps_between_nucleation_attempts == 0 || currentIncrement == 1) && (userInputs.dtValue*(double)currentIncrement <= userInputs.nucleation_end_time)){
             computing_timer.enter_section("matrixFreePDE: nucleation");
 
             // Apply constraints
