@@ -148,6 +148,7 @@ public:
 	double min_distance_between_nuclei; // Only enforced for nuclei placed during the same time step
 	double nucleation_order_parameter_cutoff;
 	unsigned int steps_between_nucleation_attempts;
+  double nucleation_start_time;
   double nucleation_end_time;
   
     // Grain remapping parameters
