@@ -130,7 +130,9 @@ scalarvalueType eu = constV(1.0/cl0)*c*inv_c_eq;
 //tau(theta)
 //scalarvalueType tau_th=tau*a_n*a_n;
 //scalarvalueType tau_th=tau*a_n*a_n*eu;
-scalarvalueType tau_th= constV(lambda*W_physical/a1)*a_c * ( constV(beta0)*a_k + constV(a1*a2_minus*W_physical/D_liquid)*a_c*eu ) * tau;
+scalarvalueType tau_th= constV(lambda*W_physical/a1)*a_c * ( constV(beta0)*a_k + constV(a1*a2_minus*W_physical/D_liquid)*a_c*eu ) * tau/tau0;
+  //double tau0 =              W_physical*lambda/a1 * (beta0 + a1*a2_minus*W_physical/D_liquid);// time scale magnitude tau0, used to compute the dimensionless diffusion coefficient D
+//tau_th=tau*a_c*a_c;
 // use e^u prefactor correction as proposed originally in Echebarria 2004 
 // (and implemented e.g. in https://doi.org/10.1016/j.jcrysgro.2019.125418 )
   
@@ -211,7 +213,7 @@ scalarvalueType c = variable_list.get_scalar_value(1);
   scalarvalueType normgradn = phix[0]*phix[0] + phix[1]*phix[1];
   if (dim==3)
   {
-  	normgradn += phix[2]*phix[2];
+  	  normgradn += phix[2]*phix[2];
   }
   normgradn = std::sqrt(normgradn); 
 
@@ -250,22 +252,23 @@ scalarvalueType c = variable_list.get_scalar_value(1);
 
   // Anisotropic term
  // scalarvalueType a_n;
- scalarvalueType a_n = constV(1.0)-constV(3*eps4) + constV(4.0)*(n_x_4 + n_y_4 + n_z_4);
+ scalarvalueType a_n = constV(1.0)-constV(3*eps4) + constV(4.0*eps4)*(n_x_4 + n_y_4 + n_z_4);
  //a_n = (constV(1.0)+constV(epsilon)*std::cos(constV(4.0)*(theta)));
   //a_n = (constV(1.0)+constV(eps4)*c4th);
   
 //gradient energy coefficient, its derivative and square
- scalarvalueType a_d;
- a_d = constV(16.0*eps4)*normgradn*a_n;
+ //scalarvalueType a_d;
+ //a_d = constV(16.0*eps4)*normgradn*a_n;
 //  a_d = -constV(4.0)*constV(eps4)*s4th;
 
 // The anisotropy term that enters in to the  equation for xi
  scalargradType aniso;
- aniso[0] = a_n*a_n*phix[0] + n_x*(n_x_2 - (n_x_4 + n_y_4)); 
- aniso[1] = a_n*a_n*phix[1] + n_y*(n_y_2 - (n_x_4 + n_y_4)); 
+
+ aniso[0] = a_n*a_n*phix[0] + constV(16.0*eps4)*a_n*normgradn*n_x*(n_x_2 - (n_x_4 + n_y_4 + n_z_4)); 
+ aniso[1] = a_n*a_n*phix[1] + constV(16.0*eps4)*a_n*normgradn*n_y*(n_y_2 - (n_x_4 + n_y_4 + n_z_4)); 
  if (dim==3)
  {
-   aniso[2] = a_n*a_n*phix[2] + n_z*(n_z_2 - (n_x_4 + n_y_4)); 
+ aniso[2] = a_n*a_n*phix[2] + constV(16.0*eps4)*a_n*normgradn*n_z*(n_z_2 - (n_x_4 + n_y_4 + n_z_4)); 
  }
  //aniso[0] = constV(W*W)*(a_n*a_n*phix[0]-a_n*a_d*phix[1]);
  //aniso[1] = constV(W*W)*(a_n*a_n*phix[1]+a_n*a_d*phix[0]);

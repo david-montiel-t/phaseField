@@ -1,0 +1,3359 @@
+Using the input parameter file: parameters.prm
+Number of constants: 21
+Number of post-processing variables: 0
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+creating problem mesh...
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+time scale tau0 = 2.73129e-06 s, Dimensionless solute diffusion coefficient: D = 1.10788 W0^2/tau0
+, cos_theta0 = 1, sin_theta0 = 0, a2_minus = 0.626699, thermal_gradient_dimless = 0.086, Vtilde = 0.952776, ltilde = 193.857
+periodic facepairs: 8
+problem dimensions: 819.2x204.8x204.8
+number of elements: 8388608
+
+initializing matrix free object
+initializing finite element space P^2 for EXPLICIT_TIME_DEPENDENT:SCALAR field 'phi'
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+initializing finite element space P^2 for EXPLICIT_TIME_DEPENDENT:SCALAR field 'c'
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+initializing finite element space P^2 for AUXILIARY:SCALAR field 'xi'
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Applying non-PField initial condition...
+Application of initial conditions for field number 0 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 1 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 2 complete 
+Reinitializing matrix free object
+field 'phi' DOF : 12755109 (Constraint DOF : 0)
+field ' c' DOF : 12755109 (Constraint DOF : 0)
+field 'xi' DOF : 12755109 (Constraint DOF : 0)
+total DOF : 38265327
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Applying non-PField initial condition...
+Application of initial conditions for field number 0 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 1 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 2 complete 
+Reinitializing matrix free object
+field 'phi' DOF : 5900793 (Constraint DOF : 0)
+field ' c' DOF : 5900793 (Constraint DOF : 0)
+field 'xi' DOF : 5900793 (Constraint DOF : 0)
+total DOF : 17702379
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Applying non-PField initial condition...
+Application of initial conditions for field number 0 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 1 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 2 complete 
+Reinitializing matrix free object
+field 'phi' DOF : 5047717 (Constraint DOF : 0)
+field ' c' DOF : 5047717 (Constraint DOF : 0)
+field 'xi' DOF : 5047717 (Constraint DOF : 0)
+total DOF : 15143151
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+Applying non-PField initial condition...
+Application of initial conditions for field number 0 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 1 complete 
+Applying non-PField initial condition...
+Application of initial conditions for field number 2 complete 
+
+solving...
+
+wall time: 0.000251646s
+field 'xi' [auxiliary solve]: current solution: 1.789426e+04, current residual:8.910005e+03
+wall time: 0.721208s
+Output written to:solution-00000.vtu
+
+*** Checkpoint created! ***
+
+
+Time stepping parameters: timeStep: 0.05  timeFinal: 2500  timeIncrements: 50000
+
+time increment:100  time: 5
+field 'phi' [explicit solve]: current solution: 2.150617e+03, current residual:1.059060e+05
+field ' c' [explicit solve]: current solution: 2.012260e+03, current residual:1.059050e+05
+field 'xi' [auxiliary solve]: current solution: 2.342478e+01, current residual:1.410264e+01
+wall time: 0.641396s
+
+time increment:200  time: 10
+Reinitializing matrix free object
+field 'phi' DOF : 5567659 (Constraint DOF : 0)
+field ' c' DOF : 5567659 (Constraint DOF : 0)
+field 'xi' DOF : 5567659 (Constraint DOF : 0)
+total DOF : 16702977
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 2.276963e+03, current residual:1.058500e+05
+field ' c' [explicit solve]: current solution: 2.136956e+03, current residual:1.058490e+05
+field 'xi' [auxiliary solve]: current solution: 1.902908e+01, current residual:1.147659e+01
+wall time: 0.778383s
+
+time increment:300  time: 15
+field 'phi' [explicit solve]: current solution: 2.279295e+03, current residual:1.058500e+05
+field ' c' [explicit solve]: current solution: 2.137276e+03, current residual:1.058490e+05
+field 'xi' [auxiliary solve]: current solution: 1.813892e+01, current residual:1.081290e+01
+wall time: 0.920694s
+
+time increment:400  time: 20
+Reinitializing matrix free object
+field 'phi' DOF : 6102323 (Constraint DOF : 0)
+field ' c' DOF : 6102323 (Constraint DOF : 0)
+field 'xi' DOF : 6102323 (Constraint DOF : 0)
+total DOF : 18306969
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 2.393335e+03, current residual:1.049925e+05
+field ' c' [explicit solve]: current solution: 2.258225e+03, current residual:1.049914e+05
+field 'xi' [auxiliary solve]: current solution: 1.703514e+01, current residual:1.019855e+01
+wall time: 1.30334s
+
+time increment:500  time: 25
+field 'phi' [explicit solve]: current solution: 2.393030e+03, current residual:1.049925e+05
+field ' c' [explicit solve]: current solution: 2.258475e+03, current residual:1.049914e+05
+field 'xi' [auxiliary solve]: current solution: 1.870339e+01, current residual:1.136944e+01
+wall time: 0.740372s
+Output written to:solution-00500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:600  time: 30
+Reinitializing matrix free object
+field 'phi' DOF : 6695101 (Constraint DOF : 0)
+field ' c' DOF : 6695101 (Constraint DOF : 0)
+field 'xi' DOF : 6695101 (Constraint DOF : 0)
+total DOF : 20085303
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 2.512857e+03, current residual:1.040772e+05
+field ' c' [explicit solve]: current solution: 2.385301e+03, current residual:1.040761e+05
+field 'xi' [auxiliary solve]: current solution: 2.028258e+01, current residual:1.234067e+01
+wall time: 1.00336s
+
+time increment:700  time: 35
+field 'phi' [explicit solve]: current solution: 2.513552e+03, current residual:1.040772e+05
+field ' c' [explicit solve]: current solution: 2.385551e+03, current residual:1.040761e+05
+field 'xi' [auxiliary solve]: current solution: 1.890669e+01, current residual:1.133338e+01
+wall time: 1.01703s
+
+time increment:800  time: 40
+Reinitializing matrix free object
+field 'phi' DOF : 7676871 (Constraint DOF : 0)
+field ' c' DOF : 7676871 (Constraint DOF : 0)
+field 'xi' DOF : 7676871 (Constraint DOF : 0)
+total DOF : 23030613
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 2.701023e+03, current residual:1.040138e+05
+field ' c' [explicit solve]: current solution: 2.582014e+03, current residual:1.040127e+05
+field 'xi' [auxiliary solve]: current solution: 1.647256e+01, current residual:9.749653e+00
+wall time: 1.29609s
+
+time increment:900  time: 45
+field 'phi' [explicit solve]: current solution: 2.700841e+03, current residual:1.040138e+05
+field ' c' [explicit solve]: current solution: 2.582208e+03, current residual:1.040127e+05
+field 'xi' [auxiliary solve]: current solution: 1.632970e+01, current residual:9.767721e+00
+wall time: 1.03546s
+
+time increment:1000  time: 50
+Reinitializing matrix free object
+field 'phi' DOF : 8211535 (Constraint DOF : 0)
+field ' c' DOF : 8211535 (Constraint DOF : 0)
+field 'xi' DOF : 8211535 (Constraint DOF : 0)
+total DOF : 24634605
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 2.796752e+03, current residual:1.031410e+05
+field ' c' [explicit solve]: current solution: 2.683143e+03, current residual:1.031399e+05
+field 'xi' [auxiliary solve]: current solution: 1.867672e+01, current residual:1.135605e+01
+wall time: 1.93098s
+Output written to:solution-01000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:1100  time: 55
+field 'phi' [explicit solve]: current solution: 2.796502e+03, current residual:1.031410e+05
+field ' c' [explicit solve]: current solution: 2.683355e+03, current residual:1.031399e+05
+field 'xi' [auxiliary solve]: current solution: 2.109419e+01, current residual:1.285516e+01
+wall time: 0.959587s
+
+time increment:1200  time: 60
+Reinitializing matrix free object
+field 'phi' DOF : 8731477 (Constraint DOF : 0)
+field ' c' DOF : 8731477 (Constraint DOF : 0)
+field 'xi' DOF : 8731477 (Constraint DOF : 0)
+total DOF : 26194431
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 2.887768e+03, current residual:1.030834e+05
+field ' c' [explicit solve]: current solution: 2.778076e+03, current residual:1.030823e+05
+field 'xi' [auxiliary solve]: current solution: 2.042736e+01, current residual:1.226992e+01
+wall time: 1.13031s
+
+time increment:1300  time: 65
+field 'phi' [explicit solve]: current solution: 2.888250e+03, current residual:1.030834e+05
+field ' c' [explicit solve]: current solution: 2.778282e+03, current residual:1.030823e+05
+field 'xi' [auxiliary solve]: current solution: 1.807075e+01, current residual:1.069684e+01
+wall time: 1.06477s
+
+time increment:1400  time: 70
+Reinitializing matrix free object
+field 'phi' DOF : 9266141 (Constraint DOF : 0)
+field ' c' DOF : 9266141 (Constraint DOF : 0)
+field 'xi' DOF : 9266141 (Constraint DOF : 0)
+total DOF : 27798423
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 2.978487e+03, current residual:1.022027e+05
+field ' c' [explicit solve]: current solution: 2.872340e+03, current residual:1.022016e+05
+field 'xi' [auxiliary solve]: current solution: 1.801179e+01, current residual:1.077174e+01
+wall time: 1.23554s
+
+time increment:1500  time: 75
+field 'phi' [explicit solve]: current solution: 2.977907e+03, current residual:1.022027e+05
+field ' c' [explicit solve]: current solution: 2.872530e+03, current residual:1.022016e+05
+field 'xi' [auxiliary solve]: current solution: 2.079412e+01, current residual:1.264943e+01
+wall time: 1.10604s
+Output written to:solution-01500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:1600  time: 80
+Reinitializing matrix free object
+field 'phi' DOF : 9786083 (Constraint DOF : 0)
+field ' c' DOF : 9786083 (Constraint DOF : 0)
+field 'xi' DOF : 9786083 (Constraint DOF : 0)
+total DOF : 29358249
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.063134e+03, current residual:1.021446e+05
+field ' c' [explicit solve]: current solution: 2.961208e+03, current residual:1.021435e+05
+field 'xi' [auxiliary solve]: current solution: 2.334086e+01, current residual:1.420521e+01
+wall time: 1.52125s
+
+time increment:1700  time: 85
+field 'phi' [explicit solve]: current solution: 3.063638e+03, current residual:1.021446e+05
+field ' c' [explicit solve]: current solution: 2.961425e+03, current residual:1.021435e+05
+field 'xi' [auxiliary solve]: current solution: 2.215180e+01, current residual:1.325266e+01
+wall time: 1.13943s
+
+time increment:1800  time: 90
+Reinitializing matrix free object
+field 'phi' DOF : 10320747 (Constraint DOF : 0)
+field ' c' DOF : 10320747 (Constraint DOF : 0)
+field 'xi' DOF : 10320747 (Constraint DOF : 0)
+total DOF : 30962241
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.149346e+03, current residual:1.012557e+05
+field ' c' [explicit solve]: current solution: 3.049863e+03, current residual:1.012546e+05
+field 'xi' [auxiliary solve]: current solution: 1.997031e+01, current residual:1.183127e+01
+wall time: 1.56995s
+
+time increment:1900  time: 95
+field 'phi' [explicit solve]: current solution: 3.148975e+03, current residual:1.012557e+05
+field ' c' [explicit solve]: current solution: 3.050047e+03, current residual:1.012546e+05
+field 'xi' [auxiliary solve]: current solution: 2.117907e+01, current residual:1.276304e+01
+wall time: 1.3383s
+
+time increment:2000  time: 100
+Reinitializing matrix free object
+field 'phi' DOF : 10551661 (Constraint DOF : 0)
+field ' c' DOF : 10551661 (Constraint DOF : 0)
+field 'xi' DOF : 10551661 (Constraint DOF : 0)
+total DOF : 31654983
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.184670e+03, current residual:1.012524e+05
+field ' c' [explicit solve]: current solution: 3.087617e+03, current residual:1.012513e+05
+field 'xi' [auxiliary solve]: current solution: 2.474595e+01, current residual:1.508863e+01
+wall time: 1.31125s
+Output written to:solution-02000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:2100  time: 105
+field 'phi' [explicit solve]: current solution: 3.184862e+03, current residual:1.012524e+05
+field ' c' [explicit solve]: current solution: 3.087835e+03, current residual:1.012513e+05
+field 'xi' [auxiliary solve]: current solution: 2.557091e+01, current residual:1.543032e+01
+wall time: 1.2446s
+
+time increment:2200  time: 110
+Reinitializing matrix free object
+field 'phi' DOF : 10840689 (Constraint DOF : 0)
+field ' c' DOF : 10840689 (Constraint DOF : 0)
+field 'xi' DOF : 10840689 (Constraint DOF : 0)
+total DOF : 32522067
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.230081e+03, current residual:1.011970e+05
+field ' c' [explicit solve]: current solution: 3.134125e+03, current residual:1.011959e+05
+field 'xi' [auxiliary solve]: current solution: 2.293709e+01, current residual:1.359761e+01
+wall time: 2.09193s
+
+time increment:2300  time: 115
+field 'phi' [explicit solve]: current solution: 3.229914e+03, current residual:1.011970e+05
+field ' c' [explicit solve]: current solution: 3.134314e+03, current residual:1.011959e+05
+field 'xi' [auxiliary solve]: current solution: 2.296249e+01, current residual:1.376542e+01
+wall time: 1.32418s
+
+time increment:2400  time: 120
+Reinitializing matrix free object
+field 'phi' DOF : 11071603 (Constraint DOF : 0)
+field ' c' DOF : 11071603 (Constraint DOF : 0)
+field 'xi' DOF : 11071603 (Constraint DOF : 0)
+total DOF : 33214809
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.264656e+03, current residual:1.011937e+05
+field ' c' [explicit solve]: current solution: 3.170888e+03, current residual:1.011927e+05
+field 'xi' [auxiliary solve]: current solution: 2.668490e+01, current residual:1.625586e+01
+wall time: 1.96517s
+
+time increment:2500  time: 125
+field 'phi' [explicit solve]: current solution: 3.264727e+03, current residual:1.011937e+05
+field ' c' [explicit solve]: current solution: 3.171105e+03, current residual:1.011927e+05
+field 'xi' [auxiliary solve]: current solution: 2.820268e+01, current residual:1.704195e+01
+wall time: 1.30679s
+Output written to:solution-02500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:2600  time: 130
+Reinitializing matrix free object
+field 'phi' DOF : 11375353 (Constraint DOF : 0)
+field ' c' DOF : 11375353 (Constraint DOF : 0)
+field 'xi' DOF : 11375353 (Constraint DOF : 0)
+total DOF : 34126059
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.311042e+03, current residual:1.002997e+05
+field ' c' [explicit solve]: current solution: 3.218432e+03, current residual:1.002986e+05
+field 'xi' [auxiliary solve]: current solution: 2.547254e+01, current residual:1.511037e+01
+wall time: 1.64492s
+
+time increment:2700  time: 135
+field 'phi' [explicit solve]: current solution: 3.310857e+03, current residual:1.002997e+05
+field ' c' [explicit solve]: current solution: 3.218620e+03, current residual:1.002986e+05
+field 'xi' [auxiliary solve]: current solution: 2.568264e+01, current residual:1.542419e+01
+wall time: 1.58073s
+
+time increment:2800  time: 140
+Reinitializing matrix free object
+field 'phi' DOF : 11895295 (Constraint DOF : 0)
+field ' c' DOF : 11895295 (Constraint DOF : 0)
+field 'xi' DOF : 11895295 (Constraint DOF : 0)
+total DOF : 35685885
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.387356e+03, current residual:1.002405e+05
+field ' c' [explicit solve]: current solution: 3.298012e+03, current residual:1.002394e+05
+field 'xi' [auxiliary solve]: current solution: 2.977853e+01, current residual:1.813916e+01
+wall time: 1.6199s
+
+time increment:2900  time: 145
+field 'phi' [explicit solve]: current solution: 3.387584e+03, current residual:1.002405e+05
+field ' c' [explicit solve]: current solution: 3.298225e+03, current residual:1.002394e+05
+field 'xi' [auxiliary solve]: current solution: 3.026782e+01, current residual:1.819931e+01
+wall time: 1.41925s
+
+time increment:3000  time: 150
+Reinitializing matrix free object
+field 'phi' DOF : 12126209 (Constraint DOF : 0)
+field ' c' DOF : 12126209 (Constraint DOF : 0)
+field 'xi' DOF : 12126209 (Constraint DOF : 0)
+total DOF : 36378627
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.421682e+03, current residual:1.002372e+05
+field ' c' [explicit solve]: current solution: 3.333012e+03, current residual:1.002361e+05
+field 'xi' [auxiliary solve]: current solution: 2.747563e+01, current residual:1.630786e+01
+wall time: 1.71697s
+Output written to:solution-03000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:3100  time: 155
+field 'phi' [explicit solve]: current solution: 3.421253e+03, current residual:1.002372e+05
+field ' c' [explicit solve]: current solution: 3.333195e+03, current residual:1.002361e+05
+field 'xi' [auxiliary solve]: current solution: 2.969508e+01, current residual:1.797761e+01
+wall time: 1.4858s
+
+time increment:3200  time: 160
+Reinitializing matrix free object
+field 'phi' DOF : 12429959 (Constraint DOF : 0)
+field ' c' DOF : 12429959 (Constraint DOF : 0)
+field 'xi' DOF : 12429959 (Constraint DOF : 0)
+total DOF : 37289877
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.464662e+03, current residual:9.933455e+04
+field ' c' [explicit solve]: current solution: 3.378253e+03, current residual:9.933349e+04
+field 'xi' [auxiliary solve]: current solution: 3.333551e+01, current residual:2.023635e+01
+wall time: 1.99954s
+
+time increment:3300  time: 165
+field 'phi' [explicit solve]: current solution: 3.465165e+03, current residual:9.933456e+04
+field ' c' [explicit solve]: current solution: 3.378456e+03, current residual:9.933349e+04
+field 'xi' [auxiliary solve]: current solution: 3.112046e+01, current residual:1.851897e+01
+wall time: 1.50652s
+
+time increment:3400  time: 170
+Reinitializing matrix free object
+field 'phi' DOF : 12660873 (Constraint DOF : 0)
+field ' c' DOF : 12660873 (Constraint DOF : 0)
+field 'xi' DOF : 12660873 (Constraint DOF : 0)
+total DOF : 37982619
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.498049e+03, current residual:9.933124e+04
+field ' c' [explicit solve]: current solution: 3.412414e+03, current residual:9.933017e+04
+field 'xi' [auxiliary solve]: current solution: 3.066983e+01, current residual:1.840449e+01
+wall time: 1.81001s
+
+time increment:3500  time: 175
+field 'phi' [explicit solve]: current solution: 3.497518e+03, current residual:9.933123e+04
+field ' c' [explicit solve]: current solution: 3.412601e+03, current residual:9.933017e+04
+field 'xi' [auxiliary solve]: current solution: 3.518010e+01, current residual:2.140367e+01
+wall time: 1.43511s
+Output written to:solution-03500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:3600  time: 180
+Reinitializing matrix free object
+field 'phi' DOF : 12949901 (Constraint DOF : 0)
+field ' c' DOF : 12949901 (Constraint DOF : 0)
+field 'xi' DOF : 12949901 (Constraint DOF : 0)
+total DOF : 38849703
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.538596e+03, current residual:9.927475e+04
+field ' c' [explicit solve]: current solution: 3.454554e+03, current residual:9.927370e+04
+field 'xi' [auxiliary solve]: current solution: 3.462179e+01, current residual:2.071136e+01
+wall time: 1.69298s
+
+time increment:3700  time: 185
+field 'phi' [explicit solve]: current solution: 3.538773e+03, current residual:9.927476e+04
+field ' c' [explicit solve]: current solution: 3.454733e+03, current residual:9.927370e+04
+field 'xi' [auxiliary solve]: current solution: 3.277429e+01, current residual:1.958065e+01
+wall time: 1.5538s
+
+time increment:3800  time: 190
+Reinitializing matrix free object
+field 'phi' DOF : 13180815 (Constraint DOF : 0)
+field ' c' DOF : 13180815 (Constraint DOF : 0)
+field 'xi' DOF : 13180815 (Constraint DOF : 0)
+total DOF : 39542445
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.570486e+03, current residual:9.927142e+04
+field ' c' [explicit solve]: current solution: 3.487948e+03, current residual:9.927038e+04
+field 'xi' [auxiliary solve]: current solution: 3.722883e+01, current residual:2.264009e+01
+wall time: 1.79828s
+
+time increment:3900  time: 195
+field 'phi' [explicit solve]: current solution: 3.570706e+03, current residual:9.927143e+04
+field ' c' [explicit solve]: current solution: 3.488140e+03, current residual:9.927038e+04
+field 'xi' [auxiliary solve]: current solution: 3.744918e+01, current residual:2.244169e+01
+wall time: 1.63241s
+
+time increment:4000  time: 200
+Reinitializing matrix free object
+field 'phi' DOF : 13180815 (Constraint DOF : 0)
+field ' c' DOF : 13180815 (Constraint DOF : 0)
+field 'xi' DOF : 13180815 (Constraint DOF : 0)
+total DOF : 39542445
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.570922e+03, current residual:9.927143e+04
+field ' c' [explicit solve]: current solution: 3.488314e+03, current residual:9.927038e+04
+field 'xi' [auxiliary solve]: current solution: 3.541624e+01, current residual:2.116229e+01
+wall time: 1.83501s
+Output written to:solution-04000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:4100  time: 205
+field 'phi' [explicit solve]: current solution: 3.570383e+03, current residual:9.927142e+04
+field ' c' [explicit solve]: current solution: 3.488486e+03, current residual:9.927038e+04
+field 'xi' [auxiliary solve]: current solution: 4.002852e+01, current residual:2.432859e+01
+wall time: 1.81043s
+
+time increment:4200  time: 210
+Reinitializing matrix free object
+field 'phi' DOF : 13484565 (Constraint DOF : 0)
+field ' c' DOF : 13484565 (Constraint DOF : 0)
+field 'xi' DOF : 13484565 (Constraint DOF : 0)
+total DOF : 40453695
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.612566e+03, current residual:9.835993e+04
+field ' c' [explicit solve]: current solution: 3.531556e+03, current residual:9.835887e+04
+field 'xi' [auxiliary solve]: current solution: 3.966100e+01, current residual:2.371520e+01
+wall time: 1.6437s
+
+time increment:4300  time: 215
+field 'phi' [explicit solve]: current solution: 3.612642e+03, current residual:9.835993e+04
+field ' c' [explicit solve]: current solution: 3.531719e+03, current residual:9.835888e+04
+field 'xi' [auxiliary solve]: current solution: 3.860448e+01, current residual:2.316612e+01
+wall time: 1.61877s
+
+time increment:4400  time: 220
+Reinitializing matrix free object
+field 'phi' DOF : 13715479 (Constraint DOF : 0)
+field ' c' DOF : 13715479 (Constraint DOF : 0)
+field 'xi' DOF : 13715479 (Constraint DOF : 0)
+total DOF : 41146437
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.643786e+03, current residual:9.835657e+04
+field ' c' [explicit solve]: current solution: 3.564210e+03, current residual:9.835552e+04
+field 'xi' [auxiliary solve]: current solution: 4.335319e+01, current residual:2.629859e+01
+wall time: 4.54691s
+
+time increment:4500  time: 225
+field 'phi' [explicit solve]: current solution: 3.644185e+03, current residual:9.835657e+04
+field ' c' [explicit solve]: current solution: 3.564381e+03, current residual:9.835553e+04
+field 'xi' [auxiliary solve]: current solution: 4.133937e+01, current residual:2.462463e+01
+wall time: 1.62693s
+Output written to:solution-04500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:4600  time: 230
+Reinitializing matrix free object
+field 'phi' DOF : 14004507 (Constraint DOF : 0)
+field ' c' DOF : 14004507 (Constraint DOF : 0)
+field 'xi' DOF : 14004507 (Constraint DOF : 0)
+total DOF : 42013521
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.683075e+03, current residual:9.829953e+04
+field ' c' [explicit solve]: current solution: 3.604527e+03, current residual:9.829849e+04
+field 'xi' [auxiliary solve]: current solution: 4.304185e+01, current residual:2.602573e+01
+wall time: 1.99983s
+
+time increment:4700  time: 235
+field 'phi' [explicit solve]: current solution: 3.682915e+03, current residual:9.829953e+04
+field ' c' [explicit solve]: current solution: 3.604688e+03, current residual:9.829849e+04
+field 'xi' [auxiliary solve]: current solution: 4.599582e+01, current residual:2.770492e+01
+wall time: 1.8878s
+
+time increment:4800  time: 240
+Reinitializing matrix free object
+field 'phi' DOF : 14235421 (Constraint DOF : 0)
+field ' c' DOF : 14235421 (Constraint DOF : 0)
+field 'xi' DOF : 14235421 (Constraint DOF : 0)
+total DOF : 42706263
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.714221e+03, current residual:9.829617e+04
+field ' c' [explicit solve]: current solution: 3.636516e+03, current residual:9.829513e+04
+field 'xi' [auxiliary solve]: current solution: 4.373037e+01, current residual:2.613507e+01
+wall time: 2.489s
+
+time increment:4900  time: 245
+field 'phi' [explicit solve]: current solution: 3.713765e+03, current residual:9.829617e+04
+field ' c' [explicit solve]: current solution: 3.636660e+03, current residual:9.829514e+04
+field 'xi' [auxiliary solve]: current solution: 4.835591e+01, current residual:2.931348e+01
+wall time: 1.68109s
+
+time increment:5000  time: 250
+Reinitializing matrix free object
+field 'phi' DOF : 14539171 (Constraint DOF : 0)
+field ' c' DOF : 14539171 (Constraint DOF : 0)
+field 'xi' DOF : 14539171 (Constraint DOF : 0)
+total DOF : 43617513
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.754366e+03, current residual:9.737554e+04
+field ' c' [explicit solve]: current solution: 3.677967e+03, current residual:9.737450e+04
+field 'xi' [auxiliary solve]: current solution: 4.706211e+01, current residual:2.808183e+01
+wall time: 2.22082s
+Output written to:solution-05000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:5100  time: 255
+field 'phi' [explicit solve]: current solution: 3.754124e+03, current residual:9.737554e+04
+field ' c' [explicit solve]: current solution: 3.678099e+03, current residual:9.737450e+04
+field 'xi' [auxiliary solve]: current solution: 4.936234e+01, current residual:2.985948e+01
+wall time: 1.9883s
+
+time increment:5200  time: 260
+Reinitializing matrix free object
+field 'phi' DOF : 14539171 (Constraint DOF : 0)
+field ' c' DOF : 14539171 (Constraint DOF : 0)
+field 'xi' DOF : 14539171 (Constraint DOF : 0)
+total DOF : 43617513
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.754105e+03, current residual:9.737554e+04
+field ' c' [explicit solve]: current solution: 3.678238e+03, current residual:9.737450e+04
+field 'xi' [auxiliary solve]: current solution: 5.095934e+01, current residual:3.056031e+01
+wall time: 1.89973s
+
+time increment:5300  time: 265
+field 'phi' [explicit solve]: current solution: 3.754138e+03, current residual:9.737554e+04
+field ' c' [explicit solve]: current solution: 3.678365e+03, current residual:9.737450e+04
+field 'xi' [auxiliary solve]: current solution: 5.094337e+01, current residual:3.066584e+01
+wall time: 1.92757s
+
+time increment:5400  time: 270
+Reinitializing matrix free object
+field 'phi' DOF : 14770085 (Constraint DOF : 0)
+field ' c' DOF : 14770085 (Constraint DOF : 0)
+field 'xi' DOF : 14770085 (Constraint DOF : 0)
+total DOF : 44310255
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.784335e+03, current residual:9.737215e+04
+field ' c' [explicit solve]: current solution: 3.709539e+03, current residual:9.737112e+04
+field 'xi' [auxiliary solve]: current solution: 5.426865e+01, current residual:3.266766e+01
+wall time: 1.99198s
+
+time increment:5500  time: 275
+field 'phi' [explicit solve]: current solution: 3.784475e+03, current residual:9.737215e+04
+field ' c' [explicit solve]: current solution: 3.709658e+03, current residual:9.737112e+04
+field 'xi' [auxiliary solve]: current solution: 5.352845e+01, current residual:3.213106e+01
+wall time: 1.80989s
+Output written to:solution-05500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:5600  time: 280
+Reinitializing matrix free object
+field 'phi' DOF : 15059113 (Constraint DOF : 0)
+field ' c' DOF : 15059113 (Constraint DOF : 0)
+field 'xi' DOF : 15059113 (Constraint DOF : 0)
+total DOF : 45177339
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.821885e+03, current residual:9.731453e+04
+field ' c' [explicit solve]: current solution: 3.748218e+03, current residual:9.731350e+04
+field 'xi' [auxiliary solve]: current solution: 5.723809e+01, current residual:3.449502e+01
+wall time: 2.17662s
+
+time increment:5700  time: 285
+field 'phi' [explicit solve]: current solution: 3.822006e+03, current residual:9.731453e+04
+field ' c' [explicit solve]: current solution: 3.748327e+03, current residual:9.731350e+04
+field 'xi' [auxiliary solve]: current solution: 5.674139e+01, current residual:3.404216e+01
+wall time: 2.07119s
+
+time increment:5800  time: 290
+Reinitializing matrix free object
+field 'phi' DOF : 15290027 (Constraint DOF : 0)
+field ' c' DOF : 15290027 (Constraint DOF : 0)
+field 'xi' DOF : 15290027 (Constraint DOF : 0)
+total DOF : 45870081
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.851626e+03, current residual:9.731113e+04
+field ' c' [explicit solve]: current solution: 3.778903e+03, current residual:9.731011e+04
+field 'xi' [auxiliary solve]: current solution: 6.035767e+01, current residual:3.636022e+01
+wall time: 2.16503s
+
+time increment:5900  time: 295
+field 'phi' [explicit solve]: current solution: 3.851681e+03, current residual:9.731113e+04
+field ' c' [explicit solve]: current solution: 3.779000e+03, current residual:9.731011e+04
+field 'xi' [auxiliary solve]: current solution: 6.034674e+01, current residual:3.623156e+01
+wall time: 2.0447s
+
+time increment:6000  time: 300
+Reinitializing matrix free object
+field 'phi' DOF : 15551877 (Constraint DOF : 0)
+field ' c' DOF : 15551877 (Constraint DOF : 0)
+field 'xi' DOF : 15551877 (Constraint DOF : 0)
+total DOF : 46655631
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.884669e+03, current residual:9.642234e+04
+field ' c' [explicit solve]: current solution: 3.812967e+03, current residual:9.642131e+04
+field 'xi' [auxiliary solve]: current solution: 6.381719e+01, current residual:3.837992e+01
+wall time: 2.14315s
+Output written to:solution-06000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:6100  time: 305
+field 'phi' [explicit solve]: current solution: 3.884607e+03, current residual:9.642233e+04
+field ' c' [explicit solve]: current solution: 3.813053e+03, current residual:9.642131e+04
+field 'xi' [auxiliary solve]: current solution: 6.473091e+01, current residual:3.895339e+01
+wall time: 2.07251s
+
+time increment:6200  time: 310
+Reinitializing matrix free object
+field 'phi' DOF : 15593777 (Constraint DOF : 0)
+field ' c' DOF : 15593777 (Constraint DOF : 0)
+field 'xi' DOF : 15593777 (Constraint DOF : 0)
+total DOF : 46781331
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.890031e+03, current residual:9.638109e+04
+field ' c' [explicit solve]: current solution: 3.818886e+03, current residual:9.638007e+04
+field 'xi' [auxiliary solve]: current solution: 6.744231e+01, current residual:4.045042e+01
+wall time: 2.03457s
+
+time increment:6300  time: 315
+field 'phi' [explicit solve]: current solution: 3.889760e+03, current residual:9.638108e+04
+field ' c' [explicit solve]: current solution: 3.818962e+03, current residual:9.638007e+04
+field 'xi' [auxiliary solve]: current solution: 7.014538e+01, current residual:4.225358e+01
+wall time: 1.91444s
+
+time increment:6400  time: 320
+Reinitializing matrix free object
+field 'phi' DOF : 15824691 (Constraint DOF : 0)
+field ' c' DOF : 15824691 (Constraint DOF : 0)
+field 'xi' DOF : 15824691 (Constraint DOF : 0)
+total DOF : 47474073
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.918864e+03, current residual:9.637766e+04
+field ' c' [explicit solve]: current solution: 3.848951e+03, current residual:9.637665e+04
+field 'xi' [auxiliary solve]: current solution: 7.255356e+01, current residual:4.350544e+01
+wall time: 2.04202s
+
+time increment:6500  time: 325
+field 'phi' [explicit solve]: current solution: 3.918314e+03, current residual:9.637765e+04
+field ' c' [explicit solve]: current solution: 3.849021e+03, current residual:9.637665e+04
+field 'xi' [auxiliary solve]: current solution: 7.703914e+01, current residual:4.640314e+01
+wall time: 1.93031s
+Output written to:solution-06500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:6600  time: 330
+Reinitializing matrix free object
+field 'phi' DOF : 16113719 (Constraint DOF : 0)
+field ' c' DOF : 16113719 (Constraint DOF : 0)
+field 'xi' DOF : 16113719 (Constraint DOF : 0)
+total DOF : 48341157
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.954176e+03, current residual:9.631943e+04
+field ' c' [explicit solve]: current solution: 3.886160e+03, current residual:9.631844e+04
+field 'xi' [auxiliary solve]: current solution: 8.028558e+01, current residual:4.820512e+01
+wall time: 2.79962s
+
+time increment:6700  time: 335
+field 'phi' [explicit solve]: current solution: 3.953211e+03, current residual:9.631941e+04
+field ' c' [explicit solve]: current solution: 3.886235e+03, current residual:9.631844e+04
+field 'xi' [auxiliary solve]: current solution: 8.635709e+01, current residual:5.176660e+01
+wall time: 2.12661s
+
+time increment:6800  time: 340
+Reinitializing matrix free object
+field 'phi' DOF : 16113719 (Constraint DOF : 0)
+field ' c' DOF : 16113719 (Constraint DOF : 0)
+field 'xi' DOF : 16113719 (Constraint DOF : 0)
+total DOF : 48341157
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.951814e+03, current residual:9.631939e+04
+field ' c' [explicit solve]: current solution: 3.886319e+03, current residual:9.631844e+04
+field 'xi' [auxiliary solve]: current solution: 9.454176e+01, current residual:5.686147e+01
+wall time: 1.96755s
+
+time increment:6900  time: 345
+field 'phi' [explicit solve]: current solution: 3.949937e+03, current residual:9.631936e+04
+field ' c' [explicit solve]: current solution: 3.886418e+03, current residual:9.631844e+04
+field 'xi' [auxiliary solve]: current solution: 1.040144e+02, current residual:6.246121e+01
+wall time: 1.90362s
+
+time increment:7000  time: 350
+Reinitializing matrix free object
+field 'phi' DOF : 16344633 (Constraint DOF : 0)
+field ' c' DOF : 16344633 (Constraint DOF : 0)
+field 'xi' DOF : 16344633 (Constraint DOF : 0)
+total DOF : 49033899
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.976337e+03, current residual:9.631590e+04
+field ' c' [explicit solve]: current solution: 3.915936e+03, current residual:9.631501e+04
+field 'xi' [auxiliary solve]: current solution: 1.160822e+02, current residual:6.972032e+01
+wall time: 2.18787s
+Output written to:solution-07000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:7100  time: 355
+field 'phi' [explicit solve]: current solution: 3.973088e+03, current residual:9.631585e+04
+field ' c' [explicit solve]: current solution: 3.916082e+03, current residual:9.631502e+04
+field 'xi' [auxiliary solve]: current solution: 1.313547e+02, current residual:7.897076e+01
+wall time: 2.20355s
+
+time increment:7200  time: 360
+Reinitializing matrix free object
+field 'phi' DOF : 16648383 (Constraint DOF : 0)
+field ' c' DOF : 16648383 (Constraint DOF : 0)
+field 'xi' DOF : 16648383 (Constraint DOF : 0)
+total DOF : 49945149
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.007104e+03, current residual:9.537605e+04
+field ' c' [explicit solve]: current solution: 3.954508e+03, current residual:9.537527e+04
+field 'xi' [auxiliary solve]: current solution: 1.472891e+02, current residual:8.853375e+01
+wall time: 2.77795s
+
+time increment:7300  time: 365
+field 'phi' [explicit solve]: current solution: 4.002989e+03, current residual:9.537599e+04
+field ' c' [explicit solve]: current solution: 3.954708e+03, current residual:9.537527e+04
+field 'xi' [auxiliary solve]: current solution: 1.645543e+02, current residual:9.888293e+01
+wall time: 2.10285s
+
+time increment:7400  time: 370
+Reinitializing matrix free object
+field 'phi' DOF : 16648383 (Constraint DOF : 0)
+field ' c' DOF : 16648383 (Constraint DOF : 0)
+field 'xi' DOF : 16648383 (Constraint DOF : 0)
+total DOF : 49945149
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 3.998577e+03, current residual:9.537593e+04
+field ' c' [explicit solve]: current solution: 3.954918e+03, current residual:9.537527e+04
+field 'xi' [auxiliary solve]: current solution: 1.805855e+02, current residual:1.082536e+02
+wall time: 2.06787s
+
+time increment:7500  time: 375
+field 'phi' [explicit solve]: current solution: 3.994043e+03, current residual:9.537586e+04
+field ' c' [explicit solve]: current solution: 3.955119e+03, current residual:9.537528e+04
+field 'xi' [auxiliary solve]: current solution: 1.962348e+02, current residual:1.179565e+02
+wall time: 2.05485s
+Output written to:solution-07500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:7600  time: 380
+Reinitializing matrix free object
+field 'phi' DOF : 16879297 (Constraint DOF : 0)
+field ' c' DOF : 16879297 (Constraint DOF : 0)
+field 'xi' DOF : 16879297 (Constraint DOF : 0)
+total DOF : 50637891
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.018405e+03, current residual:9.537233e+04
+field ' c' [explicit solve]: current solution: 3.984202e+03, current residual:9.537182e+04
+field 'xi' [auxiliary solve]: current solution: 2.119395e+02, current residual:1.273102e+02
+wall time: 2.30247s
+
+time increment:7700  time: 385
+field 'phi' [explicit solve]: current solution: 4.014942e+03, current residual:9.537228e+04
+field ' c' [explicit solve]: current solution: 3.984385e+03, current residual:9.537182e+04
+field 'xi' [auxiliary solve]: current solution: 2.252945e+02, current residual:1.353326e+02
+wall time: 2.04473s
+
+time increment:7800  time: 390
+Reinitializing matrix free object
+field 'phi' DOF : 17168325 (Constraint DOF : 0)
+field ' c' DOF : 17168325 (Constraint DOF : 0)
+field 'xi' DOF : 17168325 (Constraint DOF : 0)
+total DOF : 51504975
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.048873e+03, current residual:9.531343e+04
+field ' c' [explicit solve]: current solution: 4.020382e+03, current residual:9.531300e+04
+field 'xi' [auxiliary solve]: current solution: 2.392727e+02, current residual:1.437251e+02
+wall time: 2.40572s
+
+time increment:7900  time: 395
+field 'phi' [explicit solve]: current solution: 4.048370e+03, current residual:9.531342e+04
+field ' c' [explicit solve]: current solution: 4.020531e+03, current residual:9.531300e+04
+field 'xi' [auxiliary solve]: current solution: 2.490453e+02, current residual:1.497990e+02
+wall time: 2.24176s
+
+time increment:8000  time: 400
+Reinitializing matrix free object
+field 'phi' DOF : 17168325 (Constraint DOF : 0)
+field ' c' DOF : 17168325 (Constraint DOF : 0)
+field 'xi' DOF : 17168325 (Constraint DOF : 0)
+total DOF : 51504975
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.047761e+03, current residual:9.531341e+04
+field ' c' [explicit solve]: current solution: 4.020655e+03, current residual:9.531300e+04
+field 'xi' [auxiliary solve]: current solution: 2.589239e+02, current residual:1.554752e+02
+wall time: 2.82559s
+Output written to:solution-08000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:8100  time: 405
+field 'phi' [explicit solve]: current solution: 4.048515e+03, current residual:9.531342e+04
+field ' c' [explicit solve]: current solution: 4.020787e+03, current residual:9.531300e+04
+field 'xi' [auxiliary solve]: current solution: 2.695036e+02, current residual:1.619140e+02
+wall time: 2.25254s
+
+time increment:8200  time: 410
+Reinitializing matrix free object
+field 'phi' DOF : 17399239 (Constraint DOF : 0)
+field ' c' DOF : 17399239 (Constraint DOF : 0)
+field 'xi' DOF : 17399239 (Constraint DOF : 0)
+total DOF : 52197717
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.077682e+03, current residual:9.530998e+04
+field ' c' [explicit solve]: current solution: 4.049348e+03, current residual:9.530954e+04
+field 'xi' [auxiliary solve]: current solution: 2.797931e+02, current residual:1.680365e+02
+wall time: 2.36667s
+
+time increment:8300  time: 415
+field 'phi' [explicit solve]: current solution: 4.077919e+03, current residual:9.530998e+04
+field ' c' [explicit solve]: current solution: 4.049491e+03, current residual:9.530954e+04
+field 'xi' [auxiliary solve]: current solution: 2.888028e+02, current residual:1.737121e+02
+wall time: 2.0944s
+
+time increment:8400  time: 420
+Reinitializing matrix free object
+field 'phi' DOF : 17399239 (Constraint DOF : 0)
+field ' c' DOF : 17399239 (Constraint DOF : 0)
+field 'xi' DOF : 17399239 (Constraint DOF : 0)
+total DOF : 52197717
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.078243e+03, current residual:9.530999e+04
+field ' c' [explicit solve]: current solution: 4.049679e+03, current residual:9.530955e+04
+field 'xi' [auxiliary solve]: current solution: 2.972849e+02, current residual:1.787047e+02
+wall time: 2.33836s
+
+time increment:8500  time: 425
+field 'phi' [explicit solve]: current solution: 4.079344e+03, current residual:9.531000e+04
+field ' c' [explicit solve]: current solution: 4.049848e+03, current residual:9.530955e+04
+field 'xi' [auxiliary solve]: current solution: 3.034841e+02, current residual:1.823618e+02
+wall time: 2.37718s
+Output written to:solution-08500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:8600  time: 430
+Reinitializing matrix free object
+field 'phi' DOF : 17702989 (Constraint DOF : 0)
+field ' c' DOF : 17702989 (Constraint DOF : 0)
+field 'xi' DOF : 17702989 (Constraint DOF : 0)
+total DOF : 53108967
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.117853e+03, current residual:9.436027e+04
+field ' c' [explicit solve]: current solution: 4.087012e+03, current residual:9.435979e+04
+field 'xi' [auxiliary solve]: current solution: 3.084843e+02, current residual:1.852493e+02
+wall time: 2.58365s
+
+time increment:8700  time: 435
+field 'phi' [explicit solve]: current solution: 4.119671e+03, current residual:9.436030e+04
+field ' c' [explicit solve]: current solution: 4.087207e+03, current residual:9.435979e+04
+field 'xi' [auxiliary solve]: current solution: 3.107122e+02, current residual:1.869042e+02
+wall time: 4.70272s
+
+time increment:8800  time: 440
+Reinitializing matrix free object
+field 'phi' DOF : 17933903 (Constraint DOF : 0)
+field ' c' DOF : 17933903 (Constraint DOF : 0)
+field 'xi' DOF : 17933903 (Constraint DOF : 0)
+total DOF : 53801709
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.149228e+03, current residual:9.435683e+04
+field ' c' [explicit solve]: current solution: 4.115346e+03, current residual:9.435629e+04
+field 'xi' [auxiliary solve]: current solution: 3.106260e+02, current residual:1.865759e+02
+wall time: 2.68102s
+
+time increment:8900  time: 445
+field 'phi' [explicit solve]: current solution: 4.151927e+03, current residual:9.435687e+04
+field ' c' [explicit solve]: current solution: 4.115528e+03, current residual:9.435630e+04
+field 'xi' [auxiliary solve]: current solution: 3.102157e+02, current residual:1.863363e+02
+wall time: 2.19371s
+
+time increment:9000  time: 450
+Reinitializing matrix free object
+field 'phi' DOF : 17933903 (Constraint DOF : 0)
+field ' c' DOF : 17933903 (Constraint DOF : 0)
+field 'xi' DOF : 17933903 (Constraint DOF : 0)
+total DOF : 53801709
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.153686e+03, current residual:9.435690e+04
+field ' c' [explicit solve]: current solution: 4.115724e+03, current residual:9.435630e+04
+field 'xi' [auxiliary solve]: current solution: 3.101957e+02, current residual:1.864477e+02
+wall time: 2.13517s
+Output written to:solution-09000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:9100  time: 455
+field 'phi' [explicit solve]: current solution: 4.155169e+03, current residual:9.435693e+04
+field ' c' [explicit solve]: current solution: 4.115927e+03, current residual:9.435630e+04
+field 'xi' [auxiliary solve]: current solution: 3.096494e+02, current residual:1.861501e+02
+wall time: 2.10406s
+
+time increment:9200  time: 460
+Reinitializing matrix free object
+field 'phi' DOF : 18222931 (Constraint DOF : 0)
+field ' c' DOF : 18222931 (Constraint DOF : 0)
+field 'xi' DOF : 18222931 (Constraint DOF : 0)
+total DOF : 54668793
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.191081e+03, current residual:9.429749e+04
+field ' c' [explicit solve]: current solution: 4.150815e+03, current residual:9.429684e+04
+field 'xi' [auxiliary solve]: current solution: 3.080668e+02, current residual:1.850937e+02
+wall time: 2.48407s
+
+time increment:9300  time: 465
+field 'phi' [explicit solve]: current solution: 4.191875e+03, current residual:9.429750e+04
+field ' c' [explicit solve]: current solution: 4.151019e+03, current residual:9.429684e+04
+field 'xi' [auxiliary solve]: current solution: 3.078151e+02, current residual:1.849380e+02
+wall time: 2.38844s
+
+time increment:9400  time: 470
+Reinitializing matrix free object
+field 'phi' DOF : 18222931 (Constraint DOF : 0)
+field ' c' DOF : 18222931 (Constraint DOF : 0)
+field 'xi' DOF : 18222931 (Constraint DOF : 0)
+total DOF : 54668793
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.192477e+03, current residual:9.429751e+04
+field ' c' [explicit solve]: current solution: 4.151235e+03, current residual:9.429685e+04
+field 'xi' [auxiliary solve]: current solution: 3.081436e+02, current residual:1.852307e+02
+wall time: 2.29704s
+
+time increment:9500  time: 475
+field 'phi' [explicit solve]: current solution: 4.193065e+03, current residual:9.429752e+04
+field ' c' [explicit solve]: current solution: 4.151461e+03, current residual:9.429685e+04
+field 'xi' [auxiliary solve]: current solution: 3.082892e+02, current residual:1.853328e+02
+wall time: 2.37781s
+Output written to:solution-09500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:9600  time: 480
+Reinitializing matrix free object
+field 'phi' DOF : 18453845 (Constraint DOF : 0)
+field ' c' DOF : 18453845 (Constraint DOF : 0)
+field 'xi' DOF : 18453845 (Constraint DOF : 0)
+total DOF : 55361535
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.221128e+03, current residual:9.429404e+04
+field ' c' [explicit solve]: current solution: 4.179227e+03, current residual:9.429336e+04
+field 'xi' [auxiliary solve]: current solution: 3.083612e+02, current residual:1.853847e+02
+wall time: 2.27987s
+
+time increment:9700  time: 485
+field 'phi' [explicit solve]: current solution: 4.222119e+03, current residual:9.429406e+04
+field ' c' [explicit solve]: current solution: 4.179459e+03, current residual:9.429336e+04
+field 'xi' [auxiliary solve]: current solution: 3.081065e+02, current residual:1.853057e+02
+wall time: 2.22294s
+
+time increment:9800  time: 490
+Reinitializing matrix free object
+field 'phi' DOF : 18441589 (Constraint DOF : 0)
+field ' c' DOF : 18441589 (Constraint DOF : 0)
+field 'xi' DOF : 18441589 (Constraint DOF : 0)
+total DOF : 55324767
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.221503e+03, current residual:9.429426e+04
+field ' c' [explicit solve]: current solution: 4.178145e+03, current residual:9.429355e+04
+field 'xi' [auxiliary solve]: current solution: 3.079283e+02, current residual:1.851607e+02
+wall time: 2.29605s
+
+time increment:9900  time: 495
+field 'phi' [explicit solve]: current solution: 4.222198e+03, current residual:9.429427e+04
+field ' c' [explicit solve]: current solution: 4.178387e+03, current residual:9.429356e+04
+field 'xi' [auxiliary solve]: current solution: 3.079534e+02, current residual:1.852512e+02
+wall time: 2.16267s
+
+time increment:10000  time: 500
+Reinitializing matrix free object
+field 'phi' DOF : 18741890 (Constraint DOF : 0)
+field ' c' DOF : 18741890 (Constraint DOF : 0)
+field 'xi' DOF : 18741890 (Constraint DOF : 0)
+total DOF : 56225670
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.257318e+03, current residual:9.333440e+04
+field ' c' [explicit solve]: current solution: 4.213528e+03, current residual:9.333367e+04
+field 'xi' [auxiliary solve]: current solution: 3.080304e+02, current residual:1.853043e+02
+wall time: 2.31519s
+Output written to:solution-10000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:10100  time: 505
+field 'phi' [explicit solve]: current solution: 4.257991e+03, current residual:9.333441e+04
+field ' c' [explicit solve]: current solution: 4.213779e+03, current residual:9.333367e+04
+field 'xi' [auxiliary solve]: current solution: 3.079779e+02, current residual:1.852079e+02
+wall time: 2.54796s
+
+time increment:10200  time: 510
+Reinitializing matrix free object
+field 'phi' DOF : 19111997 (Constraint DOF : 0)
+field ' c' DOF : 19111997 (Constraint DOF : 0)
+field 'xi' DOF : 19111997 (Constraint DOF : 0)
+total DOF : 57335991
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.300810e+03, current residual:9.329638e+04
+field ' c' [explicit solve]: current solution: 4.256655e+03, current residual:9.329564e+04
+field 'xi' [auxiliary solve]: current solution: 3.081537e+02, current residual:1.851633e+02
+wall time: 2.40681s
+
+time increment:10300  time: 515
+field 'phi' [explicit solve]: current solution: 4.301416e+03, current residual:9.329639e+04
+field ' c' [explicit solve]: current solution: 4.256933e+03, current residual:9.329564e+04
+field 'xi' [auxiliary solve]: current solution: 3.088589e+02, current residual:1.855234e+02
+wall time: 2.35903s
+
+time increment:10400  time: 520
+Reinitializing matrix free object
+field 'phi' DOF : 19576893 (Constraint DOF : 0)
+field ' c' DOF : 19576893 (Constraint DOF : 0)
+field 'xi' DOF : 19576893 (Constraint DOF : 0)
+total DOF : 58730679
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.355050e+03, current residual:9.246510e+04
+field ' c' [explicit solve]: current solution: 4.310898e+03, current residual:9.246434e+04
+field 'xi' [auxiliary solve]: current solution: 3.091491e+02, current residual:1.857495e+02
+wall time: 2.53642s
+
+time increment:10500  time: 525
+field 'phi' [explicit solve]: current solution: 4.355768e+03, current residual:9.246511e+04
+field ' c' [explicit solve]: current solution: 4.311176e+03, current residual:9.246435e+04
+field 'xi' [auxiliary solve]: current solution: 3.085004e+02, current residual:1.854752e+02
+wall time: 2.63784s
+Output written to:solution-10500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:10600  time: 530
+Reinitializing matrix free object
+field 'phi' DOF : 20166529 (Constraint DOF : 0)
+field ' c' DOF : 20166529 (Constraint DOF : 0)
+field 'xi' DOF : 20166529 (Constraint DOF : 0)
+total DOF : 60499587
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.423266e+03, current residual:9.202132e+04
+field ' c' [explicit solve]: current solution: 4.378637e+03, current residual:9.202054e+04
+field 'xi' [auxiliary solve]: current solution: 3.074732e+02, current residual:1.848784e+02
+wall time: 2.52157s
+
+time increment:10700  time: 535
+field 'phi' [explicit solve]: current solution: 4.423755e+03, current residual:9.202133e+04
+field ' c' [explicit solve]: current solution: 4.378904e+03, current residual:9.202054e+04
+field 'xi' [auxiliary solve]: current solution: 3.065527e+02, current residual:1.843914e+02
+wall time: 3.07772s
+
+time increment:10800  time: 540
+Reinitializing matrix free object
+field 'phi' DOF : 20869956 (Constraint DOF : 0)
+field ' c' DOF : 20869956 (Constraint DOF : 0)
+field 'xi' DOF : 20869956 (Constraint DOF : 0)
+total DOF : 62609868
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.501804e+03, current residual:9.094982e+04
+field ' c' [explicit solve]: current solution: 4.457792e+03, current residual:9.094902e+04
+field 'xi' [auxiliary solve]: current solution: 3.059157e+02, current residual:1.839879e+02
+wall time: 3.15092s
+
+time increment:10900  time: 545
+field 'phi' [explicit solve]: current solution: 4.501881e+03, current residual:9.094982e+04
+field ' c' [explicit solve]: current solution: 4.458062e+03, current residual:9.094903e+04
+field 'xi' [auxiliary solve]: current solution: 3.057457e+02, current residual:1.838154e+02
+wall time: 2.50264s
+
+time increment:11000  time: 550
+Reinitializing matrix free object
+field 'phi' DOF : 21627377 (Constraint DOF : 0)
+field ' c' DOF : 21627377 (Constraint DOF : 0)
+field 'xi' DOF : 21627377 (Constraint DOF : 0)
+total DOF : 64882131
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.583464e+03, current residual:8.993913e+04
+field ' c' [explicit solve]: current solution: 4.540757e+03, current residual:8.993833e+04
+field 'xi' [auxiliary solve]: current solution: 3.060874e+02, current residual:1.840017e+02
+wall time: 2.69953s
+Output written to:solution-11000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:11100  time: 555
+field 'phi' [explicit solve]: current solution: 4.583555e+03, current residual:8.993913e+04
+field ' c' [explicit solve]: current solution: 4.541037e+03, current residual:8.993834e+04
+field 'xi' [auxiliary solve]: current solution: 3.065582e+02, current residual:1.843158e+02
+wall time: 2.75696s
+
+time increment:11200  time: 560
+Reinitializing matrix free object
+field 'phi' DOF : 22610546 (Constraint DOF : 0)
+field ' c' DOF : 22610546 (Constraint DOF : 0)
+field 'xi' DOF : 22610546 (Constraint DOF : 0)
+total DOF : 67831638
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.687918e+03, current residual:8.920911e+04
+field ' c' [explicit solve]: current solution: 4.646369e+03, current residual:8.920831e+04
+field 'xi' [auxiliary solve]: current solution: 3.067367e+02, current residual:1.844969e+02
+wall time: 3.24708s
+
+time increment:11300  time: 565
+field 'phi' [explicit solve]: current solution: 4.688135e+03, current residual:8.920911e+04
+field ' c' [explicit solve]: current solution: 4.646647e+03, current residual:8.920831e+04
+field 'xi' [auxiliary solve]: current solution: 3.067166e+02, current residual:1.845384e+02
+wall time: 2.67846s
+
+time increment:11400  time: 570
+Reinitializing matrix free object
+field 'phi' DOF : 23468305 (Constraint DOF : 0)
+field ' c' DOF : 23468305 (Constraint DOF : 0)
+field 'xi' DOF : 23468305 (Constraint DOF : 0)
+total DOF : 70404915
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.778685e+03, current residual:8.834908e+04
+field ' c' [explicit solve]: current solution: 4.738058e+03, current residual:8.834828e+04
+field 'xi' [auxiliary solve]: current solution: 3.067058e+02, current residual:1.845617e+02
+wall time: 3.26849s
+
+time increment:11500  time: 575
+field 'phi' [explicit solve]: current solution: 4.778859e+03, current residual:8.834909e+04
+field ' c' [explicit solve]: current solution: 4.738338e+03, current residual:8.834828e+04
+field 'xi' [auxiliary solve]: current solution: 3.066856e+02, current residual:1.845193e+02
+wall time: 3.25704s
+Output written to:solution-11500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:11600  time: 580
+Reinitializing matrix free object
+field 'phi' DOF : 24265374 (Constraint DOF : 0)
+field ' c' DOF : 24265374 (Constraint DOF : 0)
+field 'xi' DOF : 24265374 (Constraint DOF : 0)
+total DOF : 72796122
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.862897e+03, current residual:8.799071e+04
+field ' c' [explicit solve]: current solution: 4.823187e+03, current residual:8.798991e+04
+field 'xi' [auxiliary solve]: current solution: 3.064562e+02, current residual:1.843436e+02
+wall time: 3.3307s
+
+time increment:11700  time: 585
+field 'phi' [explicit solve]: current solution: 4.863105e+03, current residual:8.799072e+04
+field ' c' [explicit solve]: current solution: 4.823463e+03, current residual:8.798991e+04
+field 'xi' [auxiliary solve]: current solution: 3.059070e+02, current residual:1.839567e+02
+wall time: 3.75584s
+
+time increment:11800  time: 590
+Reinitializing matrix free object
+field 'phi' DOF : 24897849 (Constraint DOF : 0)
+field ' c' DOF : 24897849 (Constraint DOF : 0)
+field 'xi' DOF : 24897849 (Constraint DOF : 0)
+total DOF : 74693547
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.927790e+03, current residual:8.698472e+04
+field ' c' [explicit solve]: current solution: 4.888773e+03, current residual:8.698391e+04
+field 'xi' [auxiliary solve]: current solution: 3.054210e+02, current residual:1.836444e+02
+wall time: 3.36934s
+
+time increment:11900  time: 595
+field 'phi' [explicit solve]: current solution: 4.927892e+03, current residual:8.698473e+04
+field ' c' [explicit solve]: current solution: 4.889047e+03, current residual:8.698391e+04
+field 'xi' [auxiliary solve]: current solution: 3.051299e+02, current residual:1.834801e+02
+wall time: 2.90821s
+
+time increment:12000  time: 600
+Reinitializing matrix free object
+field 'phi' DOF : 25570970 (Constraint DOF : 0)
+field ' c' DOF : 25570970 (Constraint DOF : 0)
+field 'xi' DOF : 25570970 (Constraint DOF : 0)
+total DOF : 76712910
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 4.995135e+03, current residual:8.595227e+04
+field ' c' [explicit solve]: current solution: 4.957025e+03, current residual:8.595145e+04
+field 'xi' [auxiliary solve]: current solution: 3.050543e+02, current residual:1.834646e+02
+wall time: 4.01497s
+Output written to:solution-12000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:12100  time: 605
+field 'phi' [explicit solve]: current solution: 4.995246e+03, current residual:8.595227e+04
+field ' c' [explicit solve]: current solution: 4.957291e+03, current residual:8.595146e+04
+field 'xi' [auxiliary solve]: current solution: 3.048903e+02, current residual:1.833942e+02
+wall time: 3.77733s
+
+time increment:12200  time: 610
+Reinitializing matrix free object
+field 'phi' DOF : 26457411 (Constraint DOF : 0)
+field ' c' DOF : 26457411 (Constraint DOF : 0)
+field 'xi' DOF : 26457411 (Constraint DOF : 0)
+total DOF : 79372233
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.081357e+03, current residual:8.497640e+04
+field ' c' [explicit solve]: current solution: 5.044125e+03, current residual:8.497558e+04
+field 'xi' [auxiliary solve]: current solution: 3.044988e+02, current residual:1.831559e+02
+wall time: 4.31627s
+
+time increment:12300  time: 615
+field 'phi' [explicit solve]: current solution: 5.081422e+03, current residual:8.497640e+04
+field ' c' [explicit solve]: current solution: 5.044388e+03, current residual:8.497558e+04
+field 'xi' [auxiliary solve]: current solution: 3.041694e+02, current residual:1.829284e+02
+wall time: 3.90497s
+
+time increment:12400  time: 620
+Reinitializing matrix free object
+field 'phi' DOF : 27388172 (Constraint DOF : 0)
+field ' c' DOF : 27388172 (Constraint DOF : 0)
+field 'xi' DOF : 27388172 (Constraint DOF : 0)
+total DOF : 82164516
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.171029e+03, current residual:8.430134e+04
+field ' c' [explicit solve]: current solution: 5.134881e+03, current residual:8.430052e+04
+field 'xi' [auxiliary solve]: current solution: 3.039975e+02, current residual:1.828250e+02
+wall time: 4.27011s
+
+time increment:12500  time: 625
+field 'phi' [explicit solve]: current solution: 5.171071e+03, current residual:8.430135e+04
+field ' c' [explicit solve]: current solution: 5.135140e+03, current residual:8.430053e+04
+field 'xi' [auxiliary solve]: current solution: 3.038502e+02, current residual:1.827209e+02
+wall time: 3.77957s
+Output written to:solution-12500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:12600  time: 630
+Reinitializing matrix free object
+field 'phi' DOF : 28185185 (Constraint DOF : 0)
+field ' c' DOF : 28185185 (Constraint DOF : 0)
+field 'xi' DOF : 28185185 (Constraint DOF : 0)
+total DOF : 84555555
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.247627e+03, current residual:8.356254e+04
+field ' c' [explicit solve]: current solution: 5.212370e+03, current residual:8.356172e+04
+field 'xi' [auxiliary solve]: current solution: 3.035676e+02, current residual:1.825183e+02
+wall time: 3.89925s
+
+time increment:12700  time: 635
+field 'phi' [explicit solve]: current solution: 5.247717e+03, current residual:8.356254e+04
+field ' c' [explicit solve]: current solution: 5.212624e+03, current residual:8.356173e+04
+field 'xi' [auxiliary solve]: current solution: 3.033671e+02, current residual:1.823649e+02
+wall time: 3.79988s
+
+time increment:12800  time: 640
+Reinitializing matrix free object
+field 'phi' DOF : 28916593 (Constraint DOF : 0)
+field ' c' DOF : 28916593 (Constraint DOF : 0)
+field 'xi' DOF : 28916593 (Constraint DOF : 0)
+total DOF : 86749779
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.317208e+03, current residual:8.259004e+04
+field ' c' [explicit solve]: current solution: 5.282837e+03, current residual:8.258922e+04
+field 'xi' [auxiliary solve]: current solution: 3.033794e+02, current residual:1.823721e+02
+wall time: 4.30136s
+
+time increment:12900  time: 645
+field 'phi' [explicit solve]: current solution: 5.317142e+03, current residual:8.259004e+04
+field ' c' [explicit solve]: current solution: 5.283092e+03, current residual:8.258922e+04
+field 'xi' [auxiliary solve]: current solution: 3.035018e+02, current residual:1.824473e+02
+wall time: 4.03495s
+
+time increment:13000  time: 650
+Reinitializing matrix free object
+field 'phi' DOF : 29641361 (Constraint DOF : 0)
+field ' c' DOF : 29641361 (Constraint DOF : 0)
+field 'xi' DOF : 29641361 (Constraint DOF : 0)
+total DOF : 88924083
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.384096e+03, current residual:8.157325e+04
+field ' c' [explicit solve]: current solution: 5.350775e+03, current residual:8.157243e+04
+field 'xi' [auxiliary solve]: current solution: 3.036134e+02, current residual:1.825078e+02
+wall time: 4.02505s
+Output written to:solution-13000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:13100  time: 655
+field 'phi' [explicit solve]: current solution: 5.384106e+03, current residual:8.157326e+04
+field ' c' [explicit solve]: current solution: 5.351033e+03, current residual:8.157244e+04
+field 'xi' [auxiliary solve]: current solution: 3.038490e+02, current residual:1.826544e+02
+wall time: 3.95198s
+
+time increment:13200  time: 660
+Reinitializing matrix free object
+field 'phi' DOF : 30471383 (Constraint DOF : 0)
+field ' c' DOF : 30471383 (Constraint DOF : 0)
+field 'xi' DOF : 30471383 (Constraint DOF : 0)
+total DOF : 91414149
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.459155e+03, current residual:8.065093e+04
+field ' c' [explicit solve]: current solution: 5.426744e+03, current residual:8.065011e+04
+field 'xi' [auxiliary solve]: current solution: 3.038730e+02, current residual:1.826975e+02
+wall time: 4.86661s
+
+time increment:13300  time: 665
+field 'phi' [explicit solve]: current solution: 5.459212e+03, current residual:8.065093e+04
+field ' c' [explicit solve]: current solution: 5.426997e+03, current residual:8.065012e+04
+field 'xi' [auxiliary solve]: current solution: 3.038706e+02, current residual:1.827288e+02
+wall time: 4.39835s
+
+time increment:13400  time: 670
+Reinitializing matrix free object
+field 'phi' DOF : 31362164 (Constraint DOF : 0)
+field ' c' DOF : 31362164 (Constraint DOF : 0)
+field 'xi' DOF : 31362164 (Constraint DOF : 0)
+total DOF : 94086492
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.539056e+03, current residual:7.987865e+04
+field ' c' [explicit solve]: current solution: 5.507569e+03, current residual:7.987783e+04
+field 'xi' [auxiliary solve]: current solution: 3.038559e+02, current residual:1.827136e+02
+wall time: 4.59675s
+
+time increment:13500  time: 675
+field 'phi' [explicit solve]: current solution: 5.538990e+03, current residual:7.987864e+04
+field ' c' [explicit solve]: current solution: 5.507823e+03, current residual:7.987783e+04
+field 'xi' [auxiliary solve]: current solution: 3.037318e+02, current residual:1.826265e+02
+wall time: 4.10267s
+Output written to:solution-13500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:13600  time: 680
+Reinitializing matrix free object
+field 'phi' DOF : 32181777 (Constraint DOF : 0)
+field ' c' DOF : 32181777 (Constraint DOF : 0)
+field 'xi' DOF : 32181777 (Constraint DOF : 0)
+total DOF : 96545331
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.612606e+03, current residual:7.885710e+04
+field ' c' [explicit solve]: current solution: 5.582056e+03, current residual:7.885628e+04
+field 'xi' [auxiliary solve]: current solution: 3.035031e+02, current residual:1.824476e+02
+wall time: 4.56697s
+
+time increment:13700  time: 685
+field 'phi' [explicit solve]: current solution: 5.612704e+03, current residual:7.885710e+04
+field ' c' [explicit solve]: current solution: 5.582303e+03, current residual:7.885629e+04
+field 'xi' [auxiliary solve]: current solution: 3.031351e+02, current residual:1.822006e+02
+wall time: 4.34684s
+
+time increment:13800  time: 690
+Reinitializing matrix free object
+field 'phi' DOF : 32974407 (Constraint DOF : 0)
+field ' c' DOF : 32974407 (Constraint DOF : 0)
+field 'xi' DOF : 32974407 (Constraint DOF : 0)
+total DOF : 98923221
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.683315e+03, current residual:7.805538e+04
+field ' c' [explicit solve]: current solution: 5.653477e+03, current residual:7.805456e+04
+field 'xi' [auxiliary solve]: current solution: 3.027733e+02, current residual:1.819716e+02
+wall time: 4.55543s
+
+time increment:13900  time: 695
+field 'phi' [explicit solve]: current solution: 5.683382e+03, current residual:7.805538e+04
+field ' c' [explicit solve]: current solution: 5.653718e+03, current residual:7.805457e+04
+field 'xi' [auxiliary solve]: current solution: 3.024182e+02, current residual:1.817246e+02
+wall time: 5.21105s
+
+time increment:14000  time: 700
+Reinitializing matrix free object
+field 'phi' DOF : 33676720 (Constraint DOF : 0)
+field ' c' DOF : 33676720 (Constraint DOF : 0)
+field 'xi' DOF : 33676720 (Constraint DOF : 0)
+total DOF : 101030160
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.744476e+03, current residual:7.733617e+04
+field ' c' [explicit solve]: current solution: 5.715351e+03, current residual:7.733536e+04
+field 'xi' [auxiliary solve]: current solution: 3.021978e+02, current residual:1.815526e+02
+wall time: 5.02095s
+Output written to:solution-14000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:14100  time: 705
+field 'phi' [explicit solve]: current solution: 5.744420e+03, current residual:7.733617e+04
+field ' c' [explicit solve]: current solution: 5.715592e+03, current residual:7.733536e+04
+field 'xi' [auxiliary solve]: current solution: 3.023191e+02, current residual:1.816387e+02
+wall time: 4.85024s
+
+time increment:14200  time: 710
+Reinitializing matrix free object
+field 'phi' DOF : 34385381 (Constraint DOF : 0)
+field ' c' DOF : 34385381 (Constraint DOF : 0)
+field 'xi' DOF : 34385381 (Constraint DOF : 0)
+total DOF : 103156143
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.805132e+03, current residual:7.620009e+04
+field ' c' [explicit solve]: current solution: 5.776963e+03, current residual:7.619928e+04
+field 'xi' [auxiliary solve]: current solution: 3.026287e+02, current residual:1.819190e+02
+wall time: 4.92487s
+
+time increment:14300  time: 715
+field 'phi' [explicit solve]: current solution: 5.805099e+03, current residual:7.620009e+04
+field ' c' [explicit solve]: current solution: 5.777203e+03, current residual:7.619928e+04
+field 'xi' [auxiliary solve]: current solution: 3.026508e+02, current residual:1.820262e+02
+wall time: 4.71675s
+
+time increment:14400  time: 720
+Reinitializing matrix free object
+field 'phi' DOF : 35188469 (Constraint DOF : 0)
+field ' c' DOF : 35188469 (Constraint DOF : 0)
+field 'xi' DOF : 35188469 (Constraint DOF : 0)
+total DOF : 105565407
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.873327e+03, current residual:7.528349e+04
+field ' c' [explicit solve]: current solution: 5.845990e+03, current residual:7.528268e+04
+field 'xi' [auxiliary solve]: current solution: 3.025104e+02, current residual:1.819431e+02
+wall time: 5.16776s
+
+time increment:14500  time: 725
+field 'phi' [explicit solve]: current solution: 5.873358e+03, current residual:7.528350e+04
+field ' c' [explicit solve]: current solution: 5.846229e+03, current residual:7.528269e+04
+field 'xi' [auxiliary solve]: current solution: 3.025700e+02, current residual:1.820514e+02
+wall time: 4.7397s
+Output written to:solution-14500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:14600  time: 730
+Reinitializing matrix free object
+field 'phi' DOF : 35977877 (Constraint DOF : 0)
+field ' c' DOF : 35977877 (Constraint DOF : 0)
+field 'xi' DOF : 35977877 (Constraint DOF : 0)
+total DOF : 107933631
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 5.938968e+03, current residual:7.401250e+04
+field ' c' [explicit solve]: current solution: 5.912382e+03, current residual:7.401169e+04
+field 'xi' [auxiliary solve]: current solution: 3.025496e+02, current residual:1.821119e+02
+wall time: 4.68874s
+
+time increment:14700  time: 735
+field 'phi' [explicit solve]: current solution: 5.938934e+03, current residual:7.401250e+04
+field ' c' [explicit solve]: current solution: 5.912618e+03, current residual:7.401170e+04
+field 'xi' [auxiliary solve]: current solution: 3.024759e+02, current residual:1.820446e+02
+wall time: 5.08851s
+
+time increment:14800  time: 740
+Reinitializing matrix free object
+field 'phi' DOF : 36889135 (Constraint DOF : 0)
+field ' c' DOF : 36889135 (Constraint DOF : 0)
+field 'xi' DOF : 36889135 (Constraint DOF : 0)
+total DOF : 110667405
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.013546e+03, current residual:7.300629e+04
+field ' c' [explicit solve]: current solution: 5.987821e+03, current residual:7.300548e+04
+field 'xi' [auxiliary solve]: current solution: 3.024430e+02, current residual:1.819367e+02
+wall time: 4.84188s
+
+time increment:14900  time: 745
+field 'phi' [explicit solve]: current solution: 6.013539e+03, current residual:7.300629e+04
+field ' c' [explicit solve]: current solution: 5.988054e+03, current residual:7.300549e+04
+field 'xi' [auxiliary solve]: current solution: 3.027240e+02, current residual:1.820574e+02
+wall time: 4.81608s
+
+time increment:15000  time: 750
+Reinitializing matrix free object
+field 'phi' DOF : 37770448 (Constraint DOF : 0)
+field ' c' DOF : 37770448 (Constraint DOF : 0)
+field 'xi' DOF : 37770448 (Constraint DOF : 0)
+total DOF : 113311344
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.086540e+03, current residual:7.238212e+04
+field ' c' [explicit solve]: current solution: 6.061640e+03, current residual:7.238131e+04
+field 'xi' [auxiliary solve]: current solution: 3.030213e+02, current residual:1.822337e+02
+wall time: 7.90487s
+Output written to:solution-15000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:15100  time: 755
+field 'phi' [explicit solve]: current solution: 6.086492e+03, current residual:7.238211e+04
+field ' c' [explicit solve]: current solution: 6.061876e+03, current residual:7.238132e+04
+field 'xi' [auxiliary solve]: current solution: 3.028080e+02, current residual:1.821719e+02
+wall time: 4.83387s
+
+time increment:15200  time: 760
+Reinitializing matrix free object
+field 'phi' DOF : 38493284 (Constraint DOF : 0)
+field ' c' DOF : 38493284 (Constraint DOF : 0)
+field 'xi' DOF : 38493284 (Constraint DOF : 0)
+total DOF : 115479852
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.145479e+03, current residual:7.109665e+04
+field ' c' [explicit solve]: current solution: 6.121332e+03, current residual:7.109584e+04
+field 'xi' [auxiliary solve]: current solution: 3.026883e+02, current residual:1.820708e+02
+wall time: 5.1358s
+
+time increment:15300  time: 765
+field 'phi' [explicit solve]: current solution: 6.145496e+03, current residual:7.109665e+04
+field ' c' [explicit solve]: current solution: 6.121566e+03, current residual:7.109585e+04
+field 'xi' [auxiliary solve]: current solution: 3.025433e+02, current residual:1.819735e+02
+wall time: 5.20034s
+
+time increment:15400  time: 770
+Reinitializing matrix free object
+field 'phi' DOF : 39282791 (Constraint DOF : 0)
+field ' c' DOF : 39282791 (Constraint DOF : 0)
+field 'xi' DOF : 39282791 (Constraint DOF : 0)
+total DOF : 117848373
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.209668e+03, current residual:7.035277e+04
+field ' c' [explicit solve]: current solution: 6.186180e+03, current residual:7.035197e+04
+field 'xi' [auxiliary solve]: current solution: 3.023538e+02, current residual:1.818641e+02
+wall time: 5.17268s
+
+time increment:15500  time: 775
+field 'phi' [explicit solve]: current solution: 6.209716e+03, current residual:7.035277e+04
+field ' c' [explicit solve]: current solution: 6.186408e+03, current residual:7.035198e+04
+field 'xi' [auxiliary solve]: current solution: 3.019871e+02, current residual:1.815887e+02
+wall time: 5.23343s
+Output written to:solution-15500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:15600  time: 780
+Reinitializing matrix free object
+field 'phi' DOF : 39975124 (Constraint DOF : 0)
+field ' c' DOF : 39975124 (Constraint DOF : 0)
+field 'xi' DOF : 39975124 (Constraint DOF : 0)
+total DOF : 119925372
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.264752e+03, current residual:6.959958e+04
+field ' c' [explicit solve]: current solution: 6.241790e+03, current residual:6.959878e+04
+field 'xi' [auxiliary solve]: current solution: 3.017651e+02, current residual:1.814213e+02
+wall time: 5.48025s
+
+time increment:15700  time: 785
+field 'phi' [explicit solve]: current solution: 6.264805e+03, current residual:6.959959e+04
+field ' c' [explicit solve]: current solution: 6.242014e+03, current residual:6.959879e+04
+field 'xi' [auxiliary solve]: current solution: 3.015574e+02, current residual:1.813403e+02
+wall time: 6.02503s
+
+time increment:15800  time: 790
+Reinitializing matrix free object
+field 'phi' DOF : 40670664 (Constraint DOF : 0)
+field ' c' DOF : 40670664 (Constraint DOF : 0)
+field 'xi' DOF : 40670664 (Constraint DOF : 0)
+total DOF : 122011992
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.319969e+03, current residual:6.824395e+04
+field ' c' [explicit solve]: current solution: 6.297627e+03, current residual:6.824315e+04
+field 'xi' [auxiliary solve]: current solution: 3.013259e+02, current residual:1.811956e+02
+wall time: 5.38356s
+
+time increment:15900  time: 795
+field 'phi' [explicit solve]: current solution: 6.319884e+03, current residual:6.824395e+04
+field ' c' [explicit solve]: current solution: 6.297850e+03, current residual:6.824315e+04
+field 'xi' [auxiliary solve]: current solution: 3.012962e+02, current residual:1.811281e+02
+wall time: 4.96756s
+
+time increment:16000  time: 800
+Reinitializing matrix free object
+field 'phi' DOF : 41493472 (Constraint DOF : 0)
+field ' c' DOF : 41493472 (Constraint DOF : 0)
+field 'xi' DOF : 41493472 (Constraint DOF : 0)
+total DOF : 124480416
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.384553e+03, current residual:6.741864e+04
+field ' c' [explicit solve]: current solution: 6.363013e+03, current residual:6.741784e+04
+field 'xi' [auxiliary solve]: current solution: 3.013313e+02, current residual:1.811435e+02
+wall time: 5.3309s
+Output written to:solution-16000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:16100  time: 805
+field 'phi' [explicit solve]: current solution: 6.384585e+03, current residual:6.741864e+04
+field ' c' [explicit solve]: current solution: 6.363232e+03, current residual:6.741785e+04
+field 'xi' [auxiliary solve]: current solution: 3.013356e+02, current residual:1.811903e+02
+wall time: 5.55554s
+
+time increment:16200  time: 810
+Reinitializing matrix free object
+field 'phi' DOF : 42244779 (Constraint DOF : 0)
+field ' c' DOF : 42244779 (Constraint DOF : 0)
+field 'xi' DOF : 42244779 (Constraint DOF : 0)
+total DOF : 126734337
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.441898e+03, current residual:6.583401e+04
+field ' c' [explicit solve]: current solution: 6.420885e+03, current residual:6.583320e+04
+field 'xi' [auxiliary solve]: current solution: 3.011600e+02, current residual:1.811206e+02
+wall time: 5.49255s
+
+time increment:16300  time: 815
+field 'phi' [explicit solve]: current solution: 6.441929e+03, current residual:6.583401e+04
+field ' c' [explicit solve]: current solution: 6.421101e+03, current residual:6.583321e+04
+field 'xi' [auxiliary solve]: current solution: 3.009778e+02, current residual:1.810135e+02
+wall time: 7.63082s
+
+time increment:16400  time: 820
+Reinitializing matrix free object
+field 'phi' DOF : 43103837 (Constraint DOF : 0)
+field ' c' DOF : 43103837 (Constraint DOF : 0)
+field 'xi' DOF : 43103837 (Constraint DOF : 0)
+total DOF : 129311511
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.506704e+03, current residual:6.481104e+04
+field ' c' [explicit solve]: current solution: 6.486342e+03, current residual:6.481024e+04
+field 'xi' [auxiliary solve]: current solution: 3.010898e+02, current residual:1.810859e+02
+wall time: 5.86613s
+
+time increment:16500  time: 825
+field 'phi' [explicit solve]: current solution: 6.506625e+03, current residual:6.481104e+04
+field ' c' [explicit solve]: current solution: 6.486556e+03, current residual:6.481025e+04
+field 'xi' [auxiliary solve]: current solution: 3.011903e+02, current residual:1.812388e+02
+wall time: 5.5023s
+Output written to:solution-16500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:16600  time: 830
+Reinitializing matrix free object
+field 'phi' DOF : 44059394 (Constraint DOF : 0)
+field ' c' DOF : 44059394 (Constraint DOF : 0)
+field 'xi' DOF : 44059394 (Constraint DOF : 0)
+total DOF : 132178182
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.579384e+03, current residual:6.391383e+04
+field ' c' [explicit solve]: current solution: 6.559788e+03, current residual:6.391303e+04
+field 'xi' [auxiliary solve]: current solution: 3.011113e+02, current residual:1.812061e+02
+wall time: 5.93394s
+
+time increment:16700  time: 835
+field 'phi' [explicit solve]: current solution: 6.579421e+03, current residual:6.391383e+04
+field ' c' [explicit solve]: current solution: 6.560000e+03, current residual:6.391304e+04
+field 'xi' [auxiliary solve]: current solution: 3.009052e+02, current residual:1.810848e+02
+wall time: 5.77876s
+
+time increment:16800  time: 840
+Reinitializing matrix free object
+field 'phi' DOF : 44819302 (Constraint DOF : 0)
+field ' c' DOF : 44819302 (Constraint DOF : 0)
+field 'xi' DOF : 44819302 (Constraint DOF : 0)
+total DOF : 134457906
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.637262e+03, current residual:6.242192e+04
+field ' c' [explicit solve]: current solution: 6.618225e+03, current residual:6.242112e+04
+field 'xi' [auxiliary solve]: current solution: 3.008363e+02, current residual:1.810074e+02
+wall time: 5.86174s
+
+time increment:16900  time: 845
+field 'phi' [explicit solve]: current solution: 6.637162e+03, current residual:6.242192e+04
+field ' c' [explicit solve]: current solution: 6.618438e+03, current residual:6.242113e+04
+field 'xi' [auxiliary solve]: current solution: 3.008145e+02, current residual:1.809687e+02
+wall time: 6.16517s
+
+time increment:17000  time: 850
+Reinitializing matrix free object
+field 'phi' DOF : 45613833 (Constraint DOF : 0)
+field ' c' DOF : 45613833 (Constraint DOF : 0)
+field 'xi' DOF : 45613833 (Constraint DOF : 0)
+total DOF : 136841499
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.696368e+03, current residual:6.168125e+04
+field ' c' [explicit solve]: current solution: 6.678119e+03, current residual:6.168046e+04
+field 'xi' [auxiliary solve]: current solution: 3.009195e+02, current residual:1.809928e+02
+wall time: 6.21672s
+Output written to:solution-17000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:17100  time: 855
+field 'phi' [explicit solve]: current solution: 6.696307e+03, current residual:6.168125e+04
+field ' c' [explicit solve]: current solution: 6.678332e+03, current residual:6.168047e+04
+field 'xi' [auxiliary solve]: current solution: 3.010563e+02, current residual:1.810824e+02
+wall time: 5.89793s
+
+time increment:17200  time: 860
+Reinitializing matrix free object
+field 'phi' DOF : 46294676 (Constraint DOF : 0)
+field ' c' DOF : 46294676 (Constraint DOF : 0)
+field 'xi' DOF : 46294676 (Constraint DOF : 0)
+total DOF : 138884028
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.746855e+03, current residual:6.080638e+04
+field ' c' [explicit solve]: current solution: 6.729210e+03, current residual:6.080559e+04
+field 'xi' [auxiliary solve]: current solution: 3.008282e+02, current residual:1.809228e+02
+wall time: 6.36173s
+
+time increment:17300  time: 865
+field 'phi' [explicit solve]: current solution: 6.746888e+03, current residual:6.080638e+04
+field ' c' [explicit solve]: current solution: 6.729421e+03, current residual:6.080560e+04
+field 'xi' [auxiliary solve]: current solution: 3.006443e+02, current residual:1.807430e+02
+wall time: 6.16006s
+
+time increment:17400  time: 870
+Reinitializing matrix free object
+field 'phi' DOF : 46949821 (Constraint DOF : 0)
+field ' c' DOF : 46949821 (Constraint DOF : 0)
+field 'xi' DOF : 46949821 (Constraint DOF : 0)
+total DOF : 140849463
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.795073e+03, current residual:5.924430e+04
+field ' c' [explicit solve]: current solution: 6.777868e+03, current residual:5.924351e+04
+field 'xi' [auxiliary solve]: current solution: 3.006768e+02, current residual:1.807687e+02
+wall time: 6.26384s
+
+time increment:17500  time: 875
+field 'phi' [explicit solve]: current solution: 6.795154e+03, current residual:5.924430e+04
+field ' c' [explicit solve]: current solution: 6.778075e+03, current residual:5.924351e+04
+field 'xi' [auxiliary solve]: current solution: 3.005699e+02, current residual:1.807762e+02
+wall time: 6.26354s
+Output written to:solution-17500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:17600  time: 880
+Reinitializing matrix free object
+field 'phi' DOF : 47773824 (Constraint DOF : 0)
+field ' c' DOF : 47773824 (Constraint DOF : 0)
+field 'xi' DOF : 47773824 (Constraint DOF : 0)
+total DOF : 143321472
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.855570e+03, current residual:5.836815e+04
+field ' c' [explicit solve]: current solution: 6.838816e+03, current residual:5.836735e+04
+field 'xi' [auxiliary solve]: current solution: 3.002648e+02, current residual:1.805466e+02
+wall time: 6.19605s
+
+time increment:17700  time: 885
+field 'phi' [explicit solve]: current solution: 6.855554e+03, current residual:5.836815e+04
+field ' c' [explicit solve]: current solution: 6.839021e+03, current residual:5.836736e+04
+field 'xi' [auxiliary solve]: current solution: 2.999528e+02, current residual:1.803039e+02
+wall time: 6.2908s
+
+time increment:17800  time: 890
+Reinitializing matrix free object
+field 'phi' DOF : 48484088 (Constraint DOF : 0)
+field ' c' DOF : 48484088 (Constraint DOF : 0)
+field 'xi' DOF : 48484088 (Constraint DOF : 0)
+total DOF : 145452264
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.905921e+03, current residual:5.653063e+04
+field ' c' [explicit solve]: current solution: 6.889735e+03, current residual:5.652983e+04
+field 'xi' [auxiliary solve]: current solution: 2.998047e+02, current residual:1.802038e+02
+wall time: 6.7287s
+
+time increment:17900  time: 895
+field 'phi' [explicit solve]: current solution: 6.905895e+03, current residual:5.653063e+04
+field ' c' [explicit solve]: current solution: 6.889939e+03, current residual:5.652983e+04
+field 'xi' [auxiliary solve]: current solution: 2.999104e+02, current residual:1.802982e+02
+wall time: 6.5613s
+
+time increment:18000  time: 900
+Reinitializing matrix free object
+field 'phi' DOF : 49310301 (Constraint DOF : 0)
+field ' c' DOF : 49310301 (Constraint DOF : 0)
+field 'xi' DOF : 49310301 (Constraint DOF : 0)
+total DOF : 147930903
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 6.963889e+03, current residual:5.502828e+04
+field ' c' [explicit solve]: current solution: 6.948296e+03, current residual:5.502747e+04
+field 'xi' [auxiliary solve]: current solution: 3.001873e+02, current residual:1.805396e+02
+wall time: 6.70903s
+Output written to:solution-18000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:18100  time: 905
+field 'phi' [explicit solve]: current solution: 6.963799e+03, current residual:5.502827e+04
+field ' c' [explicit solve]: current solution: 6.948499e+03, current residual:5.502748e+04
+field 'xi' [auxiliary solve]: current solution: 3.004468e+02, current residual:1.807433e+02
+wall time: 6.51429s
+
+time increment:18200  time: 910
+Reinitializing matrix free object
+field 'phi' DOF : 50374545 (Constraint DOF : 0)
+field ' c' DOF : 50374545 (Constraint DOF : 0)
+field 'xi' DOF : 50374545 (Constraint DOF : 0)
+total DOF : 151123635
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.038609e+03, current residual:5.409493e+04
+field ' c' [explicit solve]: current solution: 7.023729e+03, current residual:5.409413e+04
+field 'xi' [auxiliary solve]: current solution: 3.008754e+02, current residual:1.809995e+02
+wall time: 7.75302s
+
+time increment:18300  time: 915
+field 'phi' [explicit solve]: current solution: 7.038692e+03, current residual:5.409493e+04
+field ' c' [explicit solve]: current solution: 7.023930e+03, current residual:5.409414e+04
+field 'xi' [auxiliary solve]: current solution: 3.005851e+02, current residual:1.808997e+02
+wall time: 7.19403s
+
+time increment:18400  time: 920
+Reinitializing matrix free object
+field 'phi' DOF : 51206252 (Constraint DOF : 0)
+field ' c' DOF : 51206252 (Constraint DOF : 0)
+field 'xi' DOF : 51206252 (Constraint DOF : 0)
+total DOF : 153618756
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.098695e+03, current residual:5.234585e+04
+field ' c' [explicit solve]: current solution: 7.084102e+03, current residual:5.234503e+04
+field 'xi' [auxiliary solve]: current solution: 3.002563e+02, current residual:1.806648e+02
+wall time: 7.44943s
+
+time increment:18500  time: 925
+field 'phi' [explicit solve]: current solution: 7.098787e+03, current residual:5.234585e+04
+field ' c' [explicit solve]: current solution: 7.084300e+03, current residual:5.234504e+04
+field 'xi' [auxiliary solve]: current solution: 3.000704e+02, current residual:1.805154e+02
+wall time: 7.90767s
+Output written to:solution-18500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:18600  time: 930
+Reinitializing matrix free object
+field 'phi' DOF : 51944826 (Constraint DOF : 0)
+field ' c' DOF : 51944826 (Constraint DOF : 0)
+field 'xi' DOF : 51944826 (Constraint DOF : 0)
+total DOF : 155834478
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.150556e+03, current residual:5.142797e+04
+field ' c' [explicit solve]: current solution: 7.136393e+03, current residual:5.142715e+04
+field 'xi' [auxiliary solve]: current solution: 3.000840e+02, current residual:1.805035e+02
+wall time: 7.27577s
+
+time increment:18700  time: 935
+field 'phi' [explicit solve]: current solution: 7.150507e+03, current residual:5.142796e+04
+field ' c' [explicit solve]: current solution: 7.136590e+03, current residual:5.142716e+04
+field 'xi' [auxiliary solve]: current solution: 3.000854e+02, current residual:1.805254e+02
+wall time: 7.02788s
+
+time increment:18800  time: 940
+Reinitializing matrix free object
+field 'phi' DOF : 52605132 (Constraint DOF : 0)
+field ' c' DOF : 52605132 (Constraint DOF : 0)
+field 'xi' DOF : 52605132 (Constraint DOF : 0)
+total DOF : 157815396
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.196240e+03, current residual:5.041515e+04
+field ' c' [explicit solve]: current solution: 7.182628e+03, current residual:5.041434e+04
+field 'xi' [auxiliary solve]: current solution: 2.998848e+02, current residual:1.804047e+02
+wall time: 7.59368s
+
+time increment:18900  time: 945
+field 'phi' [explicit solve]: current solution: 7.196214e+03, current residual:5.041515e+04
+field ' c' [explicit solve]: current solution: 7.182823e+03, current residual:5.041435e+04
+field 'xi' [auxiliary solve]: current solution: 2.997001e+02, current residual:1.802749e+02
+wall time: 7.68947s
+
+time increment:19000  time: 950
+Reinitializing matrix free object
+field 'phi' DOF : 53263871 (Constraint DOF : 0)
+field ' c' DOF : 53263871 (Constraint DOF : 0)
+field 'xi' DOF : 53263871 (Constraint DOF : 0)
+total DOF : 159791613
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.241498e+03, current residual:4.852533e+04
+field ' c' [explicit solve]: current solution: 7.228404e+03, current residual:4.852451e+04
+field 'xi' [auxiliary solve]: current solution: 2.997322e+02, current residual:1.802941e+02
+wall time: 8.09629s
+Output written to:solution-19000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:19100  time: 955
+field 'phi' [explicit solve]: current solution: 7.241497e+03, current residual:4.852533e+04
+field ' c' [explicit solve]: current solution: 7.228599e+03, current residual:4.852452e+04
+field 'xi' [auxiliary solve]: current solution: 2.997732e+02, current residual:1.803514e+02
+wall time: 7.17287s
+
+time increment:19200  time: 960
+Reinitializing matrix free object
+field 'phi' DOF : 54084509 (Constraint DOF : 0)
+field ' c' DOF : 54084509 (Constraint DOF : 0)
+field 'xi' DOF : 54084509 (Constraint DOF : 0)
+total DOF : 162253527
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.297923e+03, current residual:4.770788e+04
+field ' c' [explicit solve]: current solution: 7.285341e+03, current residual:4.770706e+04
+field 'xi' [auxiliary solve]: current solution: 2.999824e+02, current residual:1.804379e+02
+wall time: 7.36003s
+
+time increment:19300  time: 965
+field 'phi' [explicit solve]: current solution: 7.297902e+03, current residual:4.770788e+04
+field ' c' [explicit solve]: current solution: 7.285537e+03, current residual:4.770707e+04
+field 'xi' [auxiliary solve]: current solution: 3.003895e+02, current residual:1.807217e+02
+wall time: 8.80042s
+
+time increment:19400  time: 970
+Reinitializing matrix free object
+field 'phi' DOF : 54736765 (Constraint DOF : 0)
+field ' c' DOF : 54736765 (Constraint DOF : 0)
+field 'xi' DOF : 54736765 (Constraint DOF : 0)
+total DOF : 164210295
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.341398e+03, current residual:4.543415e+04
+field ' c' [explicit solve]: current solution: 7.329326e+03, current residual:4.543332e+04
+field 'xi' [auxiliary solve]: current solution: 3.005670e+02, current residual:1.808607e+02
+wall time: 7.7898s
+
+time increment:19500  time: 975
+field 'phi' [explicit solve]: current solution: 7.341417e+03, current residual:4.543416e+04
+field ' c' [explicit solve]: current solution: 7.329522e+03, current residual:4.543333e+04
+field 'xi' [auxiliary solve]: current solution: 3.005345e+02, current residual:1.808617e+02
+wall time: 7.68903s
+Output written to:solution-19500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:19600  time: 980
+Reinitializing matrix free object
+field 'phi' DOF : 55559924 (Constraint DOF : 0)
+field ' c' DOF : 55559924 (Constraint DOF : 0)
+field 'xi' DOF : 55559924 (Constraint DOF : 0)
+total DOF : 166679772
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.395990e+03, current residual:4.342292e+04
+field ' c' [explicit solve]: current solution: 7.384339e+03, current residual:4.342206e+04
+field 'xi' [auxiliary solve]: current solution: 3.002253e+02, current residual:1.806601e+02
+wall time: 7.89202s
+
+time increment:19700  time: 985
+field 'phi' [explicit solve]: current solution: 7.395986e+03, current residual:4.342292e+04
+field ' c' [explicit solve]: current solution: 7.384529e+03, current residual:4.342207e+04
+field 'xi' [auxiliary solve]: current solution: 2.999184e+02, current residual:1.804179e+02
+wall time: 8.12443s
+
+time increment:19800  time: 990
+Reinitializing matrix free object
+field 'phi' DOF : 56627089 (Constraint DOF : 0)
+field ' c' DOF : 56627089 (Constraint DOF : 0)
+field 'xi' DOF : 56627089 (Constraint DOF : 0)
+total DOF : 169881267
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.466890e+03, current residual:4.208182e+04
+field ' c' [explicit solve]: current solution: 7.455752e+03, current residual:4.208095e+04
+field 'xi' [auxiliary solve]: current solution: 2.999085e+02, current residual:1.802779e+02
+wall time: 8.37783s
+
+time increment:19900  time: 995
+field 'phi' [explicit solve]: current solution: 7.466850e+03, current residual:4.208181e+04
+field ' c' [explicit solve]: current solution: 7.455946e+03, current residual:4.208096e+04
+field 'xi' [auxiliary solve]: current solution: 2.998324e+02, current residual:1.802404e+02
+wall time: 8.66924s
+
+time increment:20000  time: 1000
+Reinitializing matrix free object
+field 'phi' DOF : 57492582 (Constraint DOF : 0)
+field ' c' DOF : 57492582 (Constraint DOF : 0)
+field 'xi' DOF : 57492582 (Constraint DOF : 0)
+total DOF : 172477746
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.525241e+03, current residual:4.032883e+04
+field ' c' [explicit solve]: current solution: 7.514621e+03, current residual:4.032796e+04
+field 'xi' [auxiliary solve]: current solution: 3.000189e+02, current residual:1.804455e+02
+wall time: 9.1676s
+Output written to:solution-20000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:20100  time: 1005
+field 'phi' [explicit solve]: current solution: 7.525270e+03, current residual:4.032883e+04
+field ' c' [explicit solve]: current solution: 7.514811e+03, current residual:4.032797e+04
+field 'xi' [auxiliary solve]: current solution: 3.000008e+02, current residual:1.804880e+02
+wall time: 7.79324s
+
+time increment:20200  time: 1010
+Reinitializing matrix free object
+field 'phi' DOF : 58133145 (Constraint DOF : 0)
+field ' c' DOF : 58133145 (Constraint DOF : 0)
+field 'xi' DOF : 58133145 (Constraint DOF : 0)
+total DOF : 174399435
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.567464e+03, current residual:3.856735e+04
+field ' c' [explicit solve]: current solution: 7.557230e+03, current residual:3.856645e+04
+field 'xi' [auxiliary solve]: current solution: 2.999468e+02, current residual:1.804500e+02
+wall time: 8.69398s
+
+time increment:20300  time: 1015
+field 'phi' [explicit solve]: current solution: 7.567439e+03, current residual:3.856734e+04
+field ' c' [explicit solve]: current solution: 7.557419e+03, current residual:3.856646e+04
+field 'xi' [auxiliary solve]: current solution: 2.999694e+02, current residual:1.804568e+02
+wall time: 8.94729s
+
+time increment:20400  time: 1020
+Reinitializing matrix free object
+field 'phi' DOF : 58833111 (Constraint DOF : 0)
+field ' c' DOF : 58833111 (Constraint DOF : 0)
+field 'xi' DOF : 58833111 (Constraint DOF : 0)
+total DOF : 176499333
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.612540e+03, current residual:3.653144e+04
+field ' c' [explicit solve]: current solution: 7.602748e+03, current residual:3.653053e+04
+field 'xi' [auxiliary solve]: current solution: 2.998966e+02, current residual:1.804048e+02
+wall time: 8.72397s
+
+time increment:20500  time: 1025
+field 'phi' [explicit solve]: current solution: 7.612573e+03, current residual:3.653145e+04
+field ' c' [explicit solve]: current solution: 7.602934e+03, current residual:3.653054e+04
+field 'xi' [auxiliary solve]: current solution: 2.996805e+02, current residual:1.802579e+02
+wall time: 8.29701s
+Output written to:solution-20500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:20600  time: 1030
+Reinitializing matrix free object
+field 'phi' DOF : 59667107 (Constraint DOF : 0)
+field ' c' DOF : 59667107 (Constraint DOF : 0)
+field 'xi' DOF : 59667107 (Constraint DOF : 0)
+total DOF : 179001321
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.666866e+03, current residual:3.457303e+04
+field ' c' [explicit solve]: current solution: 7.657502e+03, current residual:3.457209e+04
+field 'xi' [auxiliary solve]: current solution: 2.994993e+02, current residual:1.801133e+02
+wall time: 9.32517s
+
+time increment:20700  time: 1035
+field 'phi' [explicit solve]: current solution: 7.666863e+03, current residual:3.457303e+04
+field ' c' [explicit solve]: current solution: 7.657684e+03, current residual:3.457210e+04
+field 'xi' [auxiliary solve]: current solution: 2.992537e+02, current residual:1.799546e+02
+wall time: 9.84062s
+
+time increment:20800  time: 1040
+Reinitializing matrix free object
+field 'phi' DOF : 60544533 (Constraint DOF : 0)
+field ' c' DOF : 60544533 (Constraint DOF : 0)
+field 'xi' DOF : 60544533 (Constraint DOF : 0)
+total DOF : 181633599
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.724197e+03, current residual:3.278378e+04
+field ' c' [explicit solve]: current solution: 7.715223e+03, current residual:3.278281e+04
+field 'xi' [auxiliary solve]: current solution: 2.989776e+02, current residual:1.797885e+02
+wall time: 8.29285s
+
+time increment:20900  time: 1045
+field 'phi' [explicit solve]: current solution: 7.724220e+03, current residual:3.278379e+04
+field ' c' [explicit solve]: current solution: 7.715404e+03, current residual:3.278282e+04
+field 'xi' [auxiliary solve]: current solution: 2.987692e+02, current residual:1.796360e+02
+wall time: 9.00578s
+
+time increment:21000  time: 1050
+Reinitializing matrix free object
+field 'phi' DOF : 61181638 (Constraint DOF : 0)
+field ' c' DOF : 61181638 (Constraint DOF : 0)
+field 'xi' DOF : 61181638 (Constraint DOF : 0)
+total DOF : 183544914
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.764905e+03, current residual:3.050199e+04
+field ' c' [explicit solve]: current solution: 7.756327e+03, current residual:3.050097e+04
+field 'xi' [auxiliary solve]: current solution: 2.987398e+02, current residual:1.795825e+02
+wall time: 9.42075s
+Output written to:solution-21000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:21100  time: 1055
+field 'phi' [explicit solve]: current solution: 7.764902e+03, current residual:3.050199e+04
+field ' c' [explicit solve]: current solution: 7.756508e+03, current residual:3.050099e+04
+field 'xi' [auxiliary solve]: current solution: 2.990015e+02, current residual:1.797496e+02
+wall time: 9.56096s
+
+time increment:21200  time: 1060
+Reinitializing matrix free object
+field 'phi' DOF : 61926006 (Constraint DOF : 0)
+field ' c' DOF : 61926006 (Constraint DOF : 0)
+field 'xi' DOF : 61926006 (Constraint DOF : 0)
+total DOF : 185778018
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.811687e+03, current residual:2.753502e+04
+field ' c' [explicit solve]: current solution: 7.803547e+03, current residual:2.753393e+04
+field 'xi' [auxiliary solve]: current solution: 2.991531e+02, current residual:1.798960e+02
+wall time: 9.17226s
+
+time increment:21300  time: 1065
+field 'phi' [explicit solve]: current solution: 7.811633e+03, current residual:2.753502e+04
+field ' c' [explicit solve]: current solution: 7.803728e+03, current residual:2.753395e+04
+field 'xi' [auxiliary solve]: current solution: 2.991029e+02, current residual:1.798247e+02
+wall time: 9.68527s
+
+time increment:21400  time: 1070
+Reinitializing matrix free object
+field 'phi' DOF : 62820021 (Constraint DOF : 0)
+field ' c' DOF : 62820021 (Constraint DOF : 0)
+field 'xi' DOF : 62820021 (Constraint DOF : 0)
+total DOF : 188460063
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.868237e+03, current residual:2.483923e+04
+field ' c' [explicit solve]: current solution: 7.860607e+03, current residual:2.483806e+04
+field 'xi' [auxiliary solve]: current solution: 2.991807e+02, current residual:1.798820e+02
+wall time: 9.44407s
+
+time increment:21500  time: 1075
+field 'phi' [explicit solve]: current solution: 7.868263e+03, current residual:2.483923e+04
+field ' c' [explicit solve]: current solution: 7.860787e+03, current residual:2.483808e+04
+field 'xi' [auxiliary solve]: current solution: 2.992139e+02, current residual:1.799793e+02
+wall time: 9.52065s
+Output written to:solution-21500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:21600  time: 1080
+Reinitializing matrix free object
+field 'phi' DOF : 63725247 (Constraint DOF : 0)
+field ' c' DOF : 63725247 (Constraint DOF : 0)
+field 'xi' DOF : 63725247 (Constraint DOF : 0)
+total DOF : 191175741
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.925700e+03, current residual:2.227563e+04
+field ' c' [explicit solve]: current solution: 7.918469e+03, current residual:2.227438e+04
+field 'xi' [auxiliary solve]: current solution: 2.993415e+02, current residual:1.801214e+02
+wall time: 9.58315s
+
+time increment:21700  time: 1085
+field 'phi' [explicit solve]: current solution: 7.925673e+03, current residual:2.227563e+04
+field ' c' [explicit solve]: current solution: 7.918648e+03, current residual:2.227440e+04
+field 'xi' [auxiliary solve]: current solution: 2.994021e+02, current residual:1.801711e+02
+wall time: 9.31791s
+
+time increment:21800  time: 1090
+Reinitializing matrix free object
+field 'phi' DOF : 64354915 (Constraint DOF : 0)
+field ' c' DOF : 64354915 (Constraint DOF : 0)
+field 'xi' DOF : 64354915 (Constraint DOF : 0)
+total DOF : 193064745
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 7.965144e+03, current residual:1.991174e+04
+field ' c' [explicit solve]: current solution: 7.958300e+03, current residual:1.991038e+04
+field 'xi' [auxiliary solve]: current solution: 2.993119e+02, current residual:1.800776e+02
+wall time: 9.75464s
+
+time increment:21900  time: 1095
+field 'phi' [explicit solve]: current solution: 7.965154e+03, current residual:1.991174e+04
+field ' c' [explicit solve]: current solution: 7.958478e+03, current residual:1.991040e+04
+field 'xi' [auxiliary solve]: current solution: 2.994183e+02, current residual:1.800595e+02
+wall time: 9.78437s
+
+time increment:22000  time: 1100
+Reinitializing matrix free object
+field 'phi' DOF : 65018801 (Constraint DOF : 0)
+field ' c' DOF : 65018801 (Constraint DOF : 0)
+field 'xi' DOF : 65018801 (Constraint DOF : 0)
+total DOF : 195056403
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.006400e+03, current residual:1.500113e+04
+field ' c' [explicit solve]: current solution: 7.999900e+03, current residual:1.499937e+04
+field 'xi' [auxiliary solve]: current solution: 2.995326e+02, current residual:1.800701e+02
+wall time: 10.1844s
+Output written to:solution-22000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:22100  time: 1105
+field 'phi' [explicit solve]: current solution: 8.006366e+03, current residual:1.500112e+04
+field ' c' [explicit solve]: current solution: 8.000078e+03, current residual:1.499940e+04
+field 'xi' [auxiliary solve]: current solution: 2.996940e+02, current residual:1.801673e+02
+wall time: 9.66356s
+
+time increment:22200  time: 1110
+Reinitializing matrix free object
+field 'phi' DOF : 65817481 (Constraint DOF : 0)
+field ' c' DOF : 65817481 (Constraint DOF : 0)
+field 'xi' DOF : 65817481 (Constraint DOF : 0)
+total DOF : 197452443
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.056287e+03, current residual:7.022168e+03
+field ' c' [explicit solve]: current solution: 8.050236e+03, current residual:7.018566e+03
+field 'xi' [auxiliary solve]: current solution: 2.997140e+02, current residual:1.802413e+02
+wall time: 10.7879s
+
+time increment:22300  time: 1115
+field 'phi' [explicit solve]: current solution: 8.056307e+03, current residual:7.022176e+03
+field ' c' [explicit solve]: current solution: 8.050412e+03, current residual:7.018631e+03
+field 'xi' [auxiliary solve]: current solution: 2.993657e+02, current residual:1.800643e+02
+wall time: 11.9353s
+
+time increment:22400  time: 1120
+Reinitializing matrix free object
+field 'phi' DOF : 66757099 (Constraint DOF : 0)
+field ' c' DOF : 66757099 (Constraint DOF : 0)
+field 'xi' DOF : 66757099 (Constraint DOF : 0)
+total DOF : 200271297
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.114401e+03, current residual:5.994431e+03
+field ' c' [explicit solve]: current solution: 8.108703e+03, current residual:5.990343e+03
+field 'xi' [auxiliary solve]: current solution: 2.991891e+02, current residual:1.799795e+02
+wall time: 10.7407s
+
+time increment:22500  time: 1125
+field 'phi' [explicit solve]: current solution: 8.114457e+03, current residual:5.994458e+03
+field ' c' [explicit solve]: current solution: 8.108875e+03, current residual:5.990417e+03
+field 'xi' [auxiliary solve]: current solution: 2.988927e+02, current residual:1.798081e+02
+wall time: 10.6772s
+Output written to:solution-22500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:22600  time: 1130
+Reinitializing matrix free object
+field 'phi' DOF : 67283541 (Constraint DOF : 0)
+field ' c' DOF : 67283541 (Constraint DOF : 0)
+field 'xi' DOF : 67283541 (Constraint DOF : 0)
+total DOF : 201850623
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.147762e+03, current residual:5.021217e+03
+field ' c' [explicit solve]: current solution: 8.142352e+03, current residual:5.016469e+03
+field 'xi' [auxiliary solve]: current solution: 2.986981e+02, current residual:1.796429e+02
+wall time: 11.2513s
+
+time increment:22700  time: 1135
+field 'phi' [explicit solve]: current solution: 8.147728e+03, current residual:5.021198e+03
+field ' c' [explicit solve]: current solution: 8.142523e+03, current residual:5.016559e+03
+field 'xi' [auxiliary solve]: current solution: 2.987601e+02, current residual:1.796878e+02
+wall time: 10.9891s
+
+time increment:22800  time: 1140
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.176680e+03, current residual:4.900372e+03
+field ' c' [explicit solve]: current solution: 8.171697e+03, current residual:4.895729e+03
+field 'xi' [auxiliary solve]: current solution: 2.986863e+02, current residual:1.796018e+02
+wall time: 11.0231s
+
+time increment:22900  time: 1145
+field 'phi' [explicit solve]: current solution: 8.176656e+03, current residual:4.900357e+03
+field ' c' [explicit solve]: current solution: 8.171870e+03, current residual:4.895820e+03
+field 'xi' [auxiliary solve]: current solution: 2.987494e+02, current residual:1.796132e+02
+wall time: 10.9758s
+
+time increment:23000  time: 1150
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.176661e+03, current residual:4.900364e+03
+field ' c' [explicit solve]: current solution: 8.172150e+03, current residual:4.895904e+03
+field 'xi' [auxiliary solve]: current solution: 2.983889e+02, current residual:1.794683e+02
+wall time: 10.865s
+Output written to:solution-23000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:23100  time: 1155
+field 'phi' [explicit solve]: current solution: 8.178679e+03, current residual:4.902605e+03
+field ' c' [explicit solve]: current solution: 8.173727e+03, current residual:4.895983e+03
+field 'xi' [auxiliary solve]: current solution: 1.589302e+02, current residual:8.759286e+01
+wall time: 10.366s
+
+time increment:23200  time: 1160
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.184317e+03, current residual:4.905961e+03
+field ' c' [explicit solve]: current solution: 8.173719e+03, current residual:4.896016e+03
+field 'xi' [auxiliary solve]: current solution: 2.518688e+01, current residual:1.314609e+01
+wall time: 11.1249s
+
+time increment:23300  time: 1165
+field 'phi' [explicit solve]: current solution: 8.185869e+03, current residual:4.906794e+03
+field ' c' [explicit solve]: current solution: 8.173629e+03, current residual:4.896011e+03
+field 'xi' [auxiliary solve]: current solution: 1.498134e+01, current residual:7.746196e+00
+wall time: 9.82636s
+
+time increment:23400  time: 1170
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.186908e+03, current residual:4.907344e+03
+field ' c' [explicit solve]: current solution: 8.173569e+03, current residual:4.896005e+03
+field 'xi' [auxiliary solve]: current solution: 1.421714e+01, current residual:7.247691e+00
+wall time: 10.5916s
+
+time increment:23500  time: 1175
+field 'phi' [explicit solve]: current solution: 8.187887e+03, current residual:4.907850e+03
+field ' c' [explicit solve]: current solution: 8.173520e+03, current residual:4.896001e+03
+field 'xi' [auxiliary solve]: current solution: 1.325451e+01, current residual:6.683286e+00
+wall time: 10.705s
+Output written to:solution-23500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:23600  time: 1180
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.188753e+03, current residual:4.908294e+03
+field ' c' [explicit solve]: current solution: 8.173474e+03, current residual:4.895998e+03
+field 'xi' [auxiliary solve]: current solution: 1.165395e+01, current residual:5.889455e+00
+wall time: 10.4932s
+
+time increment:23700  time: 1185
+field 'phi' [explicit solve]: current solution: 8.189513e+03, current residual:4.908680e+03
+field ' c' [explicit solve]: current solution: 8.173433e+03, current residual:4.895995e+03
+field 'xi' [auxiliary solve]: current solution: 1.067896e+01, current residual:5.390879e+00
+wall time: 10.8058s
+
+time increment:23800  time: 1190
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.190176e+03, current residual:4.909017e+03
+field ' c' [explicit solve]: current solution: 8.173396e+03, current residual:4.895992e+03
+field 'xi' [auxiliary solve]: current solution: 9.587930e+00, current residual:4.844308e+00
+wall time: 11.568s
+
+time increment:23900  time: 1195
+field 'phi' [explicit solve]: current solution: 8.190753e+03, current residual:4.909311e+03
+field ' c' [explicit solve]: current solution: 8.173363e+03, current residual:4.895989e+03
+field 'xi' [auxiliary solve]: current solution: 8.612289e+00, current residual:4.405435e+00
+wall time: 10.8357s
+
+time increment:24000  time: 1200
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.191280e+03, current residual:4.909580e+03
+field ' c' [explicit solve]: current solution: 8.173333e+03, current residual:4.895986e+03
+field 'xi' [auxiliary solve]: current solution: 8.522472e+00, current residual:4.350969e+00
+wall time: 9.79327s
+Output written to:solution-24000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:24100  time: 1205
+field 'phi' [explicit solve]: current solution: 8.191775e+03, current residual:4.909833e+03
+field ' c' [explicit solve]: current solution: 8.173307e+03, current residual:4.895982e+03
+field 'xi' [auxiliary solve]: current solution: 8.109654e+00, current residual:4.154290e+00
+wall time: 9.24042s
+
+time increment:24200  time: 1210
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.192245e+03, current residual:4.910072e+03
+field ' c' [explicit solve]: current solution: 8.173285e+03, current residual:4.895979e+03
+field 'xi' [auxiliary solve]: current solution: 8.745620e+00, current residual:4.396899e+00
+wall time: 9.21039s
+
+time increment:24300  time: 1215
+field 'phi' [explicit solve]: current solution: 8.192682e+03, current residual:4.910293e+03
+field ' c' [explicit solve]: current solution: 8.173266e+03, current residual:4.895977e+03
+field 'xi' [auxiliary solve]: current solution: 7.749266e+00, current residual:3.939573e+00
+wall time: 9.27336s
+
+time increment:24400  time: 1220
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.193069e+03, current residual:4.910490e+03
+field ' c' [explicit solve]: current solution: 8.173248e+03, current residual:4.895974e+03
+field 'xi' [auxiliary solve]: current solution: 7.555206e+00, current residual:3.835334e+00
+wall time: 9.15311s
+
+time increment:24500  time: 1225
+field 'phi' [explicit solve]: current solution: 8.193432e+03, current residual:4.910674e+03
+field ' c' [explicit solve]: current solution: 8.173233e+03, current residual:4.895971e+03
+field 'xi' [auxiliary solve]: current solution: 7.042474e+00, current residual:3.592244e+00
+wall time: 9.40153s
+Output written to:solution-24500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:24600  time: 1230
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.193760e+03, current residual:4.910841e+03
+field ' c' [explicit solve]: current solution: 8.173219e+03, current residual:4.895969e+03
+field 'xi' [auxiliary solve]: current solution: 6.691617e+00, current residual:3.430070e+00
+wall time: 9.1575s
+
+time increment:24700  time: 1235
+field 'phi' [explicit solve]: current solution: 8.194066e+03, current residual:4.910996e+03
+field ' c' [explicit solve]: current solution: 8.173207e+03, current residual:4.895967e+03
+field 'xi' [auxiliary solve]: current solution: 6.715626e+00, current residual:3.429634e+00
+wall time: 9.22039s
+
+time increment:24800  time: 1240
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.194360e+03, current residual:4.911143e+03
+field ' c' [explicit solve]: current solution: 8.173197e+03, current residual:4.895965e+03
+field 'xi' [auxiliary solve]: current solution: 6.979407e+00, current residual:3.538343e+00
+wall time: 9.14863s
+
+time increment:24900  time: 1245
+field 'phi' [explicit solve]: current solution: 8.194645e+03, current residual:4.911285e+03
+field ' c' [explicit solve]: current solution: 8.173189e+03, current residual:4.895963e+03
+field 'xi' [auxiliary solve]: current solution: 6.833453e+00, current residual:3.415586e+00
+wall time: 9.19225s
+
+time increment:25000  time: 1250
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.194897e+03, current residual:4.911411e+03
+field ' c' [explicit solve]: current solution: 8.173182e+03, current residual:4.895962e+03
+field 'xi' [auxiliary solve]: current solution: 7.066592e+00, current residual:3.531531e+00
+wall time: 9.31416s
+Output written to:solution-25000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:25100  time: 1255
+field 'phi' [explicit solve]: current solution: 8.195132e+03, current residual:4.911526e+03
+field ' c' [explicit solve]: current solution: 8.173178e+03, current residual:4.895960e+03
+field 'xi' [auxiliary solve]: current solution: 6.925354e+00, current residual:3.401314e+00
+wall time: 9.14372s
+
+time increment:25200  time: 1260
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.195329e+03, current residual:4.911623e+03
+field ' c' [explicit solve]: current solution: 8.173176e+03, current residual:4.895959e+03
+field 'xi' [auxiliary solve]: current solution: 6.547451e+00, current residual:3.166400e+00
+wall time: 9.11878s
+
+time increment:25300  time: 1265
+field 'phi' [explicit solve]: current solution: 8.195481e+03, current residual:4.911697e+03
+field ' c' [explicit solve]: current solution: 8.173174e+03, current residual:4.895958e+03
+field 'xi' [auxiliary solve]: current solution: 5.164762e+00, current residual:2.585111e+00
+wall time: 9.04001s
+
+time increment:25400  time: 1270
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.195602e+03, current residual:4.911756e+03
+field ' c' [explicit solve]: current solution: 8.173172e+03, current residual:4.895958e+03
+field 'xi' [auxiliary solve]: current solution: 4.881130e+00, current residual:2.419997e+00
+wall time: 8.79235s
+
+time increment:25500  time: 1275
+field 'phi' [explicit solve]: current solution: 8.195701e+03, current residual:4.911805e+03
+field ' c' [explicit solve]: current solution: 8.173171e+03, current residual:4.895957e+03
+field 'xi' [auxiliary solve]: current solution: 4.218780e+00, current residual:2.116920e+00
+wall time: 8.8436s
+Output written to:solution-25500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:25600  time: 1280
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.195779e+03, current residual:4.911843e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895957e+03
+field 'xi' [auxiliary solve]: current solution: 4.303365e+00, current residual:2.097755e+00
+wall time: 8.92875s
+
+time increment:25700  time: 1285
+field 'phi' [explicit solve]: current solution: 8.195845e+03, current residual:4.911875e+03
+field ' c' [explicit solve]: current solution: 8.173169e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 3.495108e+00, current residual:1.754574e+00
+wall time: 10.344s
+
+time increment:25800  time: 1290
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.195898e+03, current residual:4.911900e+03
+field ' c' [explicit solve]: current solution: 8.173169e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 3.712962e+00, current residual:1.843886e+00
+wall time: 9.36618s
+
+time increment:25900  time: 1295
+field 'phi' [explicit solve]: current solution: 8.195949e+03, current residual:4.911924e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 3.661309e+00, current residual:1.734775e+00
+wall time: 9.27273s
+
+time increment:26000  time: 1300
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.195976e+03, current residual:4.911937e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 1.864292e+00, current residual:9.196107e-01
+wall time: 15.4544s
+Output written to:solution-26000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:26100  time: 1305
+field 'phi' [explicit solve]: current solution: 8.195989e+03, current residual:4.911943e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 2.073799e+00, current residual:9.411452e-01
+wall time: 9.36369s
+
+time increment:26200  time: 1310
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.195994e+03, current residual:4.911945e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 4.983373e-01, current residual:2.556740e-01
+wall time: 9.4439s
+
+time increment:26300  time: 1315
+field 'phi' [explicit solve]: current solution: 8.195996e+03, current residual:4.911946e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 7.103885e-01, current residual:3.581662e-01
+wall time: 10.2204s
+
+time increment:26400  time: 1320
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.195998e+03, current residual:4.911947e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 1.062809e+00, current residual:4.997135e-01
+wall time: 9.51408s
+
+time increment:26500  time: 1325
+field 'phi' [explicit solve]: current solution: 8.195999e+03, current residual:4.911948e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 2.504056e-03, current residual:1.303099e-03
+wall time: 11.485s
+Output written to:solution-26500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:26600  time: 1330
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.195999e+03, current residual:4.911948e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 3.969194e-06, current residual:2.097199e-06
+wall time: 9.67885s
+
+time increment:26700  time: 1335
+field 'phi' [explicit solve]: current solution: 8.195999e+03, current residual:4.911948e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 4.335599e-09, current residual:2.310336e-09
+wall time: 9.50894s
+
+time increment:26800  time: 1340
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.195999e+03, current residual:4.911948e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 1.397482e-11, current residual:6.691312e-12
+wall time: 9.19547s
+
+time increment:26900  time: 1345
+field 'phi' [explicit solve]: current solution: 8.195999e+03, current residual:4.911948e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 1.315730e-11, current residual:6.200704e-12
+wall time: 8.91097s
+
+time increment:27000  time: 1350
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.195999e+03, current residual:4.911948e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 1.315730e-11, current residual:6.200704e-12
+wall time: 9.23391s
+Output written to:solution-27000.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:27100  time: 1355
+field 'phi' [explicit solve]: current solution: 8.195999e+03, current residual:4.911948e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 1.315730e-11, current residual:6.200704e-12
+wall time: 9.51572s
+
+time increment:27200  time: 1360
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.195999e+03, current residual:4.911948e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 1.315730e-11, current residual:6.200704e-12
+wall time: 9.37939s
+
+time increment:27300  time: 1365
+field 'phi' [explicit solve]: current solution: 8.195999e+03, current residual:4.911948e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 1.315730e-11, current residual:6.200704e-12
+wall time: 9.39374s
+
+time increment:27400  time: 1370
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.195999e+03, current residual:4.911948e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 1.315730e-11, current residual:6.200704e-12
+wall time: 9.94585s
+
+time increment:27500  time: 1375
+field 'phi' [explicit solve]: current solution: 8.195999e+03, current residual:4.911948e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 1.315730e-11, current residual:6.200703e-12
+wall time: 9.16963s
+Output written to:solution-27500.vtu
+
+*** Checkpoint created! ***
+
+
+time increment:27600  time: 1380
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.195999e+03, current residual:4.911948e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 1.315730e-11, current residual:6.200704e-12
+wall time: 9.56254s
+
+time increment:27700  time: 1385
+field 'phi' [explicit solve]: current solution: 8.195999e+03, current residual:4.911948e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 1.315730e-11, current residual:6.200704e-12
+wall time: 9.53159s
+
+time increment:27800  time: 1390
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.195999e+03, current residual:4.911948e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 1.315730e-11, current residual:6.200704e-12
+wall time: 9.70364s
+
+time increment:27900  time: 1395
+field 'phi' [explicit solve]: current solution: 8.195999e+03, current residual:4.911948e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 1.315730e-11, current residual:6.200704e-12
+wall time: 9.306s
+
+time increment:28000  time: 1400
+Reinitializing matrix free object
+field 'phi' DOF : 67700225 (Constraint DOF : 0)
+field ' c' DOF : 67700225 (Constraint DOF : 0)
+field 'xi' DOF : 67700225 (Constraint DOF : 0)
+total DOF : 203100675
+initializing parallel::distributed residual and solution vectors
+computed mass matrix (using FE space for field: 0)
+field 'phi' [explicit solve]: current solution: 8.195999e+03, current residual:4.911948e+03
+field ' c' [explicit solve]: current solution: 8.173170e+03, current residual:4.895956e+03
+field 'xi' [auxiliary solve]: current solution: 1.315730e-11, current residual:6.200704e-12
+wall time: 9.42503s
+Output written to:solution-28000.vtu
+
+*** Checkpoint created! ***
+

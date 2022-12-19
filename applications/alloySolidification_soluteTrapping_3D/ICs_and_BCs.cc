@@ -30,6 +30,9 @@ void customPDE<dim,degree>::setInitialCondition(const dealii::Point<dim> &p, con
 //  double sine_amplitude = 2.0; // amplitude of the initial sinusoidal perturbation 
   double pi = 3.141597; 
   double x_sine_perturbation = sine_amplitude*std::sin(p[1]*2*pi/sine_wavelength); 
+
+  if (dim==3)  x_sine_perturbation *= std::sin(p[2]*2*pi/sine_wavelength); 
+
   double dist = p[dir]-x0-x_sine_perturbation;
   //double dist = (p[dir]-x0-sine_perturbation)*(p[dir]-x0-sine_perturbation);
   //dist = std::sqrt(dist);
