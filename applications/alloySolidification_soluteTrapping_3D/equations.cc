@@ -146,7 +146,8 @@ scalarvalueType q_phi = (constV(1.0)-phi)*constV(0.5)*inv_c_eq; // /(constV(1.0+
 // Antitrapping term
 //scalargradType j_at = -constV(at*W*cl0*(1.0-k))*eu*dphidt*normal;
 //scalargradType j_at = -constV(at)*(constV(1.0)-constV(A_trapping)*(constV(1.0)-phi)*(constV(1.0)-phi))*constV(W*cl0*(1.0-k))*eu*dphidt*normal;
-scalargradType j_at   = -constV(at*W*cl0*(1.0-k))*(constV(1.0)-constV(A_trapping)*(constV(1.0)-phi)*(constV(1.0)-phi))*eu*dphidt*normal;
+//scalargradType j_at   = -constV(at*W*cl0*(1.0-k))*(constV(1.0)-constV(A_trapping)*(constV(1.0)-phi)*(constV(1.0)-phi))*eu*dphidt*normal;
+scalargradType j_at   = -constV(at*W*cl0*(1.0-k))*(constV(1.0)-constV(A_trapping)*(constV(1.0)-phi*phi))*eu*dphidt*normal;
 //scalargradType j_at = -constV(at*W*cl0*(1.0-k))                                                                     *eu*dphidt*normal;
 // Note to self: Deal.II uses a data structure called VectoriedArray. Constants (some times) need to converted into this data structure via constV( ... )
     
