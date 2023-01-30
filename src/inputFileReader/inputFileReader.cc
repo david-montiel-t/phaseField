@@ -363,6 +363,7 @@ void inputFileReader::declare_parameters(dealii::ParameterHandler & parameter_ha
     }
 
     // Declare the nucleation parameters
+    parameter_handler.declare_entry("Allow multiple nuclei per order parameter","true",dealii::Patterns::Bool(),"Whether multiple nucleation events can occur within an order parameter.");
     parameter_handler.declare_entry("Minimum allowed distance between nuclei","-1",dealii::Patterns::Double(),"The minimum allowed distance between nuclei placed during the same time step.");
     parameter_handler.declare_entry("Order parameter cutoff value","0.01",dealii::Patterns::Double(),"Order parameter cutoff value for nucleation (when the sum of all order parameters is above this value, no nucleation is attempted).");
     parameter_handler.declare_entry("Time steps between nucleation attempts","100",dealii::Patterns::Integer(),"The number of time steps between nucleation attempts.");
