@@ -279,17 +279,18 @@ void MatrixFreePDE<dim,degree>::safetyCheckNewNuclei(std::vector<nucleus<dim> > 
 
     //NEW section check if order parameters from prospective nuclei overlap with those from existing nuclei
     if (userInputs.multiple_nuclei_per_order_parameter == false){
-      bool opOverlap=false;
-      for (typename std::vector<nucleus<dim> >::iterator thisNucleus1=newnuclei.begin(); thisNucleus1!=newnuclei.end(); ++thisNucleus1){
-        for (typename std::vector<nucleus<dim> >::iterator thisNucleus2=newnuclei.begin(); thisNucleus2!=newnuclei.end(); ++thisNucleus2){
-            if(thisNucleus1->orderParameterIndex == thisNucleus2->orderParameterIndex){
-                opOverlap=true;
-                std::cout << "Attempted nucleation failed due to overlap w/ existing order parameter!"  << std::endl;
-                conflict_ids.push_back(thisNucleus2->index);
+      bool opOverlap;
+        for (typename std::vector<nucleus<dim> >::iterator thisNucleus1=newnuclei.begin(); thisNucleus1!=newnuclei.end(); ++thisNucleus1){
+            opOverlap = false;
+            for (typename std::vector<nucleus<dim> >::iterator thisNucleus2=thisNucleus1+1; thisNucleus2!=newnuclei.end(); ++thisNucleus2){
+                if(thisNucleus1->orderParameterIndex == thisNucleus2->orderParameterIndex){
+                    opOverlap=true;
+                    std::cout << "Attempted nucleation failed due to overlap w/ existing order parameter!"  << std::endl;
+                    conflict_ids.push_back(thisNucleus1->index);
+                }
+            if (opOverlap) break;
             }
-          if (opOverlap) break;
         }
-      }
     }
     // End of overlap of order parameters check
   
