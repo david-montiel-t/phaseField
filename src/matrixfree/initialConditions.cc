@@ -131,7 +131,28 @@ void MatrixFreePDE<dim,degree>::applyInitialConditions(){
                 g--;
             }
         }
-        pcout << "Total number of simplified grain representations (after):" << simplified_grain_representations.size() << std::endl;
+        pcout << "Total number of simplified grain representations (after removing grains smaller than the min. radius):" << simplified_grain_representations.size() << std::endl;
+      
+        //
+        // Delete grains with smaller radii than the maximum radius for the same Grain ID
+        unsigned int previousGrainId=simplified_grain_representations.at(0).getGrainId();
+        unsigned int currentGrainId;
+        for (unsigned int g=1; g<simplified_grain_representations.size(); g++){
+          currentGrainId=simplified_grain_representations.at(g).getGrainId();
+          if (currentGrainId == previousGrainId){
+            if (simplified_grain_representations.at(g).getRadius() <= simplified_grain_representations.at(g-1).getRadius()){
+              simplified_grain_representations.erase(simplified_grain_representations.begin()+g);
+              g--;
+            } else {
+              simplified_grain_representations.erase(simplified_grain_representations.begin()+g-1);
+              g--;
+            }
+          }
+          previousGrainId = currentGrainId;
+        }
+      
+        pcout << "Total number of simplified grain representations (after selecting grain with largest radius):" << simplified_grain_representations.size() << std::endl;
+        //
 
         //Temporarily blocking this section
         //pcout << "Reassigning the grains to new order parameters...\n";
@@ -142,10 +163,10 @@ void MatrixFreePDE<dim,degree>::applyInitialConditions(){
         pcout << "After reassignment: " << std::endl;
         for (unsigned int g=0; g<simplified_grain_representations.size(); g++){
             if (dim == 2){
-                pcout << "Grain: " << simplified_grain_representations.at(g).getGrainId() << " " << simplified_grain_representations.at(g).getOrderParameterId() << " Center: " << simplified_grain_representations.at(g).getCenter()(0) << " " << simplified_grain_representations.at(g).getCenter()(1) << std::endl;
+                pcout << "Grain: " << simplified_grain_representations.at(g).getGrainId() << " " << simplified_grain_representations.at(g).getOrderParameterId() << " Center: " << simplified_grain_representations.at(g).getCenter()(0) << " " << simplified_grain_representations.at(g).getCenter()(1) << "  Radius: " << simplified_grain_representations.at(g).getRadius() << std::endl;
             }
             else {
-                pcout << "Grain: " << simplified_grain_representations.at(g).getGrainId() << " " << simplified_grain_representations.at(g).getOrderParameterId() << " Center: " << simplified_grain_representations.at(g).getCenter()(0) << " " << simplified_grain_representations.at(g).getCenter()(1) << " " << simplified_grain_representations.at(g).getCenter()(2) << std::endl;
+                pcout << "Grain: " << simplified_grain_representations.at(g).getGrainId() << " " << simplified_grain_representations.at(g).getOrderParameterId() << " Center: " << simplified_grain_representations.at(g).getCenter()(0) << " " << simplified_grain_representations.at(g).getCenter()(1) << " " << simplified_grain_representations.at(g).getCenter()(2) << "  Radius: " << simplified_grain_representations.at(g).getRadius() << std::endl;
             }
 
         }
