@@ -1,0 +1,3 @@
+Average dislocartion density: 1.95742563297e+19
+Std dev: 5.51945405074e+18
+Normalized Std_ dev: 0.281975159504

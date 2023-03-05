@@ -1,0 +1,400 @@
+subsection Nucleation parameters: n92
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n93
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n94
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n95
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n96
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n97
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n98
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n99
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n100
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n101
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n102
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n103
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n104
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n105
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n106
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n107
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n108
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n109
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n110
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n111
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n112
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n113
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n114
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n115
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n116
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n117
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n118
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n119
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n120
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n121
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n122
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n123
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n124
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n125
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n126
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n127
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n128
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n129
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n130
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n131
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n132
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n133
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n134
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n135
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n136
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n137
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n138
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n139
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n140
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n141
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+

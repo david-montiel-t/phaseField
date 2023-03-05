@@ -145,10 +145,13 @@ public:
 	std::vector<unsigned int> nucleating_variable_indices;
 	std::vector<unsigned int> nucleation_need_value;
 
+  bool multiple_nuclei_per_order_parameter;
 	double min_distance_between_nuclei; // Only enforced for nuclei placed during the same time step
 	double nucleation_order_parameter_cutoff;
 	unsigned int steps_between_nucleation_attempts;
-
+  double nucleation_start_time;
+  double nucleation_end_time;
+  
     // Grain remapping parameters
     bool grain_remapping_activated;
     std::vector<unsigned int> variables_for_remapping; // Note: this should be a sorted list

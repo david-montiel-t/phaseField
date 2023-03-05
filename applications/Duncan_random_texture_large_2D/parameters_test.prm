@@ -1,0 +1,1976 @@
+#This code utilizes the non-dimensionalized parameters found in
+#Gentry and Thornton, Modelling Simul. Mater. Sci. Eng. 28 (2020) 065002
+
+#=================================================================================
+# Set the number of dimensions (2 or 3 for a 2D or 3D calculation)
+# =================================================================================
+set Number of dimensions = 2
+
+# =================================================================================
+# Set the length of the domain in all three dimensions
+# (Domain size Z ignored in 2D)
+# =================================================================================
+# Each axes spans from zero to the specified length
+set Domain size X = 64
+set Domain size Y = 64
+set Domain size Z = 100
+
+# =================================================================================
+# Set the element parameters
+# =================================================================================
+# The number of elements in each direction is 2^(refineFactor) * subdivisions
+# Subdivisions Z ignored in 2D
+# For optimal performance, use refineFactor primarily to determine the element size
+set Subdivisions X = 1
+set Subdivisions Y = 1
+set Subdivisions Z = 1
+
+set Refine factor = 8
+
+# Set the polynomial degree of the element (allowed values: 1, 2, or 3)
+set Element degree = 2
+
+# =================================================================================
+# Set the adaptive mesh refinement parameters
+# =================================================================================
+# Set the flag determining if adaptive meshing is activated
+set Mesh adaptivity = true
+
+# Set the maximum and minimum level of refinement
+# When adaptive meshing is enabled, the refine factor set in the block above is
+# only used to generate the first pass of the mesh as the initial conditions are
+# applied. It should be set somewhere between the max and min levels below.
+set Max refinement level = 9
+set Min refinement level = 3
+
+# ORDER PARAMETERS FOR ORIGINAL GRAIN MICROSTRUCTURE n1-n43
+
+subsection Refinement criterion: n1
+    # Select whether the mesh is refined based on the variable value (VALUE),
+    # its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+    set Criterion type = VALUE
+    # Set the lower and upper bounds for the value-based refinement window
+    set Value lower bound = 1e-3
+    set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n2
+    # Select whether the mesh is refined based on the variable value (VALUE),
+    # its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+    set Criterion type = VALUE
+    # Set the lower and upper bounds for the value-based refinement window
+    set Value lower bound = 1e-3
+    set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n3
+    # Select whether the mesh is refined based on the variable value (VALUE),
+    # its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+    set Criterion type = VALUE
+    # Set the lower and upper bounds for the value-based refinement window
+    set Value lower bound = 1e-3
+    set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n4
+    # Select whether the mesh is refined based on the variable value (VALUE),
+    # its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+    set Criterion type = VALUE
+    # Set the lower and upper bounds for the value-based refinement window
+    set Value lower bound = 1e-3
+    set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n5
+    # Select whether the mesh is refined based on the variable value (VALUE),
+    # its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+    set Criterion type = VALUE
+    # Set the lower and upper bounds for the value-based refinement window
+    set Value lower bound = 1e-3
+    set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n6
+    # Select whether the mesh is refined based on the variable value (VALUE),
+    # its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+    set Criterion type = VALUE
+    # Set the lower and upper bounds for the value-based refinement window
+    set Value lower bound = 1e-3
+    set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n7
+    # Select whether the mesh is refined based on the variable value (VALUE),
+    # its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+    set Criterion type = VALUE
+    # Set the lower and upper bounds for the value-based refinement window
+    set Value lower bound = 1e-3
+    set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n8
+    # Select whether the mesh is refined based on the variable value (VALUE),
+    # its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+    set Criterion type = VALUE
+    # Set the lower and upper bounds for the value-based refinement window
+    set Value lower bound = 1e-3
+    set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n9
+    # Select whether the mesh is refined based on the variable value (VALUE),
+    # its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+    set Criterion type = VALUE
+    # Set the lower and upper bounds for the value-based refinement window
+    set Value lower bound = 1e-3
+    set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n10
+    # Select whether the mesh is refined based on the variable value (VALUE),
+    # its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+    set Criterion type = VALUE
+    # Set the lower and upper bounds for the value-based refinement window
+    set Value lower bound = 1e-3
+    set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n11
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 1e-3
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n12
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 1e-3
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n13
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 1e-3
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n14
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n15
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n16
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n17
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n18
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n19
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n20
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n21
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n22
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n23
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n24
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n25
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n26
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n27
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n28
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n29
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n30
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n31
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n32
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n33
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n34
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n35
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n36
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n37
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n38
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n39
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n40
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n41
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n42
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n43
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+# ORDER PARAMETERS FOR RECRYSTALLIZATION SEEDS n44-n50
+
+subsection Refinement criterion: n44
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n45
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n46
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n47
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n48
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n49
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n50
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n51
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n52
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n53
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n54
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n55
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n56
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n57
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n58
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n59
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n60
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n61
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n62
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n63
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n64
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n65
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n66
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n67
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n68
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n69
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n70
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n71
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n72
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n73
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n74
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n75
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n76
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n77
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n78
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n79
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n80
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n81
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n82
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n83
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n84
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n85
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n86
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n87
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n88
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n89
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n90
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n91
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n92
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n93
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n94
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n95
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n96
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n97
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n98
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n99
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n100
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n101
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n102
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n103
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n104
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n105
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n106
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n107
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n108
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n109
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n110
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n111
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n112
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n113
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n114
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n115
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n116
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n117
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n118
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n119
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n120
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n121
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n122
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n123
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n124
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n125
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n126
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n127
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n128
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n129
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n130
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n131
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n132
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n133
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n134
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n135
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n136
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n137
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n138
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n139
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n140
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+subsection Refinement criterion: n141
+# Select whether the mesh is refined based on the variable value (VALUE),
+# its gradient (GRADIENT), or both (VALUE_AND_GRADIENT)
+set Criterion type = VALUE
+# Set the lower and upper bounds for the value-based refinement window
+set Value lower bound = 0.001
+set Value upper bound = 0.999
+end
+
+
+# Set the number of time steps between remeshing operations
+set Steps between remeshing operations = 20
+
+# =================================================================================
+# Set the time step parameters
+# =================================================================================
+# The size of the time step
+set Time step = 0.025
+
+# The simulation ends when either the number of time steps is reached or the
+# simulation time is reached.
+set Number of time steps = 6000
+#set Number of time steps = 1
+
+# =================================================================================
+# Set the output parameters
+# =================================================================================
+# Type of spacing between outputs ("EQUAL_SPACING", "LOG_SPACING", "N_PER_DECADE",
+# or "LIST")
+set Output condition = EQUAL_SPACING
+
+# Number of times the program outputs the fields (total number for "EQUAL_SPACING"
+# and "LOG_SPACING", number per decade for "N_PER_DECADE", ignored for "LIST")
+set Number of outputs = 200
+
+set Number of checkpoints = 10
+
+set Load from a checkpoint = false
+
+# The number of time steps between updates being printed to the screen
+set Skip print steps = 1
+
+# =================================================================================
+# Set the grain reassignment parameters
+# =================================================================================
+
+set Activate grain reassignment = false
+set Order parameter fields for grain reassignment = n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11, n12, n13, n14, n15, n16, n17, n18, n19, n20, n21, n22, n23, n24, n25, n26, n27, n28, n29, n30, n31, n32, n33, n34, n35, n36, n37, n38, n39, n40, n41, n42, n43, n44, n45, n46, n47, n48, n49, n50, n51, n52, n53, n54, n55, n56, n57, n58, n59, n60, n61, n62, n63, n64, n65, n66, n67, n68, n69, n70, n71, n72, n73, n74, n75, n76, n77, n78, n79, n80, n81, n82, n83, n84, n85, n86, n87, n88, n89, n90, n91
+
+set Load grain structure = true
+set Grain structure filename = microstructure_US
+set Grain structure variable name = Grain_IDs
+set Order parameter cutoff for grain identification = 1.0e-3
+set Number of smoothing cycles after grain structure loading = 10
+set Minimum radius for loaded grains = 1.4
+
+# =================================================================================
+# Set the boundary conditions
+# =================================================================================
+# Set the boundary condition for each variable, where each variable is given by
+# its name, as defined in equations.h. The four boundary condition
+# types are NATURAL, DIRICHLET, NON_UNIFORM_DIRICHLET and PERIODIC. If all
+# of the boundaries have the same boundary condition, only one boundary condition
+# type needs to be given. If multiple boundary condition types are needed, give a
+# comma-separated list of the types. The order is the miniumum of x, maximum of x,
+# minimum of y, maximum of y, minimum of z, maximum of z (i.e left, right, bottom,
+# top in 2D and left, right, bottom, top, front, back in 3D). The value of a
+# Dirichlet BC is specfied in the following way -- DIRCHILET: val -- where 'val' is
+# the desired value. If the boundary condition is NON_UNIFORM_DIRICHLET, the
+# boundary condition should be specified in the appropriate function in 'ICs_and_BCs.h'.
+# Example 1: All periodic BCs for variable 'c'
+# set Boundary condition for variable c = PERIODIC
+# Example 2: Zero-derivative BCs on the left and right, Dirichlet BCs with value
+# 1.5 on the top and bottom for variable 'n' in 2D
+# set Boundary condition for variable n = NATURAL, NATURAL, DIRICHLET: 1.5, DIRICHLET: 1.5
+
+set Boundary condition for variable rho = NATURAL
+set Boundary condition for variable n1 = NATURAL
+set Boundary condition for variable n2 = NATURAL
+set Boundary condition for variable n3 = NATURAL
+set Boundary condition for variable n4 = NATURAL
+set Boundary condition for variable n5 = NATURAL
+set Boundary condition for variable n6 = NATURAL
+set Boundary condition for variable n7 = NATURAL
+set Boundary condition for variable n8 = NATURAL
+set Boundary condition for variable n9 = NATURAL
+set Boundary condition for variable n10 = NATURAL
+set Boundary condition for variable n11 = NATURAL
+set Boundary condition for variable n12 = NATURAL
+set Boundary condition for variable n13 = NATURAL
+set Boundary condition for variable n14 = NATURAL
+set Boundary condition for variable n15 = NATURAL
+set Boundary condition for variable n16 = NATURAL
+set Boundary condition for variable n17 = NATURAL
+set Boundary condition for variable n18 = NATURAL
+set Boundary condition for variable n19 = NATURAL
+set Boundary condition for variable n20 = NATURAL
+set Boundary condition for variable n21 = NATURAL
+set Boundary condition for variable n22 = NATURAL
+set Boundary condition for variable n23 = NATURAL
+set Boundary condition for variable n24 = NATURAL
+set Boundary condition for variable n25 = NATURAL
+set Boundary condition for variable n26 = NATURAL
+set Boundary condition for variable n27 = NATURAL
+set Boundary condition for variable n28 = NATURAL
+set Boundary condition for variable n29 = NATURAL
+set Boundary condition for variable n30 = NATURAL
+set Boundary condition for variable n31 = NATURAL
+set Boundary condition for variable n32 = NATURAL
+set Boundary condition for variable n33 = NATURAL
+set Boundary condition for variable n34 = NATURAL
+set Boundary condition for variable n35 = NATURAL
+set Boundary condition for variable n36 = NATURAL
+set Boundary condition for variable n37 = NATURAL
+set Boundary condition for variable n38 = NATURAL
+set Boundary condition for variable n39 = NATURAL
+set Boundary condition for variable n40 = NATURAL
+set Boundary condition for variable n41 = NATURAL
+set Boundary condition for variable n42 = NATURAL
+set Boundary condition for variable n43 = NATURAL
+set Boundary condition for variable n44 = NATURAL
+set Boundary condition for variable n45 = NATURAL
+set Boundary condition for variable n46 = NATURAL
+set Boundary condition for variable n47 = NATURAL
+set Boundary condition for variable n48 = NATURAL
+set Boundary condition for variable n49 = NATURAL
+set Boundary condition for variable n50 = NATURAL
+set Boundary condition for variable n51 = NATURAL
+set Boundary condition for variable n52 = NATURAL
+set Boundary condition for variable n53 = NATURAL
+set Boundary condition for variable n54 = NATURAL
+set Boundary condition for variable n55 = NATURAL
+set Boundary condition for variable n56 = NATURAL
+set Boundary condition for variable n57 = NATURAL
+set Boundary condition for variable n58 = NATURAL
+set Boundary condition for variable n59 = NATURAL
+set Boundary condition for variable n60 = NATURAL
+set Boundary condition for variable n61 = NATURAL
+set Boundary condition for variable n62 = NATURAL
+set Boundary condition for variable n63 = NATURAL
+set Boundary condition for variable n64 = NATURAL
+set Boundary condition for variable n65 = NATURAL
+set Boundary condition for variable n66 = NATURAL
+set Boundary condition for variable n67 = NATURAL
+set Boundary condition for variable n68 = NATURAL
+set Boundary condition for variable n69 = NATURAL
+set Boundary condition for variable n70 = NATURAL
+set Boundary condition for variable n71 = NATURAL
+set Boundary condition for variable n72 = NATURAL
+set Boundary condition for variable n73 = NATURAL
+set Boundary condition for variable n74 = NATURAL
+set Boundary condition for variable n75 = NATURAL
+set Boundary condition for variable n76 = NATURAL
+set Boundary condition for variable n77 = NATURAL
+set Boundary condition for variable n78 = NATURAL
+set Boundary condition for variable n79 = NATURAL
+set Boundary condition for variable n80 = NATURAL
+set Boundary condition for variable n81 = NATURAL
+set Boundary condition for variable n82 = NATURAL
+set Boundary condition for variable n83 = NATURAL
+set Boundary condition for variable n84 = NATURAL
+set Boundary condition for variable n85 = NATURAL
+set Boundary condition for variable n86 = NATURAL
+set Boundary condition for variable n87 = NATURAL
+set Boundary condition for variable n88 = NATURAL
+set Boundary condition for variable n89 = NATURAL
+set Boundary condition for variable n90 = NATURAL
+set Boundary condition for variable n91 = NATURAL
+set Boundary condition for variable n92 = NATURAL
+set Boundary condition for variable n93 = NATURAL
+set Boundary condition for variable n94 = NATURAL
+set Boundary condition for variable n95 = NATURAL
+set Boundary condition for variable n96 = NATURAL
+set Boundary condition for variable n97 = NATURAL
+set Boundary condition for variable n98 = NATURAL
+set Boundary condition for variable n99 = NATURAL
+set Boundary condition for variable n100 = NATURAL
+set Boundary condition for variable n101 = NATURAL
+set Boundary condition for variable n102 = NATURAL
+set Boundary condition for variable n103 = NATURAL
+set Boundary condition for variable n104 = NATURAL
+set Boundary condition for variable n105 = NATURAL
+set Boundary condition for variable n106 = NATURAL
+set Boundary condition for variable n107 = NATURAL
+set Boundary condition for variable n108 = NATURAL
+set Boundary condition for variable n109 = NATURAL
+set Boundary condition for variable n110 = NATURAL
+set Boundary condition for variable n111 = NATURAL
+set Boundary condition for variable n112 = NATURAL
+set Boundary condition for variable n113 = NATURAL
+set Boundary condition for variable n114 = NATURAL
+set Boundary condition for variable n115 = NATURAL
+set Boundary condition for variable n116 = NATURAL
+set Boundary condition for variable n117 = NATURAL
+set Boundary condition for variable n118 = NATURAL
+set Boundary condition for variable n119 = NATURAL
+set Boundary condition for variable n120 = NATURAL
+set Boundary condition for variable n121 = NATURAL
+set Boundary condition for variable n122 = NATURAL
+set Boundary condition for variable n123 = NATURAL
+set Boundary condition for variable n124 = NATURAL
+set Boundary condition for variable n125 = NATURAL
+set Boundary condition for variable n126 = NATURAL
+set Boundary condition for variable n127 = NATURAL
+set Boundary condition for variable n128 = NATURAL
+set Boundary condition for variable n129 = NATURAL
+set Boundary condition for variable n130 = NATURAL
+set Boundary condition for variable n131 = NATURAL
+set Boundary condition for variable n132 = NATURAL
+set Boundary condition for variable n133 = NATURAL
+set Boundary condition for variable n134 = NATURAL
+set Boundary condition for variable n135 = NATURAL
+set Boundary condition for variable n136 = NATURAL
+set Boundary condition for variable n137 = NATURAL
+set Boundary condition for variable n138 = NATURAL
+set Boundary condition for variable n139 = NATURAL
+set Boundary condition for variable n140 = NATURAL
+set Boundary condition for variable n141 = NATURAL
+set Boundary condition for variable mult2Op = NATURAL
+set Boundary condition for variable mult3Op = NATURAL
+
+# =================================================================================
+# Set the nucleation parameters
+# =================================================================================
+
+set Allow multiple nuclei per order parameter = false
+set Time steps between nucleation attempts = 1
+set Minimum allowed distance between nuclei = 0.0
+set Order parameter cutoff value = 0.01
+set Nucleation start time = 6.0
+set Nucleation end time = 16.0
+
+subsection Nucleation parameters: n92
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n93
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n94
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n95
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n96
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n97
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n98
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n99
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n100
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n101
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n102
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n103
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n104
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n105
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n106
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n107
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n108
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n109
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n110
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n111
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n112
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n113
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n114
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n115
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n116
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n117
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n118
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n119
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n120
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n121
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n122
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n123
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n124
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n125
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n126
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n127
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n128
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n129
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n130
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n131
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n132
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n133
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n134
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n135
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n136
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n137
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n138
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n139
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n140
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+subsection Nucleation parameters: n141
+set Nucleus semiaxes (x, y, z) = 0.7, 0.7, 0.7
+set Freeze zone semiaxes (x, y, z) = 2.0, 2.0, 2.0
+set Nucleus rotation in degrees (x, y, z) = 0, 0, 0
+set Freeze time following nucleation = 2
+set Nucleation-free border thickness = 0
+end
+
+
+# =================================================================================
+# Set the model constants
+# =================================================================================
+# Set the user-defined model constants, which must have a counter-part given in
+# customPDE.h. These are most often used in the residual equations in equations.h,
+# but may also be used for initial conditions and nucleation calculations. The type
+# options currently are DOUBLE, INT, BOOL, TENSOR, and [symmetry] ELASTIC CONSTANTS
+# where [symmetry] is ISOTROPIC, TRANSVERSE, ORTHOTROPIC, or ANISOTROPIC.
+
+#The coefficient for the polynomial terms of the free energy
+set Model constant m0 = 1.0, DOUBLE
+
+# The AC mobility, MnV in equations.h
+set Model constant MnV = 1.0, DOUBLE
+
+# Gradient energy coefficient
+set Model constant KnV = 0.0625, DOUBLE
+
+# Grain interaction coeffiecient
+set Model constant alpha = 1.5, DOUBLE
+
+# fstored bar ^*
+#set Model constant fsbs = 1.0, DOUBLE
+#set Model constant fsbs = 0.25, DOUBLE
+set Model constant fsbs = 0.191519, DOUBLE
+
+# constant A and B for nucleation probability
+#set Model constant A = 0.002357, DOUBLE
+#set Model constant A = 0.04714, DOUBLE
+set Model constant A = 0.01, DOUBLE
+set Model constant B = 0.56438, DOUBLE
+
+# constant globalSeedingTime (should be the same value as Freeze time following nucleation)
+set Model constant globalSeedingTime = 2.0, DOUBLE
