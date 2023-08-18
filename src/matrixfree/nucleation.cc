@@ -16,7 +16,7 @@ void MatrixFreePDE<dim,degree>::updateNucleiList() {
     if (currentIncrement % userInputs.steps_between_nucleation_attempts == 0 || currentIncrement == 1){
       
       if (userInputs.dtValue*(double)currentIncrement >= userInputs.nucleation_start_time && userInputs.dtValue*(double)currentIncrement <= userInputs.nucleation_end_time){
-        computing_timer.enter_section("matrixFreePDE: nucleation");
+        computing_timer.enter_subsection("matrixFreePDE: nucleation");
         
         // Apply constraints
         for(unsigned int fieldIndex=0; fieldIndex<fields.size(); fieldIndex++){
@@ -57,7 +57,7 @@ void MatrixFreePDE<dim,degree>::updateNucleiList() {
           refineMeshNearNuclei(new_nuclei);
         }
         
-        computing_timer.exit_section("matrixFreePDE: nucleation");
+        computing_timer.leave_subsection("matrixFreePDE: nucleation");
       }
     }
   }
