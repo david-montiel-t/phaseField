@@ -1,0 +1,1457 @@
+
+Currently Loaded Modules:
+  1) craype-x86-milan
+  2) libfabric/1.15.2.0
+  3) craype-network-ofi
+  4) xpmem/2.6.2-2.5_2.38__gd067c3f.shasta
+  5) PrgEnv-gnu/8.5.0
+  6) cray-dsmml/0.2.2
+  7) cray-libsci/23.12.5
+  8) cray-mpich/8.1.28
+  9) craype/2.7.30
+ 10) gcc-native/12.3
+ 11) perftools-base/23.12.0
+ 12) cpe/23.12
+ 13) cudatoolkit/12.2
+ 14) craype-accel-nvidia80
+ 15) gpu/1.0
+ 16) cmake/3.22.0                          (buildtools)
+
+  Where:
+   buildtools:  Software Build Tools
+
+ 
+
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 48] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 48 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 48
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 48
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 50] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 50 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 50
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 50
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 52] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 52 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 52
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 52
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 54] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 54 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 54
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 54
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 4] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 4 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 4
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 4
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 8] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 8 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 8
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 8
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 9] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 9 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 9
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 9
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 10] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 10 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 10
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 10
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 11] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 11 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 11
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 11
+MPICH ERROR [Rank 15] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 15 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 15
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 15
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 16] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 16 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 16
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 16
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 17] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 17 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 17
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 17
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 18] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 18 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 18
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 18
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 19] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 19 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 19
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 19
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 23] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 23 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 23
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 23
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 26] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 26 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 26
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 26
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 28] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 28 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 28
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 28
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 49] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 49 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 49
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 49
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 51] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 51 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 51
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 51
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 53] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 53 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 53
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 53
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 55] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 55 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 55
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 55
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 12] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 12 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 12
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 12
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 20] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 20 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 20
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 20
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 21] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 21 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 21
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 21
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 22] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 22 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 22
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 22
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 24] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 24 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 24
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 24
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 25] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 25 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 25
+srun: error: nid006215: tasks 4,8-12,15-26,28-29,34-55: Exited with exit code 255
+
+aborting job:
+srun: Terminating StepId=30616715.0
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 25
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 29] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 29 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 29
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 29
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 34] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 34 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 34
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 34
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 35] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 35 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 35
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 35
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 36] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 36 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 36
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 36
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 37] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 37 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 37
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 37
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 38] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 38 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 38
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 38
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 39] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 39 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 39
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 39
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 40] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 40 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 40
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 40
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 41] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 41 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 41
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 41
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 42] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 42 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 42
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 42
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 43] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 43 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 43
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 43
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 44] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 44 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 44
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 44
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 45] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 45 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 45
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 45
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 46] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 46 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 46
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 46
+
+--------------------------------------------------------
+An error occurred in line <1654> of file </global/homes/d/dmontiel/dealii-9.2.0/include/deal.II/lac/la_parallel_vector.templates.h> in function
+    dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::real_type dealii::LinearAlgebra::distributed::Vector<Number, MemorySpace>::norm_sqr_local() const [with Number = double; MemorySpace = dealii::MemorySpace::Host; real_type = double]
+The violated condition was: 
+    dealii::numbers::is_finite(sum)
+Additional information: 
+    In a significant number of places, deal.II checks that some intermediate value is a finite number (as opposed to plus or minus infinity, or NaN/Not a Number). In the current function, we encountered a number that is not finite (its value is (inf,0) and therefore violates the current assertion).
+
+This may be due to the fact that some operation in this function created such a value, or because one of the arguments you passed to the function already had this value from some previous operation. In the latter case, this function only triggered the error but may not actually be responsible for the computation of the number that is not finite.
+
+There are two common cases where this situation happens. First, your code (or something in deal.II) divides by zero in a place where this should not happen. Or, you are trying to solve a linear system with an unsuitable solver (such as an indefinite or non-symmetric linear system using a Conjugate Gradient solver); such attempts oftentimes yield an operation somewhere that tries to divide by zero or take the square root of a negative value.
+
+In any case, when trying to find the source of the error, recall that the location where you are getting this error is simply the first place in the program where there is a check that a number (e.g., an element of a solution vector) is in fact finite, but that the actual error that computed the number may have happened far earlier. To find this location, you may want to add checks for finiteness in places of your program visited before the place where this error is produced. One way to check for finiteness is to use the 'AssertIsFinite' macro.
+
+Stacktrace:
+-----------
+#0  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr_local() const
+#1  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::norm_sqr() const
+#2  /global/homes/d/dmontiel/dealii_install/lib/libdeal_II.g.so: dealii::LinearAlgebra::distributed::Vector<double, dealii::MemorySpace::Host>::l2_norm() const
+#3  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solveIncrement(bool)
+#4  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: MatrixFreePDE<2, 2>::solve()
+#5  /pscratch/sd/d/dmontiel/MgNd_B1_55_eta_cubicinterp/./main: main
+--------------------------------------------------------
+
+Calling MPI_Abort now.
+To break execution in a GDB session, execute 'break MPI_Abort' before running. You can also put the following into your ~/.gdbinit:
+  set breakpoint pending on
+  break MPI_Abort
+  set breakpoint pending auto
+MPICH ERROR [Rank 47] [job id 30616715.0] [Thu Sep 19 08:17:42 2024] [nid006215] - Abort(255) (rank 47 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 255) - process 47
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 255) - process 47
+slurmstepd: error: *** STEP 30616715.0 ON nid006215 CANCELLED AT 2024-09-19T15:17:43 ***
+srun: error: nid006215: tasks 0-3,5-7,13-14,27,30-33,56-63: Terminated
+srun: Force Terminated StepId=30616715.0

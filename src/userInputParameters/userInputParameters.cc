@@ -187,7 +187,7 @@ userInputParameters<dim>::userInputParameters(inputFileReader & input_file_reade
     skip_print_steps = parameter_handler.get_integer("Skip print steps");
     output_file_type = parameter_handler.get("Output file type");
     output_file_name = parameter_handler.get("Output file name (base)");
-
+    print_timing_with_output = parameter_handler.get_bool("Print timing information with output");
     output_vtu_per_process = parameter_handler.get_bool("Output separate files per process");
     if ((output_file_type == "vtk") && (!output_vtu_per_process)){
         output_vtu_per_process = true;
