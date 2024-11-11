@@ -93,3 +93,6 @@ restart.mesh.old
 restart.resume.z
 restart.time.info
 restart.time.info.old
+
+# Execution log files
+myjob.*
