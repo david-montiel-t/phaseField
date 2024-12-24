@@ -19,6 +19,11 @@ message(STATUS "")
 # Some basic bookkeeping
 # =========================================================
 
+# Ensure C++17 is used universally
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
 # Check that a prior CMakeCache is not located in the build directory
 if(EXISTS ${CMAKE_SOURCE_DIR}/CMakeCache.txt)
   message(FATAL_ERROR "Detected the file:\n"

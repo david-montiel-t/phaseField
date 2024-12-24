@@ -13,6 +13,11 @@ message(STATUS "Configuring PRISMS-PF application")
 message(STATUS "=========================================================")
 message(STATUS "")
 
+# Ensure C++17 is used universally
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
 # Setup the build type (debug, release, debugrelease)
 if("${CMAKE_BUILD_TYPE}" STREQUAL "")
   set(CMAKE_BUILD_TYPE "DebugRelease" 
@@ -154,12 +159,13 @@ if(${PRISMS_PF_BUILD_DEBUG} STREQUAL "ON")
   add_executable(main_debug ${TARGET_SRC})
   set_property(TARGET main_debug PROPERTY OUTPUT_NAME main-debug)
   deal_ii_setup_target(main_debug DEBUG)
-  target_link_libraries(main_debug ${CMAKE_SOURCE_DIR}/../../libprisms-pf-debug.a)
+  target_link_libraries(main_debug ${CMAKE_SOURCE_DIR}/../../libprisms-pf-debug.a stdc++fs)
 endif()
 
 if(${PRISMS_PF_BUILD_RELEASE} STREQUAL "ON")
   add_executable(main_release ${TARGET_SRC})
   set_property(TARGET main_release PROPERTY OUTPUT_NAME main)
   deal_ii_setup_target(main_release RELEASE)
-  target_link_libraries(main_release ${CMAKE_SOURCE_DIR}/../../libprisms-pf-release.a)
+  target_link_libraries(main_release ${CMAKE_SOURCE_DIR}/../../libprisms-pf-release.a stdc++fs)
 endif()
+
