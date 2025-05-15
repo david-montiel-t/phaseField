@@ -324,7 +324,7 @@ variableContainer<dim, degree, T>::get_scalar_value(
   else
     {
       std::cerr << "PRISMS-PF Error: Attempted access of a variable value that "
-                   "was not marked as needed in 'equations.cc'. The attempted "
+                   "was not marked as needed in 'equations.cc' or 'postprocess.cc'. The attempted "
                    "access was for variable with index "
                 << global_variable_index << " .\n";
       abort();
@@ -344,7 +344,7 @@ variableContainer<dim, degree, T>::get_scalar_gradient(
   else
     {
       std::cerr << "PRISMS-PF Error: Attempted access of a variable gradient "
-                   "that was not marked as needed in 'equations.cc'. The "
+                   "that was not marked as needed in 'equations.cc' or 'postprocess.cc'. The "
                    "attempted access was for variable with index "
                 << global_variable_index << " .\n";
       abort();
@@ -364,7 +364,7 @@ variableContainer<dim, degree, T>::get_scalar_hessian(
   else
     {
       std::cerr << "PRISMS-PF Error: Attempted access of a variable hessian "
-                   "that was not marked as needed in 'equations.cc'. The "
+                   "that was not marked as needed in 'equations.cc' or 'postprocess.cc'. The "
                    "attempted access was for variable with index "
                 << global_variable_index << " .\n";
       abort();
@@ -384,7 +384,7 @@ variableContainer<dim, degree, T>::get_vector_value(
   else
     {
       std::cerr << "PRISMS-PF Error: Attempted access of a variable value that "
-                   "was not marked as needed in 'equations.cc'. The attempted "
+                   "was not marked as needed in 'equations.cc' or 'postprocess.cc'. The attempted "
                    "access was for variable with index "
                 << global_variable_index << " .\n";
       abort();
@@ -404,7 +404,7 @@ variableContainer<dim, degree, T>::get_vector_gradient(
   else
     {
       std::cerr << "PRISMS-PF Error: Attempted access of a variable gradient "
-                   "that was not marked as needed in 'equations.cc'. The "
+                   "that was not marked as needed in 'equations.cc' or 'postprocess.cc'. The "
                    "attempted access was for variable with index "
                 << global_variable_index << " .\n";
       abort();
@@ -424,7 +424,7 @@ variableContainer<dim, degree, T>::get_vector_hessian(
   else
     {
       std::cerr << "PRISMS-PF Error: Attempted access of a variable hessian "
-                   "that was not marked as needed in 'equations.cc'. The "
+                   "that was not marked as needed in 'equations.cc' or 'postprocess.cc'. The "
                    "attempted access was for variable with index "
                 << global_variable_index << " .\n";
       abort();
